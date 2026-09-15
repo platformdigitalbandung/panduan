@@ -48,6 +48,8 @@ Judulnya **Beranda kaprodi &lt;PRODI&gt;**.
 
 Menu **Kurikulum**. Anda hanya bisa mengubah kurikulum **prodi yang Anda pimpin**. Urutan pengisian: **prodi → rumpun (beserta mata kuliah) → CPL**, lalu **ritme mingguan** untuk kalender. Istilah bertanda **?** bisa diketuk untuk melihat artinya.
 
+Format baku tiap isian beserta contoh terisi (termasuk contoh kalender semester 16 minggu, Markdown dan CSV): **[Format Baku Isian Kaprodi](format/)**.
+
 ### 1. Program Studi
 
 Formulir **Perbarui prodi Anda** sudah terisi data prodi Anda. Ubah **Nama**, **Jenjang**, **Total SKS**, **Jumlah semester** (1–14), atau **Proyek kerja mulai semester** (isi 0 untuk bawaan semester 4), lalu **Simpan Prodi**. Program studi baru dibuat admin.

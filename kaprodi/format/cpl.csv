@@ -1,0 +1,5 @@
+kode,domain,deskripsi,rumpun_penyentuh
+CPL01,Sikap,<salin rumusan CPL dari dokumen kurikulum prodi>,
+CPL02,Pengetahuan,<salin rumusan CPL dari dokumen kurikulum prodi>,"R1, R2, R3"
+CPL05,Keterampilan khusus,<salin rumusan CPL dari dokumen kurikulum prodi>,"R5, R6"
+CPL09,Keterampilan umum,<salin rumusan CPL dari dokumen kurikulum prodi>,"R11, R12"
