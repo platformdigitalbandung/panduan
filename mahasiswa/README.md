@@ -209,7 +209,7 @@ Beberapa layanan bisa dipakai dengan mengirim pesan ke bot dari nomor yang terda
 
 | Pesan | Artinya / yang dilakukan |
 |---|---|
-| *belum terdaftar* / *Nomor ini belum tercatat di roster mahasiswa* | Nomor Anda belum ada di roster. Hubungi kaprodi prodi Anda. |
+| *belum terdaftar* / *Nomor ini belum tercatat di roster mahasiswa* | Nomor Anda belum ada di roster. Hubungi kaprodi atau tata usaha prodi Anda, atau tekan **Hubungi Admin lewat WhatsApp** di Beranda. |
 | *Program studi Anda belum tercatat* / *Data akademik Anda belum lengkap* | Data roster belum lengkap. Hubungi kaprodi. |
 | *Kalender semester PRODI belum diterbitkan* | Materi, kuis, dan rekaman belum bisa tampil. Tunggu kaprodi menerbitkan kalender. |
 | *Kuis ini belum punya soal* / *Belum ada kuis rumpun … minggu …* | Dosen pengampu belum menyusunnya. Kerjakan setelah tersedia; tanyakan lewat forum bila perlu. |

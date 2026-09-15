@@ -24,7 +24,7 @@ QR (atau tombolnya) diperbarui berkala; hitung mundurnya tampil di bawah QR.
 Tidak ada pendaftaran mandiri. Peran Anda ditentukan oleh nomor WhatsApp yang dipakai:
 
 * **Nomor terdaftar** → masuk dengan menu sesuai peran.
-* **Nomor belum terdaftar** → menu akun menampilkan *belum terdaftar* dan tidak ada menu aplikasi. Hubungi pengelola program studi (kaprodi) untuk didaftarkan, lalu keluar dan masuk lagi.
+* **Nomor belum terdaftar** → menu akun menampilkan *belum terdaftar*, tidak ada menu aplikasi, dan Beranda menampilkan blok **Belum terdaftar?**. Pendaftaran dilakukan program studi: mahasiswa oleh kaprodi/tata usaha prodinya, dosen oleh kaprodi prodi tempat mengajar. Kalau tidak tahu harus menghubungi siapa, tekan **Hubungi Admin lewat WhatsApp** di blok itu (membuka WhatsApp ke nomor Admin dengan pesan yang sudah terisi — lengkapi nama, peran, program studi, dan NIM bila mahasiswa); Admin meneruskannya ke kaprodi. Setelah didaftarkan, keluar lalu masuk lagi.
 
 Untuk keluar, tekan **Keluar** di menu akun. Sesi berlaku sekitar 18 jam; setelah itu tampil tombol **Masuk lagi**.
 
