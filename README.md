@@ -1,2 +1,36 @@
-# panduan
-Panduan pemakaian aplikasi
+# Panduan Platform Digital Bandung
+
+Panduan pemakaian aplikasi **[platform.digitalbdg.ac.id](https://platform.digitalbdg.ac.id/)**. Pilih panduan sesuai peran Anda:
+
+| Peran | Untuk siapa | Panduan |
+|---|---|---|
+| Mahasiswa | Mahasiswa yang nomor WhatsApp-nya terdaftar di roster prodi | [Panduan Mahasiswa](mahasiswa/) |
+| Dosen | Dosen aktif, termasuk dosen pengampu prodi | [Panduan Dosen](dosen/) |
+| Kaprodi | Dosen yang memimpin satu program studi | [Panduan Kaprodi](kaprodi/) |
+| Admin | Pengelola platform yang menyiapkan prodi dan kaprodinya | [Panduan Admin](admin/) |
+
+## Masuk ke aplikasi
+
+Semua peran masuk dengan cara yang sama, lewat satu halaman login: **[platform.digitalbdg.ac.id/login/](https://platform.digitalbdg.ac.id/login/)**.
+
+1. Buka [platform.digitalbdg.ac.id](https://platform.digitalbdg.ac.id/) lalu tekan tombol **Masuk** di pojok kanan atas. Halaman **Masuk dengan WhatsApp** terbuka.
+2. **Di komputer:** buka kamera di aplikasi WhatsApp, lalu arahkan ke QR di layar.
+   **Di HP:** ketuk tombol **Buka WhatsApp**.
+3. WhatsApp terbuka dengan pesan yang sudah terisi — tekan **Kirim**, jangan ubah isinya.
+4. Tunggu sebentar di halaman login. Anda otomatis masuk begitu pesan terkirim dan dikembalikan ke halaman yang tadi dibuka.
+
+QR (atau tombolnya) diperbarui berkala; hitung mundurnya tampil di bawah QR.
+
+Tidak ada pendaftaran mandiri. Peran Anda ditentukan oleh nomor WhatsApp yang dipakai:
+
+* **Nomor terdaftar** → masuk dengan menu sesuai peran.
+* **Nomor belum terdaftar** → menu akun menampilkan *belum terdaftar* dan tidak ada menu aplikasi. Hubungi pengelola program studi (kaprodi) untuk didaftarkan, lalu keluar dan masuk lagi.
+
+Untuk keluar, tekan **Keluar** di menu akun. Sesi berlaku sekitar 18 jam; setelah itu tampil tombol **Masuk lagi**.
+
+## Menu di HP dan layar lebar
+
+* **Layar lebar:** menu ada di bilah atas. Halaman yang lebih jarang dibuka dikumpulkan di tombol **Lainnya** (mahasiswa, dosen) atau **Laporan** (kaprodi, admin).
+* **HP:** menu utama ada di bilah navigasi bawah; tombol paling kanan membuka lembar **Lainnya**/**Laporan**. Nama, peran, dan tombol **Keluar** ada di lembar **Akun** yang dibuka tombol akun di bilah atas.
+
+Dosen yang juga menjabat kaprodi atau admin bisa **pindah peran** tanpa keluar-masuk — lihat [Panduan Kaprodi](kaprodi/#pindah-peran).
