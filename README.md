@@ -30,7 +30,9 @@ Untuk keluar, tekan **Keluar** di menu akun. Sesi berlaku sekitar 18 jam; setela
 
 ## Menu di HP dan layar lebar
 
-* **Layar lebar:** menu ada di bilah atas. Halaman yang lebih jarang dibuka dikumpulkan di tombol **Lainnya** (mahasiswa, dosen) atau **Laporan** (kaprodi, admin).
+* **Layar lebar:** menu ada di bilah atas. Halaman yang lebih jarang dibuka dikumpulkan di tombol **Lainnya** (mahasiswa, dosen) atau **Laporan** (kaprodi, admin); halaman yang sudah ada di bilah tidak diulang di dalamnya.
 * **HP:** menu utama ada di bilah navigasi bawah; tombol paling kanan membuka lembar **Lainnya**/**Laporan**. Nama, peran, dan tombol **Keluar** ada di lembar **Akun** yang dibuka tombol akun di bilah atas.
 
 Dosen yang juga menjabat kaprodi atau admin bisa **pindah peran** tanpa keluar-masuk — lihat [Panduan Kaprodi](kaprodi/#pindah-peran).
+
+Panduan ini bisa dibuka dari aplikasi lewat tautan **Panduan** di bagian bawah setiap halaman.

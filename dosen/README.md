@@ -10,7 +10,7 @@ Panduan ini untuk dosen aktif. Cara masuk ada di [halaman utama panduan](../#mas
 
 Sebagian besar pekerjaan mengajar butuh dua syarat. Selesaikan berurutan:
 
-1. **Isi email kampus Anda** (`@digitalbdg.ac.id`) di halaman **Roster & Email Dosen** — lihat [caranya](#email-kampus-anda). Email kampus adalah identitas dosen di platform (menggantikan NIP).
+1. **Isi email kampus Anda** (`@digitalbdg.ac.id`) di halaman **Roster Mahasiswa & Email Dosen** (menu **Lainnya → Roster dan email dosen**) — lihat [caranya](#email-kampus-anda). Email kampus adalah identitas dosen di platform (menggantikan NIP).
 2. **Minta kaprodi mencentang Anda sebagai dosen pengampu** prodi tempat Anda mengajar. Kaprodi baru bisa mencentang nama Anda setelah email kampus terisi.
 
 | Pekerjaan | Butuh email kampus | Butuh dicentang pengampu |
@@ -18,11 +18,12 @@ Sebagian besar pekerjaan mengajar butuh dua syarat. Selesaikan berurutan:
 | Kelola materi | ya | ya (katalog tetap bisa dilihat) |
 | Menyusun kuis gerbang | — | ya |
 | Membuat tugas | ya | ya |
-| Menerbitkan/menghapus rekaman sesi | — | ya, untuk prodi kalender itu |
+| Menerbitkan/menghapus rekaman sesi | ya | ya, untuk prodi kalender itu |
 | Membuat dan menilai proyek blok | ya | — |
 | Menjadi pengawas ujian | ya | — |
 | Memutus dan meninjau proyek kerja | ya | — |
-| Menjawab forum, tinjau RPL, rapor per NIM, autograder | — | — |
+| Menjawab forum | ya | — |
+| Tinjau RPL, rapor per NIM, autograder | — | — |
 
 Kalau syarat belum terpenuhi, halaman menampilkan kartu **langkah yang belum selesai** beserta tautannya.
 
@@ -32,9 +33,9 @@ Kalau syarat belum terpenuhi, halaman menampilkan kartu **langkah yang belum sel
 |---|---|
 | Bilah atas (layar lebar) | Beranda · Materi · Tugas · Kuis · Forum · Kalender · **Lainnya** |
 | Bilah bawah (HP) | Beranda · Materi · Tugas · Forum · **Lainnya** |
-| **Lainnya** | Kuis gerbang, Kalender akademik, Proyek blok, Rekaman sesi, Pengawas ujian, Roster dan email dosen, Rapor mahasiswa, Tinjau RPL, Proyek kerja bimbingan, Autograder, Kurikulum |
+| **Lainnya** (di HP; di layar lebar Kuis dan Kalender sudah ada di bilah) | Kuis gerbang, Kalender akademik, Proyek blok, Rekaman sesi, Pengawas ujian, Roster dan email dosen, Rapor mahasiswa, Tinjau RPL, Proyek kerja bimbingan, Autograder, Kurikulum |
 
-Bilah atas menampilkan nama, peran, dan email kampus Anda. Di HP, semuanya ada di lembar **Akun** (tombol bulat berisi inisial nama).
+Bilah atas menampilkan nama, peran, dan email kampus Anda. Di HP, semuanya ada di lembar **Akun** (tombol bulat berisi inisial nama). Istilah bertanda **?** di halaman (rumpun, CPL, SLA, pengampu, dan lain-lain) bisa diketuk untuk melihat artinya.
 
 Dosen yang juga kaprodi atau admin melihat **pemilih peran** — menu mengajar hanya tampil selagi peran aktifnya **dosen** (halaman mengajar juga menerima peran kaprodi). Lihat [Pindah peran](../kaprodi/#pindah-peran).
 
@@ -72,11 +73,11 @@ Nomor WhatsApp di roster yang menghubungkan login mahasiswa ke NIM-nya. Roster b
 
 ## Kelola Materi
 
-Katalog video, bacaan, dan PDF asinkron per prodi, rumpun, dan minggu. Hanya untuk prodi yang Anda ampu.
+Katalog video, bacaan, dan PDF asinkron per prodi, rumpun (blok 2–3 mata kuliah yang diikat satu proyek), dan minggu. Hanya untuk prodi yang Anda ampu.
 
 1. Di kartu **Tambah Materi**, pilih **Program studi**, **Rumpun**, isi **Minggu** (1–52) dan **Urutan dalam minggu**.
 2. Isi **Judul**, pilih **Jenis**, isi **Deskripsi singkat**:
-   * **video** — tempel tautan atau ID YouTube (unlisted juga bisa).
+   * **video** — tempel tautan atau ID YouTube (video *unlisted* — tidak publik, hanya bisa dibuka lewat tautan — juga bisa).
    * **bacaan** — tempel teks lengkap; pisahkan paragraf dengan baris kosong.
    * **berkas (PDF)** — PDF saja, **maksimal 20 MiB**. PPT/Word diekspor ke PDF dulu. Jumlah halaman dihitung otomatis.
 3. Tekan **Tambah Materi**.
@@ -126,7 +127,7 @@ Tugas hanya tampil dan bisa dikumpulkan mahasiswa prodi yang dipilih. Mahasiswa 
 * **Per kiriman** — skor kemiripan tertinggi tiap kiriman dan kiriman yang paling mirip dengannya.
 * **Pasangan paling mirip (top 20)**.
 
-Band: **tinggi** ≥ 0,85 · **sedang** ≥ 0,60 · **rendah** < 0,60 (ambang awal, belum dikalibrasi). Skor kemiripan adalah **alat bantu prioritas pemeriksaan, bukan vonis plagiat** — periksa kirimannya sebelum memutuskan.
+Band (tingkat kemiripan): **tinggi** ≥ 0,85 · **sedang** ≥ 0,60 · **rendah** < 0,60 (ambang awal, belum dikalibrasi). Skor kemiripan adalah **alat bantu prioritas pemeriksaan, bukan vonis plagiat** — periksa kirimannya sebelum memutuskan.
 
 ## Forum Tanya Dosen
 
@@ -135,7 +136,7 @@ Band: **tinggi** ≥ 0,85 · **sedang** ≥ 0,60 · **rendah** < 0,60 (ambang aw
 3. Tulis di **Balasan**, lalu **Kirim Balasan**.
 4. Kalau sudah tuntas, tekan **Tutup Pertanyaan** (setelah ditutup tidak bisa dibalas lagi).
 
-Target jawaban dosen **1×24 jam, dihitung hanya Senin–Rabu (WIB)**; pertanyaan Kamis–Minggu mulai dihitung Senin berikutnya. **Balasan dosen pertama menghentikan jam SLA.** Pertanyaan yang lewat target ditandai *lewat tenggat* dan terlihat di laporan kaprodi.
+Target jawaban dosen **1×24 jam, dihitung hanya Senin–Rabu (WIB)**; pertanyaan Kamis–Minggu mulai dihitung Senin berikutnya. **Balasan dosen pertama menghentikan jam SLA** (*service level agreement* — target waktu jawaban yang dipantau kaprodi). Pertanyaan yang lewat target ditandai *lewat tenggat* dan terlihat di laporan kaprodi.
 
 ## Rekaman Sesi Sinkron
 
@@ -175,7 +176,7 @@ Satu proyek blok per rumpun per angkatan. Anda tercatat sebagai pembimbing lewat
 
 ## Pengawas Ujian
 
-Jadwal ujian berpengawas dan pencatatan kehadiran (bukan proctoring otomatis; skor ujian diinput lewat proyek blok).
+Jadwal ujian berpengawas dan pencatatan kehadiran (bukan *proctoring* — pengawasan otomatis lewat kamera; yang dicatat hanya jadwal dan kehadiran. Skor ujian diinput lewat proyek blok).
 
 **Menjadwalkan:** di kartu **Jadwalkan Sesi Ujian**, pilih **Program studi**, **Rumpun**, **Jenis** (tengah/akhir blok), isi **Tanggal & jam (WIB)**, **Lokasi**, dan **Email kampus pengawas** (kosongkan untuk menjadikan Anda sendiri pengawasnya), lalu **Jadwalkan**.
 
@@ -209,7 +210,7 @@ Rekognisi pembelajaran lampau: pengalaman kerja mahasiswa **sebelum kuliah** yan
 2. Baca uraian dan berkas bukti pengajuan.
 3. Pilih **Putusan** (*sedang ditinjau* / *setujui* / *tolak*), isi **Catatan**, lalu **Simpan Putusan**.
 
-Pengajuan yang disetujui menjadi bukti CPL di dasbor mahasiswa dan tidak dihitung dalam IP.
+Pengajuan yang disetujui menjadi bukti CPL (capaian pembelajaran lulusan) di dasbor mahasiswa dan tidak dihitung dalam IP.
 
 ## Proyek Kerja / Magang (Bimbingan)
 
@@ -229,13 +230,14 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 ## Lewat WhatsApp
 
 * `forum belum dijawab` — Pertanyaan forum yang menunggu jawaban
-* `buat tugas | judul | deskripsi` — Membuat tugas
-* `daftar tugas` — Daftar tugas
-* `laporan tugas #id` — Laporan kemiripan satu tugas
+* `buat tugas | <judul> | <deskripsi> | <kode prodi>` — Membuat tugas; kode prodi (mis. `pai`) boleh dikosongkan kalau Anda mengajar tepat satu prodi
+* `daftar tugas` — Daftar tugas beserta id-nya, berlabel prodi
+* `laporan tugas <id tugas>` — Laporan kemiripan satu tugas (balasan bot berisi tautan yang langsung membuka laporannya di web)
 * `buat proyek blok | rumpun | prodi | angkatan | judul` — Membuat proyek blok
 * `daftar proyek saya` — Proyek yang Anda bimbing
 * `input nilai | id | nim | mata kuliah | 4 nilai` — Input nilai proyek
 * `status proyek kerja` — Proyek kerja bimbingan
+* `putusan proyek kerja | <id> | setuju/tolak | <catatan>` — Memutus pengajuan proyek kerja (butuh email kampus)
 
 ## Kendala Umum
 
@@ -246,4 +248,5 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 | Muncul kartu *untuk dosen atau kaprodi* | Anda memakai peran admin. Tekan **Pakai peran dosen**. |
 | *Kalender semester PRODI belum diterbitkan* | Jadwal, agenda, dan rekaman belum bisa tampil. Hubungi kaprodi. Materi dan kuis minggu 1 sudah bisa disiapkan. |
 | *Email kampus wajib berakhiran @digitalbdg.ac.id* | Pakai email kampus, bukan email pribadi. |
+| *Email kampus Anda belum diisi; lengkapi dulu …* saat membalas forum atau menerbitkan rekaman | Isi email kampus dulu di Roster Mahasiswa & Email Dosen. |
 | *Sesi berakhir* | Tekan **Masuk lagi**. |

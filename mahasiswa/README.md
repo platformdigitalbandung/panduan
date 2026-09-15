@@ -4,7 +4,7 @@
 
 Panduan ini untuk mahasiswa yang nomor WhatsApp-nya terdaftar di roster program studi. Cara masuk ada di [halaman utama panduan](../#masuk-ke-aplikasi).
 
-**Daftar isi:** [Menu](#menu) · [Beranda](#beranda) · [Kalender](#kalender-akademik) · [Materi](#materi-pekan-ini) · [Kuis gerbang](#kuis-gerbang) · [Forum](#forum-tanya-dosen) · [Rekaman](#rekaman-sesi) · [Tugas](#tugas) · [Dasbor](#dasbor-belajar) · [Nilai proyek](#nilai-proyek) · [Rapor](#rapor) · [Autograder](#hasil-autograder) · [Proyek kerja](#proyek-kerja--magang) · [RPL](#rekognisi-pembelajaran-lampau-rpl) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
+**Daftar isi:** [Menu](#menu) · [Beranda](#beranda) · [Kalender](#kalender-akademik) · [Materi](#materi-pekan-ini) · [Kuis gerbang](#kuis-gerbang) · [Forum](#forum-tanya-dosen) · [Rekaman](#rekaman-sesi) · [Tugas](#tugas) · [Dasbor](#dasbor-belajar) · [Nilai proyek](#nilai-proyek) · [Rapor](#rapor) · [Autograder](#hasil-autograder) · [Proyek kerja](#proyek-kerjamagang) · [RPL](#rekognisi-pembelajaran-lampau-rpl) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
 
 ## Menu
 
@@ -12,7 +12,7 @@ Panduan ini untuk mahasiswa yang nomor WhatsApp-nya terdaftar di roster program 
 |---|---|
 | Bilah atas (layar lebar) | Beranda · Kalender · Materi · Kuis · Tugas · Forum · **Lainnya** |
 | Bilah bawah (HP) | Beranda · Kalender · Materi · Tugas · **Lainnya** |
-| **Lainnya** | Kuis gerbang, Forum tanya dosen, Rekaman sesi, Nilai proyek, Rapor, Dasbor belajar, Proyek kerja / magang, Rekognisi pembelajaran lampau, Hasil autograder |
+| **Lainnya** (di HP; di layar lebar Kuis dan Forum sudah ada di bilah) | Kuis gerbang, Forum tanya dosen, Rekaman sesi, Nilai proyek, Rapor, Dasbor belajar, Proyek kerja / magang, Rekognisi pembelajaran lampau, Hasil autograder |
 
 Istilah bertanda **?** (rumpun, CPL, SKS, RPL, dan lain-lain) bisa diketuk untuk melihat artinya. Di HP, nama, NIM, **Beranda Saya**, dan **Keluar** ada di lembar **Akun** (tombol bulat berisi inisial nama).
 
@@ -45,7 +45,7 @@ Hanya dibaca. Menampilkan kalender yang sudah diterbitkan kaprodi.
 
 1. Pilih kalender di **Tampilkan kalender** — bawaannya prodi Anda (bertanda *prodi Anda*). Bisa juga *Semua program studi* atau prodi lain.
 2. Sesi dikelompokkan per **Minggu N**. Minggu berjalan terbuka otomatis dengan tanda *minggu ini*; ketuk minggu lain untuk membukanya.
-3. Tiap sesi menampilkan hari, tanggal, moda (asinkron/daring/luring), jam WIB, dan keterangan.
+3. Tiap sesi menampilkan hari, tanggal, jenis kegiatan (*Belajar mandiri (asinkron)*, *Kelas daring bersama dosen*, *Praktik & proyek (luring atau daring)*, atau *Tanpa kegiatan akademik*), jam WIB, dan keterangan.
 
 Kalau muncul *Kalender semester PRODI belum diterbitkan*, yang perlu bertindak adalah kaprodi. Materi, kuis, dan rekaman juga belum bisa tampil sampai kalender terbit.
 
@@ -58,7 +58,7 @@ Video, bacaan, dan berkas PDF untuk dipelajari Senin–Rabu, sebelum sesi Jumat.
 3. Pelajari materinya. **Progres tercatat otomatis** — tidak ada tombol simpan:
    * **Video**: dari posisi menonton; selesai menonton tercatat 100%.
    * **Bacaan**: dari seberapa jauh teks digulir.
-   * **PDF**: halaman dihitung setelah terlihat sekitar 3 detik.
+   * **PDF**: halaman dihitung setelah terlihat beberapa detik; berhenti dihitung saat tab disembunyikan.
 
 Yang disimpan selalu titik terjauh, jadi progres tidak pernah turun. Kalau materi belum ada, tekan **Tanya di forum**.
 
@@ -160,13 +160,13 @@ Rumpun yang diakui lewat RPL tampil di kartu *Diakui lewat RPL* dan tidak dihitu
 
 ## Hasil Autograder
 
-Hasil tes otomatis atas kode praktikum yang dikirim lewat **Pull Request** di repo tugas GitHub. Hasil muncul otomatis setelah PR dibuka — tidak ada yang perlu diisi di halaman ini.
+Hasil tes otomatis atas kode praktikum yang dikirim ke repo (repositori, tempat kode tugas di GitHub) lewat **Pull Request** (PR — permintaan menggabungkan kode Anda ke repo tugas). Hasil muncul otomatis setelah PR dibuka — tidak ada yang perlu diisi di halaman ini.
 
-Tabel menampilkan asal kiriman (repo, PR, commit), tes dosen yang lulus, coverage, skor, dan status (*lulus*, *ada tes gagal*, *build gagal*). Skor = 70% porsi tes dosen yang lulus + 30% coverage (bawaan); build gagal selalu 0. Buka **Bagaimana skor dihitung?** untuk rinciannya.
+Tabel menampilkan asal kiriman (repo, PR, *commit* — versi kode yang dikirim), tes dosen yang lulus, *coverage* (persentase baris kode Anda yang dijalankan oleh tes), skor, dan status (*lulus*, *ada tes gagal*, *build gagal* — kode tidak bisa dikompilasi, jadi tes tidak berjalan). Istilah bertanda **?** di halaman bisa diketuk untuk artinya. Skor = 70% porsi tes dosen yang lulus + 30% coverage (bawaan); build gagal selalu 0. Buka **Bagaimana skor dihitung?** untuk rinciannya.
 
 Kalau hasil tidak kunjung muncul, kemungkinan username GitHub Anda belum tercatat di roster — tanyakan ke dosen lewat forum.
 
-## Proyek Kerja / Magang
+## Proyek Kerja/Magang
 
 Proyek di tempat kerja selama kuliah, dinilai dosen pembimbing dan atasan, dikonversi menjadi kredit satu rumpun.
 
@@ -179,7 +179,7 @@ Pengajuan hanya dibuka pada rentang semester yang ditetapkan prodi (bawaan semes
 
 ## Rekognisi Pembelajaran Lampau (RPL)
 
-Pengakuan pengalaman kerja **sebelum kuliah** sebagai kredit satu rumpun. Pengalaman kerja selama kuliah diajukan lewat [Proyek Kerja](#proyek-kerja--magang).
+Pengakuan pengalaman kerja **sebelum kuliah** sebagai kredit satu rumpun. Pengalaman kerja selama kuliah diajukan lewat [Proyek Kerja/Magang](#proyek-kerjamagang).
 
 1. Di kartu **Ajukan RPL**, pilih **Rumpun yang ingin diakui**.
 2. Isi **Uraian pengalaman** (maks. 2000 karakter).
@@ -192,13 +192,18 @@ Status di **Pengajuan Anda**: *diajukan*, *ditinjau*, *disetujui*, atau *ditolak
 
 Beberapa layanan bisa dipakai dengan mengirim pesan ke bot dari nomor yang terdaftar:
 
+* `jadwal saya` — Jadwal Anda menurut kalender terbit
 * `kalender minggu ini` — Jadwal minggu berjalan
-* `daftar tugas` — Daftar tugas beserta kodenya
-* `kumpul tugas <kode>` — Caption saat melampirkan berkas jawaban
-* `kerjakan kuis` — Mengerjakan kuis gerbang
+* `daftar tugas` — Daftar tugas prodi Anda beserta id-nya
+* `kumpul tugas <id tugas>` — Kirim berkas jawaban sebagai **dokumen** dengan caption ini; id-nya dari `daftar tugas`
+* `kerjakan kuis | <kode rumpun> | <minggu>` — Bot mengirim soal beserta id kuis; lalu jawab dengan `kerjakan kuis | <id kuis> | 2,1,3` (nomor pilihan mulai 1, dipisah koma)
 * `nilai saya` — Rekap nilai proyek
+* `beban belajar saya` — Beban belajar minggu ini
 * `tanya forum | rumpun R1 | minggu 3 | <pertanyaan>` — Bertanya di forum
-* `ajukan rpl` / `status rpl` — Mengajukan dan memantau RPL
+* `ajukan proyek kerja | <rumpun> | <perusahaan> | <judul> | <nama atasan> | <email atasan>` — Mengajukan proyek kerja
+* `status proyek kerja` — Status proyek kerja Anda
+* `ajukan rpl | <kode rumpun> | <uraian pengalaman>` — Mengajukan RPL (berkas bukti diunggah lewat web)
+* `status rpl saya` — Status pengajuan RPL
 
 ## Kendala Umum
 
@@ -207,6 +212,8 @@ Beberapa layanan bisa dipakai dengan mengirim pesan ke bot dari nomor yang terda
 | *belum terdaftar* / *Nomor ini belum tercatat di roster mahasiswa* | Nomor Anda belum ada di roster. Hubungi kaprodi prodi Anda. |
 | *Program studi Anda belum tercatat* / *Data akademik Anda belum lengkap* | Data roster belum lengkap. Hubungi kaprodi. |
 | *Kalender semester PRODI belum diterbitkan* | Materi, kuis, dan rekaman belum bisa tampil. Tunggu kaprodi menerbitkan kalender. |
+| *Kuis ini belum punya soal* / *Belum ada kuis rumpun … minggu …* | Dosen pengampu belum menyusunnya. Kerjakan setelah tersedia; tanyakan lewat forum bila perlu. |
+| *Belum ada materi* untuk minggu ini | Dosen pengampu belum mengisi katalog. Tekan **Tanya di forum**. |
 | *Sesi berakhir* | Tekan **Masuk lagi** di pojok kanan atas. |
 | *peran belum pasti* / *Server belum terjangkau* | Muat ulang halaman beberapa saat lagi. |
 | Halaman masih tampil lama setelah ada pembaruan | Muat ulang paksa (Ctrl+Shift+R). |

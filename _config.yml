@@ -1,0 +1,7 @@
+title: Panduan Platform Digital Bandung
+description: Panduan pemakaian aplikasi platform.digitalbdg.ac.id untuk mahasiswa, dosen, kaprodi, dan admin
+lang: id
+theme: jekyll-theme-primer
+show_downloads: false
+exclude:
+  - LICENSE

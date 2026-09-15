@@ -13,7 +13,7 @@ Admin juga harus terdaftar sebagai dosen aktif. Pemilih peran dan cara pindah pe
 | Tempat | Isi |
 |---|---|
 | Bilah atas / bilah bawah HP | Beranda · Kaprodi · Prodi baru · **Laporan** |
-| **Laporan** | Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, SLA forum, Rekap rekaman |
+| **Laporan** | Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, SLA forum (pertanyaan yang lewat target jawaban dosen 1×24 jam), Rekap rekaman |
 
 ## Beranda
 
@@ -81,11 +81,11 @@ Untuk membalas forum, mengubah roster, atau pekerjaan mengajar lain, pindah ke p
 
 ## Yang dikerjakan di luar aplikasi
 
-Hal berikut sengaja tidak punya tombol di aplikasi dan dikerjakan pengelola platform langsung di database:
+Hal berikut sengaja tidak punya tombol di aplikasi dan dikerjakan pengelola platform di sistem, bukan lewat aplikasi:
 
 * **Menjadikan atau mencabut admin.**
 * **Mendaftarkan dosen baru** atau **menonaktifkan dosen**. Dosen yang dinonaktifkan kehilangan semua perannya — dosen, kaprodi, dan admin.
-* Memindahkan data kaprodi lama (berbasis NIP) ke email kampus.
+* Memindahkan data kaprodi lama yang masih memakai NIP ke email kampus (inilah butir *prodi yang masih memakai data kaprodi lama* di Beranda; sebagai admin Anda cukup menetapkan ulang kaprodinya lewat **Kelola Kaprodi** setelah dosen itu mengisi email kampus).
 
 Hubungi pengelola platform untuk keperluan ini.
 

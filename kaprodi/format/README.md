@@ -16,12 +16,36 @@ Kurikulum › 1. Program Studi › **Simpan Prodi**
 
 Kurikulum › 2. Rumpun Mata Kuliah › **Simpan Rumpun** — satu baris per rumpun. Jumlah SKS mata kuliah = SKS rumpun.
 
-| Kode rumpun | Nama rumpun | Semester | SKS | Proyek pengikat | Moda | Mata kuliah (satu per baris, SKS dalam kurung) | Kode CPL yang disentuh | Catatan status |
-|---|---|---|---|---|---|---|---|---|
-| R1 | Literasi & Wirausaha Digital | 1 | 6 | Portofolio digital profesional + rencana usaha berbasis teknologi | Ritme mingguan | Literasi Digital (3)<br>Kewirausahaan (3) | CPL02, CPL03, CPL04, CPL08, CPL11 | |
-| R11 | Produk & Mutu | 5 | 10 | Produk perangkat lunak utuh di tempat kerja mahasiswa + suite pengujian | Tempat kerja | Proyek Perangkat Lunak 1 (4)<br>Pemrograman Web (3)<br>Pengujian PL (3) | CPL05, CPL06, CPL07, CPL09, CPL10 | |
+Contoh rumpun ritme mingguan:
 
-Moda: `Ritme mingguan` / `Tempat kerja`. Catatan status terisi = rumpun berstatus draf.
+* **Kode rumpun:** R1
+* **Nama rumpun:** Literasi & Wirausaha Digital
+* **Semester:** 1 · **SKS:** 6 · **Moda:** Ritme mingguan
+* **Proyek pengikat:** Portofolio digital profesional + rencana usaha berbasis teknologi
+* **Mata kuliah** (satu per baris, SKS dalam kurung):
+  ```
+  Literasi Digital (3)
+  Kewirausahaan (3)
+  ```
+* **Kode CPL yang disentuh:** CPL02, CPL03, CPL04, CPL08, CPL11
+* **Catatan status:** *(kosong = disahkan)*
+
+Contoh rumpun tempat kerja:
+
+* **Kode rumpun:** R11
+* **Nama rumpun:** Produk & Mutu
+* **Semester:** 5 · **SKS:** 10 · **Moda:** Tempat kerja
+* **Proyek pengikat:** Produk perangkat lunak utuh di tempat kerja mahasiswa + suite pengujian
+* **Mata kuliah:**
+  ```
+  Proyek Perangkat Lunak 1 (4)
+  Pemrograman Web (3)
+  Pengujian PL (3)
+  ```
+* **Kode CPL yang disentuh:** CPL05, CPL06, CPL07, CPL09, CPL10
+* **Catatan status:** *(kosong)*
+
+Bentuk tabelnya (satu baris per rumpun) ada di [rumpun.csv](rumpun.csv). Moda: `Ritme mingguan` / `Tempat kerja`. Catatan status terisi = rumpun berstatus draf.
 
 ## 3. Capaian Pembelajaran (CPL)
 
@@ -62,23 +86,16 @@ Kalender › **Buat Draft Kalender** › **Buat Draft**, lalu **Sunting Sesi** b
 |---|---|---|---|---|---|
 | TRPL | 2026 | 1 | 2026-09-21 | 16 | Ritme TRPL — Semester 1-6 |
 
-Hasilnya: 16 minggu × 7 hari = 112 sesi, tanggal/moda/jam dari ritme, minggu 1 dimulai hari Senin pada pekan tanggal mulai. Contoh lengkap 112 baris: [kalender-semester.csv](kalender-semester.csv). Dua minggu pertama:
+Hasilnya: 16 minggu × 7 hari = 112 sesi, tanggal/moda/jam dari ritme, minggu 1 dimulai hari Senin pada pekan tanggal mulai. Contoh lengkap 112 baris: [kalender-semester.csv](kalender-semester.csv). Minggu pertama (minggu berikutnya sama, tanggalnya bergeser tujuh hari):
 
-| Minggu | Tanggal | Hari | Moda | Mulai | Selesai | Keterangan |
-|---|---|---|---|---|---|---|
-| 1 | 2026-09-21 | Senin | Belajar mandiri (asinkron) | 17:00 | 21:00 | |
-| 1 | 2026-09-22 | Selasa | Belajar mandiri (asinkron) | 17:00 | 21:00 | |
-| 1 | 2026-09-23 | Rabu | Belajar mandiri (asinkron) | 17:00 | 21:00 | |
-| 1 | 2026-09-24 | Kamis | Kelas daring bersama dosen | 17:00 | 22:00 | |
-| 1 | 2026-09-25 | Jumat | Praktik & proyek (luring atau daring) | 08:00 | 20:00 | Jeda Jumatan & makan 11:30-13:00 tidak dihitung |
-| 1 | 2026-09-26 | Sabtu | Tanpa kegiatan akademik | | | |
-| 1 | 2026-09-27 | Minggu | Tanpa kegiatan akademik | | | |
-| 2 | 2026-09-28 | Senin | Belajar mandiri (asinkron) | 17:00 | 21:00 | |
-| 2 | 2026-09-29 | Selasa | Belajar mandiri (asinkron) | 17:00 | 21:00 | |
-| 2 | 2026-09-30 | Rabu | Belajar mandiri (asinkron) | 17:00 | 21:00 | |
-| 2 | 2026-10-01 | Kamis | Kelas daring bersama dosen | 17:00 | 22:00 | |
-| 2 | 2026-10-02 | Jumat | Praktik & proyek (luring atau daring) | 08:00 | 20:00 | Jeda Jumatan & makan 11:30-13:00 tidak dihitung |
-| 2 | 2026-10-03 | Sabtu | Tanpa kegiatan akademik | | | |
-| 2 | 2026-10-04 | Minggu | Tanpa kegiatan akademik | | | |
+| Tanggal | Hari | Moda | Jam |
+|---|---|---|---|
+| 2026-09-21 | Senin | Belajar mandiri (asinkron) | 17:00–21:00 |
+| 2026-09-22 | Selasa | Belajar mandiri (asinkron) | 17:00–21:00 |
+| 2026-09-23 | Rabu | Belajar mandiri (asinkron) | 17:00–21:00 |
+| 2026-09-24 | Kamis | Kelas daring bersama dosen | 17:00–22:00 |
+| 2026-09-25 | Jumat | Praktik & proyek (luring atau daring) | 08:00–20:00, keterangan *Jeda Jumatan & makan 11:30-13:00 tidak dihitung* |
+| 2026-09-26 | Sabtu | Tanpa kegiatan akademik | — |
+| 2026-09-27 | Minggu | Tanpa kegiatan akademik | — |
 
 Yang bisa diubah per sesi selagi draf: Tanggal, Moda, Mulai, Selesai, Keterangan (maks. 300 karakter). Satu prodi + angkatan + semester = satu kalender.

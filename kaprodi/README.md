@@ -15,7 +15,7 @@ Dosen yang memegang jabatan melihat **pemilih peran** berisi peran yang benar-be
 * **Layar lebar:** kotak pilihan di pojok kanan bilah atas (menggantikan label peran).
 * **HP:** ketuk tombol akun (lingkaran inisial) → lembar **Akun** → bagian **Peran aktif**.
 
-Pilihan langsung berlaku tanpa keluar-masuk dan disimpan di peramban itu saja. Pemilih peran **hanya mengubah menu yang tampil** — hak akses tetap mengikuti jabatan Anda di database.
+Pilihan langsung berlaku tanpa keluar-masuk dan disimpan di peramban itu saja. Pemilih peran **hanya mengubah menu yang tampil** — hak akses tetap mengikuti jabatan yang tercatat di sistem.
 
 Membuka halaman milik peran lain menampilkan kartu dengan tombol **Pakai peran …**. Di grup **Laporan** juga ada tombol **Pakai peran dosen** untuk pindah ke menu mengajar.
 
@@ -30,7 +30,7 @@ Membuka halaman milik peran lain menampilkan kartu dengan tombol **Pakai peran �
 
 ## Urutan kerja awal semester
 
-1. **[Kurikulum](#kurikulum-program-studi)** — lengkapi data prodi, rumpun beserta mata kuliahnya, CPL, dan ritme mingguan.
+1. **[Kurikulum](#kurikulum-program-studi)** — lengkapi data prodi, rumpun (blok 2–3 mata kuliah yang diikat satu proyek) beserta mata kuliahnya, CPL (capaian pembelajaran lulusan), dan ritme mingguan (pola satu minggu yang diulang menjadi kalender).
 2. **[Dosen pengampu](#dosen-pengampu-prodi)** — centang dosen yang mengajar di prodi Anda.
 3. **[Kalender](#kalender-akademik)** — buat draf dari ritme mingguan, periksa sesinya, lalu terbitkan. Sebelum kalender terbit, mahasiswa dan dosen belum melihat jadwal, agenda, materi mingguan, kuis, maupun rekaman.
 4. **[Laporan](#laporan-prodi)** — pantau berkala selama semester.
@@ -40,7 +40,7 @@ Membuka halaman milik peran lain menampilkan kartu dengan tombol **Pakai peran �
 Judulnya **Beranda kaprodi &lt;PRODI&gt;**.
 
 * **Mulai di sini** — empat langkah di atas, dengan status dari data prodi Anda, mis. *belum ada CPL*, *SKS rumpun 30 dari 144*, *2 rumpun masih draf*, *N draf kalender menunggu diterbitkan*.
-* **Perlu dikerjakan** — mis. pertanyaan forum prodi yang lewat SLA dan proyek kerja yang telat tinjauan tengah (**Mendesak**).
+* **Perlu dikerjakan** — mis. pertanyaan forum prodi yang lewat SLA (target jawaban dosen 1×24 jam) dan proyek kerja yang telat tinjauan tengah (**Mendesak**).
 * **Jadwal minggu ini** — kalender terbit prodi Anda.
 * **Layanan** — Kurikulum dan pengajar, Laporan prodi.
 
@@ -86,7 +86,7 @@ Ritme adalah pola satu minggu yang diulang menjadi kalender semester. **Kalender
 
 1. Di **Muat ritme**, pilih *(ritme baru)* atau ritme yang sudah ada.
 2. Isi **Nama ritme** (mis. *Ritme PAI — Semester 1-6*).
-3. Isi tiap baris: **Hari**, **Moda** (Belajar mandiri / Kelas daring bersama dosen / Praktik & proyek / Tanpa kegiatan akademik), **Jam mulai**, **Jam selesai**, **Menit**, **Catatan**. **+ Tambah Baris** untuk menambah, **×** untuk menghapus.
+3. Isi tiap baris: **Hari**, **Moda** (*Belajar mandiri (asinkron)* / *Kelas daring bersama dosen* / *Praktik & proyek (luring atau daring)* / *Tanpa kegiatan akademik*), **Jam mulai**, **Jam selesai**, **Menit**, **Catatan**. **+ Tambah Baris** untuk menambah, **×** untuk menghapus.
 4. Periksa ringkasan *Total N menit/minggu · kapasitas X SKS per semester* (kapasitas = menit ÷ 85).
 5. Tekan **Simpan Ritme**.
 
