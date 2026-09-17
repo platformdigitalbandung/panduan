@@ -10,7 +10,7 @@ Panduan ini untuk dosen aktif. Cara masuk ada di [halaman utama panduan](../#mas
 
 Sebagian besar pekerjaan mengajar butuh dua syarat. Selesaikan berurutan:
 
-1. **Isi email kampus Anda** (`@digitalbdg.ac.id`) di halaman **Roster Mahasiswa & Email Dosen** (menu **Lainnya → Roster dan email dosen**) — lihat [caranya](#email-kampus-anda). Email kampus adalah identitas dosen di platform (menggantikan NIP).
+1. **Isi email kampus Anda** di halaman **Roster Mahasiswa & Email Dosen** (menu **Lainnya → Roster dan email dosen**) — lihat [caranya](#email-kampus-anda). Email kampus adalah identitas dosen di platform (menggantikan NIP).
 2. **Minta kaprodi mencentang Anda sebagai dosen pengampu** prodi tempat Anda mengajar. Kaprodi baru bisa mencentang nama Anda setelah email kampus terisi.
 
 | Pekerjaan | Butuh email kampus | Butuh dicentang pengampu |
@@ -58,7 +58,7 @@ Menu **Lainnya → Roster dan email dosen**.
 
 ### Email kampus Anda
 
-1. Di kartu **Email Kampus Anda**, isi **Email kampus** — wajib berakhiran `@digitalbdg.ac.id`.
+1. Di kartu **Email Kampus Anda**, isi **Email kampus** — boleh email institusi asal (mis. `@staisabilusalam.ac.id`) atau email pribadi yang aktif; tidak harus `@digitalbdg.ac.id`.
 2. Tekan **Simpan Email** (atau **Perbarui Email**).
 
 Anda hanya bisa mengisi email untuk nomor Anda sendiri, dan satu email hanya untuk satu dosen. Email kampus menentukan proyek yang boleh Anda nilai, pengajuan yang boleh Anda putuskan, dan sesi ujian yang Anda awasi.
@@ -247,6 +247,6 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 | Sudah dicentang tetapi halaman masih meminta dicentang | Centang berlaku seketika — muat ulang halaman, dan pastikan kaprodi mencentang Anda di prodi yang benar. |
 | Muncul kartu *untuk dosen atau kaprodi* | Anda memakai peran admin. Tekan **Pakai peran dosen**. |
 | *Kalender semester PRODI belum diterbitkan* | Jadwal, agenda, dan rekaman belum bisa tampil. Hubungi kaprodi. Materi dan kuis minggu 1 sudah bisa disiapkan. |
-| *Email kampus wajib berakhiran @digitalbdg.ac.id* | Pakai email kampus, bukan email pribadi. |
+| *Email … tidak sah* | Periksa penulisannya (ada `@` dan domain). Domain apa pun diterima. |
 | *Email kampus Anda belum diisi; lengkapi dulu …* saat membalas forum atau menerbitkan rekaman | Isi email kampus dulu di Roster Mahasiswa & Email Dosen. |
 | *Sesi berakhir* | Tekan **Masuk lagi**. |
