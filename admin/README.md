@@ -84,7 +84,7 @@ Untuk membalas forum, mengubah roster, atau pekerjaan mengajar lain, pindah ke p
 Hal berikut sengaja tidak punya tombol di aplikasi dan dikerjakan pengelola platform di sistem, bukan lewat aplikasi:
 
 * **Menjadikan atau mencabut admin.**
-* **Mendaftarkan dosen baru** atau **menonaktifkan dosen**. Dosen yang dinonaktifkan kehilangan semua perannya — dosen, kaprodi, dan admin.
+* **Menonaktifkan dosen.** Dosen yang dinonaktifkan kehilangan semua perannya — dosen, kaprodi, dan admin — dan tidak bisa mengaktifkan dirinya lagi dengan mendaftar ulang. (Dosen baru mendaftar sendiri lewat WhatsApp bila ia anggota grup WhatsApp dosen — lihat [Panduan Dosen](../dosen/#langkah-pertama); nomor di luar grup itu tetap didaftarkan pengelola.)
 * Memindahkan data kaprodi lama yang masih memakai NIP ke email kampus (inilah butir *prodi yang masih memakai data kaprodi lama* di Beranda; sebagai admin Anda cukup menetapkan ulang kaprodinya lewat **Kelola Kaprodi** setelah dosen itu mengisi email kampus).
 
 Hubungi pengelola platform untuk keperluan ini.
