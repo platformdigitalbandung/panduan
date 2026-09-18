@@ -4,7 +4,7 @@
 
 Panduan ini untuk dosen aktif. Cara masuk ada di [halaman utama panduan](../#masuk-ke-aplikasi). Kalau Anda juga menjabat kaprodi, baca juga [Panduan Kaprodi](../kaprodi/).
 
-**Daftar isi:** [Langkah pertama](#langkah-pertama) · [Menu](#menu) · [Beranda](#beranda) · [Email kampus & roster](#roster-mahasiswa--email-dosen) · [Kelola materi](#kelola-materi) · [Kuis gerbang](#kuis-gerbang) · [Buat tugas](#buat-tugas--laporan-kemiripan) · [Forum](#forum-tanya-dosen) · [Rekaman](#rekaman-sesi-sinkron) · [Proyek blok](#kelola-proyek-blok) · [Pengawas ujian](#pengawas-ujian) · [Autograder](#hasil-autograder) · [Rapor](#rapor-mahasiswa) · [RPL](#tinjau-rpl) · [Proyek kerja](#proyek-kerja--magang-bimbingan) · [Kalender & kurikulum](#kalender-dan-kurikulum) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
+**Daftar isi:** [Langkah pertama](#langkah-pertama) · [Menu](#menu) · [Beranda](#beranda) · [Email kampus & roster](#roster-mahasiswa--email-dosen) · [Kelola materi](#kelola-materi) · [Kuis gerbang](#kuis-gerbang) · [Buat tugas](#buat-tugas--laporan-kemiripan) · [Grup mata kuliah](#grup-whatsapp-mata-kuliah) · [Rekaman](#rekaman-sesi-sinkron) · [Proyek blok](#kelola-proyek-blok) · [Pengawas ujian](#pengawas-ujian) · [Autograder](#hasil-autograder) · [Rapor](#rapor-mahasiswa) · [RPL](#tinjau-rpl) · [Proyek kerja](#proyek-kerja--magang-bimbingan) · [Kalender & kurikulum](#kalender-dan-kurikulum) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
 
 ## Langkah pertama
 
@@ -36,7 +36,7 @@ Sebagian besar pekerjaan mengajar butuh dua syarat. Selesaikan berurutan:
 | Membuat dan menilai proyek blok | ya | — |
 | Menjadi pengawas ujian | ya | — |
 | Memutus dan meninjau proyek kerja | ya | — |
-| Menjawab forum | ya | — |
+| Membuat grup WhatsApp mata kuliah | ya | ya |
 | Tinjau RPL, rapor per NIM, autograder | — | — |
 
 Kalau syarat belum terpenuhi, halaman menampilkan kartu **langkah yang belum selesai** beserta tautannya.
@@ -45,11 +45,11 @@ Kalau syarat belum terpenuhi, halaman menampilkan kartu **langkah yang belum sel
 
 | Tempat | Isi |
 |---|---|
-| Bilah atas (layar lebar) | Beranda · Materi · Tugas · Kuis · Forum · Kalender · **Lainnya** |
-| Bilah bawah (HP) | Beranda · Materi · Tugas · Forum · **Lainnya** |
-| **Lainnya** (di HP; di layar lebar Kuis dan Kalender sudah ada di bilah) | Kuis gerbang, Kalender akademik, Proyek blok, Rekaman sesi, Pengawas ujian, Roster dan email dosen, Rapor mahasiswa, Tinjau RPL, Proyek kerja bimbingan, Autograder, Kurikulum |
+| Bilah atas (layar lebar) | Beranda · Materi · Tugas · Kuis · Kalender · **Lainnya** |
+| Bilah bawah (HP) | Beranda · Materi · Tugas · Kuis · **Lainnya** |
+| **Lainnya** (halaman yang sudah ada di bilah tidak diulang) | Kalender akademik (hanya di HP), Proyek blok, Rekaman sesi, Pengawas ujian, Roster dan email dosen, Rapor mahasiswa, Tinjau RPL, Proyek kerja bimbingan, Autograder, Kurikulum |
 
-Bilah atas menampilkan nama, peran, dan email kampus Anda. Di HP, semuanya ada di lembar **Akun** (tombol bulat berisi inisial nama). Istilah bertanda **?** di halaman (rumpun, CPL, SLA, pengampu, dan lain-lain) bisa diketuk untuk melihat artinya.
+Bilah atas menampilkan nama, peran, dan email kampus Anda. Di HP, semuanya ada di lembar **Akun** (tombol bulat berisi inisial nama). Istilah bertanda **?** di halaman (rumpun, CPL, pengampu, dan lain-lain) bisa diketuk untuk melihat artinya.
 
 Dosen yang juga kaprodi atau admin melihat **pemilih peran** — menu mengajar hanya tampil selagi peran aktifnya **dosen** (halaman mengajar juga menerima peran kaprodi). Lihat [Pindah peran](../kaprodi/#pindah-peran).
 
@@ -61,7 +61,7 @@ Judulnya **Beranda dosen**. Isinya:
   1. **Isi email kampus** → *Isi email kampus*
   2. **Dicentang sebagai dosen pengampu** → *Lihat caranya*
   3. **Siapkan materi dan kuis minggu ini** → *Kelola materi*, *Susun kuis*
-* **Perlu dikerjakan** — antara lain pertanyaan forum yang belum dijawab, pengajuan proyek kerja yang menunggu putusan, tinjauan tengah semester, rekaman yang belum terbit, materi atau kuis minggu ini/depan yang belum ada, dan pengajuan RPL. Butir bertanda **Mendesak** didahulukan.
+* **Perlu dikerjakan** — antara lain pengajuan proyek kerja yang menunggu putusan, tinjauan tengah semester, rekaman yang belum terbit, materi atau kuis minggu ini/depan yang belum ada, dan pengajuan RPL. Butir bertanda **Mendesak** didahulukan.
 * **Akan datang** — mis. sesi ujian yang Anda awasi.
 * **Jadwal minggu N** — hanya kalender prodi tempat Anda mengajar. Belum dicentang pengampu → jadwal belum tampil.
 * **Layanan** — dikelompokkan Pengajaran, Penilaian, Akademik.
@@ -143,14 +143,17 @@ Tugas hanya tampil dan bisa dikumpulkan mahasiswa prodi yang dipilih. Mahasiswa 
 
 Band (tingkat kemiripan): **tinggi** ≥ 0,85 · **sedang** ≥ 0,60 · **rendah** < 0,60 (ambang awal, belum dikalibrasi). Skor kemiripan adalah **alat bantu prioritas pemeriksaan, bukan vonis plagiat** — periksa kirimannya sebelum memutuskan.
 
-## Forum Tanya Dosen
+## Grup WhatsApp Mata Kuliah
 
-1. Di **Daftar Pertanyaan**, saring **Prodi** (bawaan prodi yang Anda ampu), **Rumpun**, **Minggu**, dan **Status** — pilih *Terbuka (belum dijawab dosen)* untuk yang menunggu. Tekan **Tampilkan**.
-2. Klik judul pertanyaan.
-3. Tulis di **Balasan**, lalu **Kirim Balasan**.
-4. Kalau sudah tuntas, tekan **Tutup Pertanyaan** (setelah ditutup tidak bisa dibalas lagi).
+Diskusi mata kuliah dengan mahasiswa berlangsung di **grup WhatsApp per mata kuliah**, dibuat bot atas permintaan Anda. Grup ini juga menjadi jalur pendaftaran mahasiswa: hanya anggota grup mata kuliah yang bisa mendaftarkan nomornya sendiri. Syaratnya sama dengan membuat tugas: email kampus terisi dan Anda dicentang pengampu prodi itu.
 
-Target jawaban dosen **1×24 jam, dihitung hanya Senin–Rabu (WIB)**; pertanyaan Kamis–Minggu mulai dihitung Senin berikutnya. **Balasan dosen pertama menghentikan jam SLA** (*service level agreement* — target waktu jawaban yang dipantau kaprodi). Pertanyaan yang lewat target ditandai *lewat tenggat* dan terlihat di laporan kaprodi.
+1. Buka **[Daftar mata kuliah saya](https://wa.me/6282258512828?text=mk%20diampu)** (atau kirim `mk diampu` ke bot lewat chat pribadi). Bot membalas semua mata kuliah di prodi yang Anda ampu, per semester.
+2. Pada mata kuliah yang belum punya grup, ketuk tautan **Buat grup**. WhatsApp terbuka ke bot dengan pesan `daftar grup | prodi | KODE` yang sudah terisi — tekan **Kirim**.
+3. Bot membuat grup bernama sesuai nama mata kuliah, memasukkan Anda sebagai **admin**, lalu membalas **tautan undangan grup** dan **tautan pendaftaran mahasiswa**. Teruskan keduanya ke mahasiswa.
+
+Mata kuliah yang sudah punya grup ditampilkan beserta tautan undangannya dan tidak dibuatkan grup baru. Kalau WhatsApp Anda tidak mengizinkan dimasukkan ke grup, bergabunglah lewat tautan undangan lalu kirim ulang pesan yang sama — bot menjadikan Anda admin. Cara yang sama berlaku bagi dosen pengampu lain di prodi itu.
+
+Mahasiswa yang nomornya belum terdaftar mendaftar sendiri setelah bergabung ke grup, dengan pesan `daftar mahasiswa | NIM | tahun angkatan` (lihat [Panduan Mahasiswa](../mahasiswa/#grup-whatsapp-mata-kuliah)). Nama diambil dari profil WhatsApp mereka dan prodi dari mata kuliah grupnya; perbaiki data yang keliru di [Roster](#roster-mahasiswa).
 
 ## Rekaman Sesi Sinkron
 
@@ -244,7 +247,8 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 ## Lewat WhatsApp
 
 * `daftar dosen | <email kampus>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftar%20dosen%20%7C%20%28ganti%20dengan%20email%20Anda%29)) — Mendaftarkan nomor Anda sebagai dosen (hanya anggota grup WhatsApp dosen, lewat chat pribadi ke bot); kalau sudah terdaftar, memperbarui email kampus
-* `forum belum dijawab` — Pertanyaan forum yang menunggu jawaban
+* `mk diampu` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=mk%20diampu)) — Mata kuliah di prodi yang Anda ampu, beserta tautan grup WhatsApp atau tautan untuk membuatnya
+* `daftar grup | <kode prodi> | <kode mata kuliah>` — Meminta bot membuat grup WhatsApp mata kuliah itu (tautan siap-kirimnya ada di balasan `mk diampu`)
 * `buat tugas | <judul> | <deskripsi> | <kode prodi>` — Membuat tugas; kode prodi (mis. `pai`) boleh dikosongkan kalau Anda mengajar tepat satu prodi
 * `daftar tugas` — Daftar tugas beserta id-nya, berlabel prodi
 * `laporan tugas <id tugas>` — Laporan kemiripan satu tugas (balasan bot berisi tautan yang langsung membuka laporannya di web)
@@ -263,5 +267,5 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 | Muncul kartu *untuk dosen atau kaprodi* | Anda memakai peran admin. Tekan **Pakai peran dosen**. |
 | *Kalender semester PRODI belum diterbitkan* | Jadwal, agenda, dan rekaman belum bisa tampil. Hubungi kaprodi. Materi dan kuis minggu 1 sudah bisa disiapkan. |
 | *Email … tidak sah* | Periksa penulisannya (ada `@` dan domain). Domain apa pun diterima. |
-| *Email kampus Anda belum diisi; lengkapi dulu …* saat membalas forum atau menerbitkan rekaman | Isi email kampus dulu di Roster Mahasiswa & Email Dosen. |
+| *Email kampus Anda belum diisi* saat menerbitkan rekaman atau membuat grup mata kuliah | Isi email kampus dulu di Roster Mahasiswa & Email Dosen. |
 | *Sesi berakhir* | Tekan **Masuk lagi**. |

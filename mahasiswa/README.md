@@ -4,15 +4,15 @@
 
 Panduan ini untuk mahasiswa yang nomor WhatsApp-nya terdaftar di roster program studi. Cara masuk ada di [halaman utama panduan](../#masuk-ke-aplikasi).
 
-**Daftar isi:** [Menu](#menu) · [Beranda](#beranda) · [Kalender](#kalender-akademik) · [Materi](#materi-pekan-ini) · [Kuis gerbang](#kuis-gerbang) · [Forum](#forum-tanya-dosen) · [Rekaman](#rekaman-sesi) · [Tugas](#tugas) · [Dasbor](#dasbor-belajar) · [Nilai proyek](#nilai-proyek) · [Rapor](#rapor) · [Autograder](#hasil-autograder) · [Proyek kerja](#proyek-kerjamagang) · [RPL](#rekognisi-pembelajaran-lampau-rpl) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
+**Daftar isi:** [Menu](#menu) · [Beranda](#beranda) · [Kalender](#kalender-akademik) · [Materi](#materi-pekan-ini) · [Kuis gerbang](#kuis-gerbang) · [Grup mata kuliah](#grup-whatsapp-mata-kuliah) · [Rekaman](#rekaman-sesi) · [Tugas](#tugas) · [Dasbor](#dasbor-belajar) · [Nilai proyek](#nilai-proyek) · [Rapor](#rapor) · [Autograder](#hasil-autograder) · [Proyek kerja](#proyek-kerjamagang) · [RPL](#rekognisi-pembelajaran-lampau-rpl) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
 
 ## Menu
 
 | Tempat | Isi |
 |---|---|
-| Bilah atas (layar lebar) | Beranda · Kalender · Materi · Kuis · Tugas · Forum · **Lainnya** |
+| Bilah atas (layar lebar) | Beranda · Kalender · Materi · Kuis · Tugas · **Lainnya** |
 | Bilah bawah (HP) | Beranda · Kalender · Materi · Tugas · **Lainnya** |
-| **Lainnya** (di HP; di layar lebar Kuis dan Forum sudah ada di bilah) | Kuis gerbang, Forum tanya dosen, Rekaman sesi, Nilai proyek, Rapor, Dasbor belajar, Proyek kerja / magang, Rekognisi pembelajaran lampau, Hasil autograder |
+| **Lainnya** (di HP; di layar lebar Kuis sudah ada di bilah) | Kuis gerbang, Rekaman sesi, Nilai proyek, Rapor, Dasbor belajar, Proyek kerja / magang, Rekognisi pembelajaran lampau, Hasil autograder |
 
 Istilah bertanda **?** (rumpun, CPL, SKS, RPL, dan lain-lain) bisa diketuk untuk melihat artinya. Di HP, nama, NIM, **Beranda Saya**, dan **Keluar** ada di lembar **Akun** (tombol bulat berisi inisial nama).
 
@@ -20,7 +20,7 @@ Istilah bertanda **?** (rumpun, CPL, SKS, RPL, dan lain-lain) bisa diketuk untuk
 
 | Hari | Kegiatan |
 |---|---|
-| Senin–Rabu | Belajar mandiri (asinkron): materi, kuis gerbang, bertanya di forum |
+| Senin–Rabu | Belajar mandiri (asinkron): materi, kuis gerbang, bertanya di grup WhatsApp mata kuliah |
 | Kamis | Kelas daring bersama dosen (sinkron) — rekamannya terbit untuk yang berhalangan |
 | Jumat | Sesi panjang: praktikum dan kerja proyek |
 | Sabtu–Minggu | Tanpa agenda akademik |
@@ -60,7 +60,7 @@ Video, bacaan, dan berkas PDF untuk dipelajari Senin–Rabu, sebelum sesi Jumat.
    * **Bacaan**: dari seberapa jauh teks digulir.
    * **PDF**: halaman dihitung setelah terlihat beberapa detik; berhenti dihitung saat tab disembunyikan.
 
-Yang disimpan selalu titik terjauh, jadi progres tidak pernah turun. Kalau materi belum ada, tekan **Tanya di forum**.
+Yang disimpan selalu titik terjauh, jadi progres tidak pernah turun. Kalau materi belum ada, tanyakan di grup WhatsApp mata kuliah.
 
 ## Kuis Gerbang
 
@@ -78,23 +78,22 @@ Aturan:
 * Kartu **Riwayat Kuis Anda** menampilkan satu baris per kuis (percobaan terakhir).
 * Kuis yang belum lulus muncul di *Perlu dikerjakan* di Beranda.
 
-## Forum Tanya Dosen
+## Grup WhatsApp Mata Kuliah
 
-Bertanya tentang materi asinkron per rumpun per minggu.
+Diskusi dan pertanyaan tentang mata kuliah dilakukan di **grup WhatsApp mata kuliah** yang dibuat bot atas permintaan dosen pengampu. Nama grup sama dengan nama mata kuliahnya.
 
-**Mengajukan pertanyaan:**
+1. Minta **tautan undangan grup** mata kuliah kepada dosen pengampu, lalu bergabung.
+2. Bertanyalah di grup itu; dosen pengampu menjadi admin grup.
 
-1. Di kartu **Ajukan Pertanyaan**, pilih **Rumpun** dan isi **Minggu materi**.
-2. Isi **Judul (opsional)** (maks. 150 karakter) dan **Pertanyaan** (maks. 4000 karakter).
-3. Tekan **Kirim Pertanyaan**. Tampil target waktu jawaban dosen.
+**Nomor Anda belum terdaftar di platform?** Grup mata kuliah juga menjadi jalur pendaftaran. Setelah bergabung ke grup mata kuliah:
 
-**Membaca dan membalas:**
+1. Buka **[Daftar sebagai mahasiswa lewat WhatsApp](https://wa.me/6282258512828?text=daftar%20mahasiswa%20%7C%20%28ganti%20dengan%20NIM%29%20%7C%20%28ganti%20dengan%20tahun%20angkatan%29)** dari HP yang nomornya ada di grup itu. WhatsApp terbuka ke nomor bot dengan pesan yang sudah terisi.
+2. Ganti `(ganti dengan NIM)` dengan NIM Anda dan `(ganti dengan tahun angkatan)` dengan tahun angkatan (mis. `2026`). Jangan hapus tanda `|`.
+3. Tekan **Kirim**.
 
-* Di **Daftar Pertanyaan**, saring menurut **Rumpun**, **Minggu**, dan **Status** (Terbuka / Dijawab / Ditutup), lalu tekan **Tampilkan**.
-* Klik judul untuk membuka pertanyaan, tulis di **Tulis Balasan**, lalu **Kirim Balasan**.
-* Penanya bisa menekan **Tutup Pertanyaan**. Pertanyaan yang ditutup tidak bisa dibalas lagi.
+Isi pesannya berbentuk `daftar mahasiswa | NIM | tahun angkatan`. Nama diambil dari **nama profil WhatsApp** Anda (pastikan sudah nama lengkap), program studi dari mata kuliah grup yang Anda ikuti, dan semester dari mata kuliah tertinggi di antara grup Anda. Setelah bot membalas **Pendaftaran berhasil**, masuk di [halaman login](https://platform.digitalbdg.ac.id/login/). Data yang keliru diperbaiki dosen atau kaprodi di Roster.
 
-Target jawaban dosen **1×24 jam, dihitung hanya Senin–Rabu (WIB)**. Pertanyaan yang dikirim Kamis–Minggu mulai dihitung Senin berikutnya. Pertanyaan yang lewat target ditandai *lewat tenggat*. Pertanyaan tampil untuk dosen dan mahasiswa satu prodi.
+Pendaftaran ditolak bila nomor belum bergabung ke grup mata kuliah mana pun, NIM sudah terhubung dengan nomor lain, atau Anda tergabung di grup mata kuliah lebih dari satu prodi (minta kaprodi mendaftarkan lewat Roster).
 
 ## Rekaman Sesi
 
@@ -164,7 +163,7 @@ Hasil tes otomatis atas kode praktikum yang dikirim ke repo (repositori, tempat 
 
 Tabel menampilkan asal kiriman (repo, PR, *commit* — versi kode yang dikirim), tes dosen yang lulus, *coverage* (persentase baris kode Anda yang dijalankan oleh tes), skor, dan status (*lulus*, *ada tes gagal*, *build gagal* — kode tidak bisa dikompilasi, jadi tes tidak berjalan). Istilah bertanda **?** di halaman bisa diketuk untuk artinya. Skor = 70% porsi tes dosen yang lulus + 30% coverage (bawaan); build gagal selalu 0. Buka **Bagaimana skor dihitung?** untuk rinciannya.
 
-Kalau hasil tidak kunjung muncul, kemungkinan username GitHub Anda belum tercatat di roster — tanyakan ke dosen lewat forum.
+Kalau hasil tidak kunjung muncul, kemungkinan username GitHub Anda belum tercatat di roster — tanyakan ke dosen di grup WhatsApp mata kuliah.
 
 ## Proyek Kerja/Magang
 
@@ -199,7 +198,7 @@ Beberapa layanan bisa dipakai dengan mengirim pesan ke bot dari nomor yang terda
 * `kerjakan kuis | <kode rumpun> | <minggu>` — Bot mengirim soal beserta id kuis; lalu jawab dengan `kerjakan kuis | <id kuis> | 2,1,3` (nomor pilihan mulai 1, dipisah koma)
 * `nilai saya` — Rekap nilai proyek
 * `beban belajar saya` — Beban belajar minggu ini
-* `tanya forum | rumpun R1 | minggu 3 | <pertanyaan>` — Bertanya di forum
+* `daftar mahasiswa | <NIM> | <tahun angkatan>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftar%20mahasiswa%20%7C%20%28ganti%20dengan%20NIM%29%20%7C%20%28ganti%20dengan%20tahun%20angkatan%29)) — Mendaftarkan nomor Anda (hanya anggota grup WhatsApp mata kuliah)
 * `ajukan proyek kerja | <rumpun> | <perusahaan> | <judul> | <nama atasan> | <email atasan>` — Mengajukan proyek kerja
 * `status proyek kerja` — Status proyek kerja Anda
 * `ajukan rpl | <kode rumpun> | <uraian pengalaman>` — Mengajukan RPL (berkas bukti diunggah lewat web)
@@ -212,8 +211,8 @@ Beberapa layanan bisa dipakai dengan mengirim pesan ke bot dari nomor yang terda
 | *belum terdaftar* / *Nomor ini belum tercatat di roster mahasiswa* | Nomor Anda belum ada di roster. Hubungi kaprodi atau tata usaha prodi Anda, atau tekan **Hubungi Admin lewat WhatsApp** di Beranda. |
 | *Program studi Anda belum tercatat* / *Data akademik Anda belum lengkap* | Data roster belum lengkap. Hubungi kaprodi. |
 | *Kalender semester PRODI belum diterbitkan* | Materi, kuis, dan rekaman belum bisa tampil. Tunggu kaprodi menerbitkan kalender. |
-| *Kuis ini belum punya soal* / *Belum ada kuis rumpun … minggu …* | Dosen pengampu belum menyusunnya. Kerjakan setelah tersedia; tanyakan lewat forum bila perlu. |
-| *Belum ada materi* untuk minggu ini | Dosen pengampu belum mengisi katalog. Tekan **Tanya di forum**. |
+| *Kuis ini belum punya soal* / *Belum ada kuis rumpun … minggu …* | Dosen pengampu belum menyusunnya. Kerjakan setelah tersedia; tanyakan di grup WhatsApp mata kuliah bila perlu. |
+| *Belum ada materi* untuk minggu ini | Dosen pengampu belum mengisi katalog. Tanyakan di grup WhatsApp mata kuliah. |
 | *Sesi berakhir* | Tekan **Masuk lagi** di pojok kanan atas. |
 | *peran belum pasti* / *Server belum terjangkau* | Muat ulang halaman beberapa saat lagi. |
 | Halaman masih tampil lama setelah ada pembaruan | Muat ulang paksa (Ctrl+Shift+R). |

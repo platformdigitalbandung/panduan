@@ -13,7 +13,7 @@ Admin juga harus terdaftar sebagai dosen aktif. Pemilih peran dan cara pindah pe
 | Tempat | Isi |
 |---|---|
 | Bilah atas / bilah bawah HP | Beranda · Kaprodi · Prodi baru · **Laporan** |
-| **Laporan** | Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, SLA forum (pertanyaan yang lewat target jawaban dosen 1×24 jam), Rekap rekaman |
+| **Laporan** | Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, Rekap rekaman |
 
 ## Beranda
 
@@ -74,10 +74,9 @@ Menu **Laporan**. Halamannya sama dengan laporan kaprodi ([Panduan Kaprodi › L
 | Pantau proyek kerja | Pilihan **Program studi** punya opsi *(semua)*. |
 | Laporan kepatuhan | **Kalender terbit** berisi kalender semua prodi. |
 | Rekap rapor angkatan | **Prodi** berisi semua prodi; saran NIM dari roster semua prodi. |
-| SLA forum | **Prodi** bawaannya *Semua prodi*. Admin **hanya membaca** — tidak bisa membalas atau menutup pertanyaan. |
 | Rekap rekaman | Rekap semua prodi. Admin melihat sesi tetapi tidak bisa menerbitkan atau menghapus rekaman. |
 
-Untuk membalas forum, mengubah roster, atau pekerjaan mengajar lain, pindah ke peran **dosen**.
+Untuk mengubah roster, atau pekerjaan mengajar lain, pindah ke peran **dosen**.
 
 ## Yang dikerjakan di luar aplikasi
 

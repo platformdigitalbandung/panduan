@@ -26,7 +26,7 @@ Membuka halaman milik peran lain menampilkan kartu dengan tombol **Pakai peran �
 | Tempat | Isi |
 |---|---|
 | Bilah atas / bilah bawah HP | Beranda · Kurikulum · Pengampu · Kalender · **Laporan** |
-| **Laporan** | Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, SLA forum, Rekap rekaman |
+| **Laporan** | Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, Rekap rekaman |
 
 ## Urutan kerja awal semester
 
@@ -40,7 +40,7 @@ Membuka halaman milik peran lain menampilkan kartu dengan tombol **Pakai peran �
 Judulnya **Beranda kaprodi &lt;PRODI&gt;**.
 
 * **Mulai di sini** — empat langkah di atas, dengan status dari data prodi Anda, mis. *belum ada CPL*, *SKS rumpun 30 dari 144*, *2 rumpun masih draf*, *N draf kalender menunggu diterbitkan*.
-* **Perlu dikerjakan** — mis. pertanyaan forum prodi yang lewat SLA (target jawaban dosen 1×24 jam) dan proyek kerja yang telat tinjauan tengah (**Mendesak**).
+* **Perlu dikerjakan** — mis. proyek kerja yang telat tinjauan tengah (**Mendesak**).
 * **Jadwal minggu ini** — kalender terbit prodi Anda.
 * **Layanan** — Kurikulum dan pengajar, Laporan prodi.
 
@@ -152,10 +152,6 @@ Menit asinkron, daring, dan luring per mata kuliah terhadap tuntutan SKS — unt
 ### Rekap Rapor Angkatan
 
 Di kartu **Rekap Nilai Semester**, pilih **Prodi**, isi **Angkatan** dan **Semester**, lalu **Tampilkan Rekap**. Satu baris per mahasiswa: huruf per mata kuliah, SKS dinilai, SKS lulus, IP. Klik NIM untuk membuka rapornya. Tanda **–** berarti belum dinilai, bukan E.
-
-### SLA Forum
-
-Kartu **SLA Respons Dosen** menampilkan pertanyaan yang lewat tenggat, yang masih dalam SLA, dan yang dijawab tepat waktu, beserta daftar yang lewat tenggat. Target 1×24 jam, dihitung hanya Senin–Rabu (WIB). Kaprodi juga bisa membalas dan menutup pertanyaan.
 
 ### Rekap Rekaman
 
