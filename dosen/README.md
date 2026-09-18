@@ -8,7 +8,13 @@ Panduan ini untuk dosen aktif. Cara masuk ada di [halaman utama panduan](../#mas
 
 ## Langkah pertama
 
-**Nomor Anda belum terdaftar sebagai dosen?** Kalau nomor WhatsApp Anda anggota grup WhatsApp dosen, daftarkan sendiri: kirim pesan berikut ke nomor bot (**chat pribadi**, bukan di grup):
+**Nomor Anda belum terdaftar sebagai dosen?** Kalau nomor WhatsApp Anda anggota grup WhatsApp dosen, daftarkan sendiri lewat chat pribadi ke bot:
+
+1. Buka **[Daftar sebagai dosen lewat WhatsApp](https://wa.me/6282258512828?text=daftar%20dosen%20%7C%20%28ganti%20dengan%20email%20Anda%29%20%7C%20%28ganti%20dengan%20nama%20lengkap%20Anda%29)** dari HP yang nomornya dipakai di grup dosen. WhatsApp terbuka dengan pesan yang sudah terisi.
+2. Ganti `(ganti dengan email Anda)` dengan email kampus Anda dan `(ganti dengan nama lengkap Anda)` dengan nama lengkap Anda. Jangan hapus tanda `|`.
+3. Tekan **Kirim**.
+
+Isi pesannya berbentuk:
 
 ```
 daftar dosen | email kampus Anda | nama lengkap Anda
@@ -237,7 +243,7 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 
 ## Lewat WhatsApp
 
-* `daftar dosen | <email kampus> | <nama lengkap>` — Mendaftarkan nomor Anda sebagai dosen (hanya anggota grup WhatsApp dosen, lewat chat pribadi ke bot); kalau sudah terdaftar, memperbarui email kampus
+* `daftar dosen | <email kampus> | <nama lengkap>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftar%20dosen%20%7C%20%28ganti%20dengan%20email%20Anda%29%20%7C%20%28ganti%20dengan%20nama%20lengkap%20Anda%29)) — Mendaftarkan nomor Anda sebagai dosen (hanya anggota grup WhatsApp dosen, lewat chat pribadi ke bot); kalau sudah terdaftar, memperbarui email kampus
 * `forum belum dijawab` — Pertanyaan forum yang menunggu jawaban
 * `buat tugas | <judul> | <deskripsi> | <kode prodi>` — Membuat tugas; kode prodi (mis. `pai`) boleh dikosongkan kalau Anda mengajar tepat satu prodi
 * `daftar tugas` — Daftar tugas beserta id-nya, berlabel prodi
