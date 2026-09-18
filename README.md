@@ -34,7 +34,7 @@ Kode berlaku **5 menit** dan hanya sekali pakai. Setelah **5 kali salah** kode d
 Tidak ada pendaftaran mandiri. Peran Anda ditentukan oleh nomor WhatsApp yang dipakai:
 
 * **Nomor terdaftar** → masuk dengan menu sesuai peran.
-* **Nomor belum terdaftar** → menu akun menampilkan *belum terdaftar*, tidak ada menu aplikasi, dan Beranda menampilkan blok **Belum terdaftar?**. Pendaftaran dilakukan program studi: mahasiswa oleh kaprodi/tata usaha prodinya, dosen oleh kaprodi prodi tempat mengajar. Kalau tidak tahu harus menghubungi siapa, tekan **Hubungi Admin lewat WhatsApp** di blok itu (membuka WhatsApp ke nomor Admin dengan pesan yang sudah terisi — lengkapi nama, peran, program studi, dan NIM bila mahasiswa); Admin meneruskannya ke kaprodi. Setelah didaftarkan, keluar lalu masuk lagi.
+* **Nomor belum terdaftar** → menu akun menampilkan *belum terdaftar*, tidak ada menu aplikasi, dan Beranda menampilkan blok **Belum terdaftar?**. Pendaftaran dilakukan program studi: mahasiswa lewat halaman **Roster dan email dosen** oleh dosen/kaprodi prodinya, sedangkan nomor dosen baru didaftarkan pengelola platform atas permintaan kaprodi (tidak ada tombolnya di aplikasi). Kalau tidak tahu harus menghubungi siapa, tekan **Hubungi Admin lewat WhatsApp** di blok itu (membuka WhatsApp ke nomor Admin dengan pesan yang sudah terisi — lengkapi nama, peran, program studi, dan NIM bila mahasiswa); Admin meneruskannya ke kaprodi. Setelah didaftarkan, keluar lalu masuk lagi.
 
 Untuk keluar, tekan **Keluar** di menu akun. Sesi berlaku sekitar 18 jam; setelah itu tampil tombol **Masuk lagi**.
 
