@@ -21,6 +21,16 @@ Semua peran masuk dengan cara yang sama, lewat satu halaman login: **[platform.d
 
 QR (atau tombolnya) diperbarui berkala; hitung mundurnya tampil di bawah QR.
 
+### Kalau bot membalas "sesi tidak terhubung" dan mengirim kode OTP
+
+Kadang pesan Anda sampai ke bot setelah halaman login kehilangan sambungan (QR sudah berganti, koneksi putus, atau halaman ditutup). Bot lalu membalas di WhatsApp bahwa sesi pemindaian sudah tidak terhubung, **beserta kode OTP 6 digit**. Masuk dengan kode itu:
+
+1. Kembali ke halaman [login](https://platform.digitalbdg.ac.id/login/) (tidak perlu memindai QR lagi).
+2. Tekan tombol **Masuk dengan OTP** di bawah QR.
+3. Isi **Nomor WhatsApp** dengan nomor yang menerima OTP (boleh ditulis `08…` atau `62…`) dan **Kode OTP** dengan 6 digit dari bot, lalu tekan **Masuk**.
+
+Kode berlaku **5 menit** dan hanya sekali pakai. Setelah **5 kali salah** kode dicabut. Kalau kode kedaluwarsa atau dicabut, muat ulang halaman login lalu kirim ulang pesan dari QR untuk mendapat kode baru. Jangan berikan kode OTP kepada siapa pun.
+
 Tidak ada pendaftaran mandiri. Peran Anda ditentukan oleh nomor WhatsApp yang dipakai:
 
 * **Nomor terdaftar** → masuk dengan menu sesuai peran.
