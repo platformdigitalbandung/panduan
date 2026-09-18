@@ -10,17 +10,17 @@ Panduan ini untuk dosen aktif. Cara masuk ada di [halaman utama panduan](../#mas
 
 **Nomor Anda belum terdaftar sebagai dosen?** Kalau nomor WhatsApp Anda anggota grup WhatsApp dosen, daftarkan sendiri lewat chat pribadi ke bot:
 
-1. Buka **[Daftar sebagai dosen lewat WhatsApp](https://wa.me/6282258512828?text=daftar%20dosen%20%7C%20%28ganti%20dengan%20email%20Anda%29%20%7C%20%28ganti%20dengan%20nama%20lengkap%20Anda%29)** dari HP yang nomornya dipakai di grup dosen. WhatsApp terbuka dengan pesan yang sudah terisi.
-2. Ganti `(ganti dengan email Anda)` dengan email kampus Anda dan `(ganti dengan nama lengkap Anda)` dengan nama lengkap Anda. Jangan hapus tanda `|`.
+1. Buka **[Daftar sebagai dosen lewat WhatsApp](https://wa.me/6282258512828?text=daftar%20dosen%20%7C%20%28ganti%20dengan%20email%20Anda%29)** dari HP yang nomornya dipakai di grup dosen. WhatsApp terbuka dengan pesan yang sudah terisi.
+2. Ganti `(ganti dengan email Anda)` dengan email kampus Anda. Jangan hapus tanda `|`.
 3. Tekan **Kirim**.
 
 Isi pesannya berbentuk:
 
 ```
-daftar dosen | email kampus Anda | nama lengkap Anda
+daftar dosen | email kampus Anda
 ```
 
-Contoh: `daftar dosen | budi.santoso@digitalbdg.ac.id | Budi Santoso, M.Kom.` Nama boleh dikosongkan; bila kosong dipakai nama profil WhatsApp Anda. Email boleh email institusi asal atau email pribadi yang aktif, asalkan belum dipakai dosen lain. Setelah bot membalas **Pendaftaran berhasil**, masuk di aplikasi (kalau sudah masuk, keluar lalu masuk lagi). Nomor yang bukan anggota grup dosen ditolak — minta admin grup menambahkan Anda dulu. Kirim pesan yang sama lagi untuk mengganti email; nama tidak berubah.
+Contoh: `daftar dosen | budi.santoso@digitalbdg.ac.id`. Nama diambil dari nama profil WhatsApp Anda, jadi pastikan nama profilnya sudah nama lengkap sebelum mendaftar. Email boleh email institusi asal atau email pribadi yang aktif, asalkan belum dipakai dosen lain. Setelah bot membalas **Pendaftaran berhasil**, masuk di aplikasi (kalau sudah masuk, keluar lalu masuk lagi). Nomor yang bukan anggota grup dosen ditolak — minta admin grup menambahkan Anda dulu. Kirim pesan yang sama lagi untuk mengganti email; nama tidak berubah.
 
 Sebagian besar pekerjaan mengajar butuh dua syarat. Selesaikan berurutan:
 
@@ -243,7 +243,7 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 
 ## Lewat WhatsApp
 
-* `daftar dosen | <email kampus> | <nama lengkap>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftar%20dosen%20%7C%20%28ganti%20dengan%20email%20Anda%29%20%7C%20%28ganti%20dengan%20nama%20lengkap%20Anda%29)) — Mendaftarkan nomor Anda sebagai dosen (hanya anggota grup WhatsApp dosen, lewat chat pribadi ke bot); kalau sudah terdaftar, memperbarui email kampus
+* `daftar dosen | <email kampus>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftar%20dosen%20%7C%20%28ganti%20dengan%20email%20Anda%29)) — Mendaftarkan nomor Anda sebagai dosen (hanya anggota grup WhatsApp dosen, lewat chat pribadi ke bot); kalau sudah terdaftar, memperbarui email kampus
 * `forum belum dijawab` — Pertanyaan forum yang menunggu jawaban
 * `buat tugas | <judul> | <deskripsi> | <kode prodi>` — Membuat tugas; kode prodi (mis. `pai`) boleh dikosongkan kalau Anda mengajar tepat satu prodi
 * `daftar tugas` — Daftar tugas beserta id-nya, berlabel prodi
