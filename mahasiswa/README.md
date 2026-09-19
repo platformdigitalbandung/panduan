@@ -56,9 +56,15 @@ Video, bacaan, dan berkas PDF untuk dipelajari Senin–Rabu, sebelum sesi Jumat.
 1. Halaman langsung membuka **Minggu N** yang sedang berjalan, dikelompokkan per rumpun.
 2. Untuk minggu atau rumpun lain: buka **Lihat minggu atau rumpun lain**, pilih **Rumpun**, isi **Minggu**, lalu tekan **Tampilkan Materi**.
 3. Pelajari materinya. **Progres tercatat otomatis** — tidak ada tombol simpan:
-   * **Video**: dari posisi menonton; selesai menonton tercatat 100%.
+   * **Video**: dari bagian terjauh yang benar-benar Anda tonton; menonton sampai akhir tercatat 100%.
    * **Bacaan**: dari seberapa jauh teks digulir.
-   * **PDF**: halaman dihitung setelah terlihat beberapa detik; berhenti dihitung saat tab disembunyikan.
+   * **PDF**: halaman dihitung setelah terlihat beberapa detik.
+
+**Aturan menonton dan membaca** (seperti LMS perusahaan):
+
+* **Video dijeda otomatis** bila Anda pindah tab, meminimalkan peramban, atau menggulir videonya keluar layar. Tekan putar untuk melanjutkan. Hanya satu video yang berputar sekaligus.
+* **Video tidak bisa dipercepat atau dilompati.** Kecepatan dikunci 1×, dan menggeser ke bagian yang belum ditonton dikembalikan ke bagian terakhir yang Anda tonton. Mundur atau mengulang tetap boleh. Video yang sudah pernah Anda tonton sampai habis bebas digeser.
+* **PDF dibaca berurutan.** Tombol **Berikutnya** baru aktif setelah halaman yang sedang tampil dibaca beberapa detik; halaman yang sudah pernah dibaca bebas dibuka lagi. Waktu baca berhenti dihitung saat tab disembunyikan, jendela peramban tidak aktif, atau PDF-nya digulir keluar layar.
 
 Yang disimpan selalu titik terjauh, jadi progres tidak pernah turun. Kalau materi belum ada, tanyakan di grup WhatsApp mata kuliah.
 
