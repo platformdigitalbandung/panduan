@@ -6,7 +6,7 @@ Panduan ini untuk super admin platform. **Admin hanya menyiapkan**: membuat prog
 
 Admin juga harus terdaftar sebagai dosen aktif. Pemilih peran dan cara pindah peran dijelaskan di [Panduan Kaprodi › Pindah peran](../kaprodi/#pindah-peran); menu mengajar ada di peran **dosen**.
 
-**Daftar isi:** [Menu](#menu) · [Beranda](#beranda) · [Menyiapkan prodi baru](#menyiapkan-prodi-baru) · [Kelola kaprodi](#kelola-kaprodi) · [Laporan semua prodi](#laporan-semua-prodi) · [Di luar aplikasi](#yang-dikerjakan-di-luar-aplikasi) · [Kendala](#kendala-umum)
+**Daftar isi:** [Menu](#menu) · [Beranda](#beranda) · [Menyiapkan prodi baru](#menyiapkan-prodi-baru) · [Kelola kaprodi](#kelola-kaprodi) · [Laporan semua prodi](#laporan-semua-prodi) · [Daftarkan dosen](#mendaftarkan-nomor-dosen-lewat-whatsapp) · [Di luar aplikasi](#yang-dikerjakan-di-luar-aplikasi) · [Kendala](#kendala-umum)
 
 ## Menu
 
