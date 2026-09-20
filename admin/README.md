@@ -78,12 +78,28 @@ Menu **Laporan**. Halamannya sama dengan laporan kaprodi ([Panduan Kaprodi › L
 
 Untuk mengubah roster, atau pekerjaan mengajar lain, pindah ke peran **dosen**.
 
+## Mendaftarkan Nomor Dosen lewat WhatsApp
+
+Dosen yang **sudah menjadi anggota grup WhatsApp dosen** dapat mendaftar sendiri. Untuk dosen di luar grup itu, Anda (dan kaprodi) bisa mendaftarkannya lewat chat pribadi ke nomor bot:
+
+```
+daftarkan dosen | nomor WhatsApp | nama lengkap
+```
+
+Contoh: `daftarkan dosen | 081234567890 | Budi Santoso, M.Kom.` Nomor boleh ditulis `08…`, `62…`, atau `+62…`. Tautan siap-pakai: **[Daftarkan dosen lewat WhatsApp](https://wa.me/6282258512828?text=daftarkan%20dosen%20%7C%20%28ganti%20dengan%20nomor%20WhatsApp%20dosen%29%20%7C%20%28ganti%20dengan%20nama%20lengkapnya%29)** — ganti kedua isian dalam kurung, lalu tekan Kirim.
+
+Setelah tersimpan, bot mengirim langkah berikutnya ke nomor dosen itu: masuk di aplikasi, isi email kampus, lalu minta dicentang di **Pengampu**. Email tidak diisi di sini — dosen yang bersangkutan mengisinya sendiri.
+
+Yang ditolak bot: nomor yang sudah terdaftar sebagai dosen aktif, nomor yang ada di roster mahasiswa, dan **nomor yang pernah dinonaktifkan** (hanya admin yang dapat mengaktifkannya kembali).
+
+Calon dosen juga bisa meminta sendiri: bila ia mengirim `daftar dosen | email` padahal belum anggota grup dosen, bot membalasnya dengan teks siap-teruskan berisi tautan pendaftaran untuk Anda — Anda cukup mengetuk tautannya lalu menekan Kirim.
+
 ## Yang dikerjakan di luar aplikasi
 
 Hal berikut sengaja tidak punya tombol di aplikasi dan dikerjakan pengelola platform di sistem, bukan lewat aplikasi:
 
 * **Menjadikan atau mencabut admin.**
-* **Menonaktifkan dosen.** Dosen yang dinonaktifkan kehilangan semua perannya — dosen, kaprodi, dan admin — dan tidak bisa mengaktifkan dirinya lagi dengan mendaftar ulang. (Dosen baru mendaftar sendiri lewat WhatsApp bila ia anggota grup WhatsApp dosen — lihat [Panduan Dosen](../dosen/#langkah-pertama); nomor di luar grup itu tetap didaftarkan pengelola.)
+* **Menonaktifkan dosen.** Dosen yang dinonaktifkan kehilangan semua perannya — dosen, kaprodi, dan admin — dan tidak bisa mengaktifkan dirinya lagi dengan mendaftar ulang.
 * Memindahkan data kaprodi lama yang masih memakai NIP ke email kampus (inilah butir *prodi yang masih memakai data kaprodi lama* di Beranda; sebagai admin Anda cukup menetapkan ulang kaprodinya lewat **Kelola Kaprodi** setelah dosen itu mengisi email kampus).
 
 Hubungi pengelola platform untuk keperluan ini.

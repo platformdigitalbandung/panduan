@@ -6,7 +6,7 @@ Panduan ini untuk dosen yang memimpin satu program studi. **Kaprodi menjalankan 
 
 Kaprodi ditetapkan admin. Syaratnya: terdaftar sebagai dosen aktif dan sudah mengisi email kampus.
 
-**Daftar isi:** [Pindah peran](#pindah-peran) · [Menu](#menu) · [Urutan kerja](#urutan-kerja-awal-semester) · [Beranda](#beranda) · [Kurikulum](#kurikulum-program-studi) · [Dosen pengampu](#dosen-pengampu-prodi) · [Kalender](#kalender-akademik) · [Laporan prodi](#laporan-prodi) · [Kendala](#kendala-umum)
+**Daftar isi:** [Pindah peran](#pindah-peran) · [Menu](#menu) · [Urutan kerja](#urutan-kerja-awal-semester) · [Beranda](#beranda) · [Kurikulum](#kurikulum-program-studi) · [Dosen pengampu](#dosen-pengampu-prodi) · [Daftarkan dosen](#mendaftarkan-nomor-dosen-lewat-whatsapp) · [Kalender](#kalender-akademik) · [Laporan prodi](#laporan-prodi) · [Kendala](#kendala-umum)
 
 ## Pindah peran
 
@@ -108,6 +108,22 @@ Catatan:
 
 * **Dosen yang belum mengisi email kampus tidak bisa dicentang.** Mereka dirangkum di lipatan *N dosen aktif belum mengisi email kampus*. Minta mereka mengisinya di halaman **Roster & Email Dosen** (lihat [Panduan Dosen](../dosen/#email-kampus-anda)).
 * Centang prodi lain milik dosen yang sama diatur kaprodi prodi itu dan tidak berubah.
+
+## Mendaftarkan Nomor Dosen lewat WhatsApp
+
+Dosen yang **sudah menjadi anggota grup WhatsApp dosen** dapat mendaftar sendiri. Untuk dosen di luar grup itu, Anda bisa mendaftarkannya lewat chat pribadi ke nomor bot:
+
+```
+daftarkan dosen | nomor WhatsApp | nama lengkap
+```
+
+Contoh: `daftarkan dosen | 081234567890 | Budi Santoso, M.Kom.` Nomor boleh ditulis `08…`, `62…`, atau `+62…`. Tautan siap-pakai: **[Daftarkan dosen lewat WhatsApp](https://wa.me/6282258512828?text=daftarkan%20dosen%20%7C%20%28ganti%20dengan%20nomor%20WhatsApp%20dosen%29%20%7C%20%28ganti%20dengan%20nama%20lengkapnya%29)** — ganti kedua isian dalam kurung, lalu tekan Kirim.
+
+Setelah tersimpan, bot mengirim langkah berikutnya ke nomor dosen itu: masuk di aplikasi, isi email kampus, lalu minta dicentang di **Pengampu**. Email tidak diisi di sini — dosen yang bersangkutan mengisinya sendiri.
+
+Yang ditolak bot: nomor yang sudah terdaftar sebagai dosen aktif, nomor yang ada di roster mahasiswa, dan **nomor yang pernah dinonaktifkan** (hanya admin yang dapat mengaktifkannya kembali).
+
+Calon dosen juga bisa meminta sendiri: bila ia mengirim `daftar dosen | email` padahal belum anggota grup dosen, bot membalasnya dengan teks siap-teruskan berisi tautan pendaftaran untuk Anda — Anda cukup mengetuk tautannya lalu menekan Kirim.
 
 ## Kalender Akademik
 

@@ -20,7 +20,7 @@ Isi pesannya berbentuk:
 daftar dosen | email kampus Anda
 ```
 
-Contoh: `daftar dosen | budi.santoso@digitalbdg.ac.id`. Nama diambil dari nama profil WhatsApp Anda, jadi pastikan nama profilnya sudah nama lengkap sebelum mendaftar. Email boleh email institusi asal atau email pribadi yang aktif, asalkan belum dipakai dosen lain. Setelah bot membalas **Pendaftaran berhasil**, masuk di aplikasi (kalau sudah masuk, keluar lalu masuk lagi). Nomor yang belum terdaftar dan bukan anggota grup dosen ditolak — minta admin grup menambahkan Anda dulu. **Sudah terdaftar sebagai dosen** (mis. didaftarkan pengelola)? Pesan yang sama cukup untuk mengisi atau mengganti email kampus, tanpa perlu menjadi anggota grup; nama tidak berubah. Email boleh diketik dengan atau tanpa tanda kurung.
+Contoh: `daftar dosen | budi.santoso@digitalbdg.ac.id`. Nama diambil dari nama profil WhatsApp Anda, jadi pastikan nama profilnya sudah nama lengkap sebelum mendaftar. Email boleh email institusi asal atau email pribadi yang aktif, asalkan belum dipakai dosen lain. Setelah bot membalas **Pendaftaran berhasil**, masuk di aplikasi (kalau sudah masuk, keluar lalu masuk lagi). Nomor yang belum terdaftar dan bukan anggota grup dosen ditolak, tetapi bot membalasnya dengan **teks siap-teruskan**: teruskan pesan itu ke kaprodi program studi Anda atau admin platform, dan mereka cukup mengetuk tautan di dalamnya untuk mendaftarkan nomor Anda. **Sudah terdaftar sebagai dosen** (mis. didaftarkan pengelola)? Pesan yang sama cukup untuk mengisi atau mengganti email kampus, tanpa perlu menjadi anggota grup; nama tidak berubah. Email boleh diketik dengan atau tanpa tanda kurung.
 
 Sebagian besar pekerjaan mengajar butuh dua syarat. Selesaikan berurutan:
 
