@@ -25,7 +25,7 @@ Contoh: `daftar dosen | budi.santoso@digitalbdg.ac.id`. Nama diambil dari nama p
 Sebagian besar pekerjaan mengajar butuh dua syarat. Selesaikan berurutan:
 
 1. **Isi email kampus Anda** di halaman **Roster Mahasiswa & Email Dosen** (menu **Lainnya → Roster dan email dosen**) — lihat [caranya](#email-kampus-anda). Email kampus adalah identitas dosen di platform (menggantikan NIP).
-2. **Minta kaprodi menunjuk Anda sebagai pengajar kelas** di halaman Kelola Kelas. Kaprodi memilih dari semua dosen aktif, tetapi nama Anda baru bisa dipilih setelah email kampus terisi.
+2. **Minta kaprodi menunjuk Anda sebagai pengajar kelas** di halaman Siapkan Semester. Kaprodi memilih dari semua dosen aktif, tetapi nama Anda baru bisa dipilih setelah email kampus terisi.
 
 Hak menyusun materi, kuis, tugas, nilai, dan rekaman **mengikuti kelas yang Anda ajar**.
 

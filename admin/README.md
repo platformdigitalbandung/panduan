@@ -2,7 +2,7 @@
 
 [← Semua panduan](../)
 
-Panduan ini untuk super admin platform. **Admin hanya menyiapkan**: membuat program studi baru, menetapkan kaprodinya, dan mengelola pengguna, lalu boleh membuka laporan semua prodi. Kurikulum, kalender, kelas (termasuk menunjuk pengajarnya), kuis, dan materi prodi dijalankan kaprodi masing-masing ([Panduan Kaprodi](../kaprodi/)).
+Panduan ini untuk super admin platform. **Admin hanya menyiapkan**: membuat program studi baru, menetapkan kaprodinya, dan mengelola pengguna, lalu boleh membuka laporan semua prodi. Kurikulum, kalender, kelas (termasuk menunjuk pengajarnya), kuis, dan materi prodi dijalankan kaprodi masing-masing ([Panduan Kaprodi](../kaprodi/)). Persiapan semester tiap prodi (kalender, kelas, pengajar, peserta) bisa Anda lihat tanpa mengubahnya: menu **Kelas** → pilih program studi (pilihan ini tampil selama Anda tidak mengajar kelas) → halaman **Siapkan Semester** prodi itu.
 
 Admin juga harus terdaftar sebagai dosen aktif. **Tidak ada pemilih peran** (sejak 26 September 2026): menu admin tampil sebagai bagian **Admin** di samping menu dosen (dan bagian **Prodi** bila Anda juga kaprodi).
 

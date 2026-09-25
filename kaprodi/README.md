@@ -6,7 +6,7 @@ Panduan ini untuk dosen yang memimpin satu program studi. **Kaprodi menjalankan 
 
 Kaprodi ditetapkan admin. Syaratnya: terdaftar sebagai dosen aktif dan sudah mengisi email kampus.
 
-**Daftar isi:** [Menu](#menu) · [Urutan kerja](#urutan-kerja-awal-semester) · [Beranda](#beranda) · [Kurikulum](#kurikulum-program-studi) · [Kelola kelas](#kelola-kelas) · [Daftarkan dosen](#mendaftarkan-nomor-dosen-lewat-whatsapp) · [Kalender](#kalender-akademik) · [Pengguna prodi](#pengguna-prodi) · [Laporan prodi](#laporan-prodi) · [Kendala](#kendala-umum)
+**Daftar isi:** [Menu](#menu) · [Urutan kerja](#urutan-kerja-awal-semester) · [Beranda](#beranda) · [Kurikulum](#kurikulum-program-studi) · [Siapkan semester](#siapkan-semester) · [Daftarkan dosen](#mendaftarkan-nomor-dosen-lewat-whatsapp) · [Kalender](#kalender-akademik) · [Pengguna prodi](#pengguna-prodi) · [Laporan prodi](#laporan-prodi) · [Kendala](#kendala-umum)
 
 ## Menu
 
@@ -16,7 +16,7 @@ Kaprodi ditetapkan admin. Syaratnya: terdaftar sebagai dosen aktif dan sudah men
 |---|---|
 | Bilah atas (layar lebar) | Beranda · Kelas · Jadwal · **Prodi &lt;KODE&gt;** · **Lainnya** |
 | Bilah bawah (HP) | Beranda · Kelas · Jadwal · **Menu** (lembar berisi bagian Prodi dan Lainnya) |
-| **Prodi &lt;KODE&gt;** | Kelola kelas, Kalender prodi, Kurikulum program studi, Pengguna, Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, Rekap rekaman |
+| **Prodi &lt;KODE&gt;** | Siapkan semester, Kurikulum program studi, Pengguna, Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, Rekap rekaman |
 | **Lainnya** | Semua tugas, Pengawas ujian, Proyek kerja bimbingan, Tinjau RPL, Roster dan email dosen, Autograder |
 
 Materi, kuis, dan tugas dibuka dari dalam kelas (lihat [Panduan Dosen › Menu](../dosen/#menu)).
@@ -26,9 +26,8 @@ Materi, kuis, dan tugas dibuka dari dalam kelas (lihat [Panduan Dosen › Menu](
 ## Urutan kerja awal semester
 
 1. **[Kurikulum](#kurikulum-program-studi)** — lengkapi data prodi, rumpun (blok 2–3 mata kuliah yang diikat satu proyek) beserta mata kuliahnya, CPL (capaian pembelajaran lulusan), dan ritme mingguan (pola satu minggu yang diulang menjadi kalender).
-2. **[Kalender](#kalender-akademik)** — buat draf dari ritme mingguan, periksa sesinya, lalu terbitkan. Sebelum kalender terbit, mahasiswa dan dosen belum melihat jadwal, agenda, materi mingguan, kuis, maupun rekaman. Kelas semester itu dibuat otomatis saat kalender terbit.
-3. **[Kelas](#kelola-kelas)** — tunjuk pengajar tiap kelas dari semua dosen aktif, dan sesuaikan pesertanya bila perlu. Tanpa pengajar, materi, kuis, tugas, dan nilai kelas itu hanya bisa diisi Anda.
-4. **[Laporan](#laporan-prodi)** — pantau berkala selama semester.
+2. **[Siapkan semester](#siapkan-semester)** — satu halaman untuk sisanya: terbitkan kalender (draf dan sesinya disusun di [Kalender](#kalender-akademik)), kelas terbentuk otomatis, tunjuk pengajar tiap kelas dari semua dosen aktif, lalu cek peserta. Sebelum kalender terbit, mahasiswa dan dosen belum melihat jadwal, agenda, materi mingguan, kuis, maupun rekaman. Tanpa pengajar, materi, kuis, tugas, dan nilai kelas hanya bisa diisi Anda.
+3. **[Laporan](#laporan-prodi)** — pantau berkala selama semester.
 
 ## Beranda
 
@@ -91,13 +90,26 @@ Ritme adalah pola satu minggu yang diulang menjadi kalender semester. **Kalender
 
 Hanya tampil untuk prodi yang punya data bawaan. Memuat data bawaan **menimpa** rumpun dan CPL berkode sama yang sudah diketik (ritme tidak ikut). Centang pernyataan persetujuan, lalu tekan **Muat Data Bawaan**.
 
-## Kelola Kelas
+## Siapkan Semester
 
-Satu kelas untuk satu **rumpun** yang punya proyek pengikat, atau satu **mata kuliah** untuk rumpun tanpa proyek pengikat (wadah mata kuliah lepas, mis. Jalur Kontinu), pada satu kalender semester. Tidak ada kelas paralel. Kelas dibuat otomatis saat Anda menerbitkan kalender; pesertanya otomatis mahasiswa aktif roster dengan prodi, angkatan, dan semester kalender itu.
+Menu **Prodi → Siapkan semester &lt;KODE&gt;**; juga lewat tombol **Siapkan semester PRODI** di halaman **Kelas** dan langkah *Semester prodi Anda* di Beranda. Halaman ini menggantikan Kelola Kelas dan menu Kalender prodi (sejak 26 September 2026). Kaprodi dari lebih dari satu prodi berpindah prodi lewat kode prodi di baris remah (di atas judul).
 
-Menu **Kelas** menampilkan seluruh kelas prodi Anda per periode. Tekan **Kelola kelas PRODI** di atas daftar untuk membuka **Kelola Kelas**, yang dikelompokkan per kalender (angkatan · semester · periode).
+Bagian atas, **Langkah semester PRODI**, merangkum empat langkah beserta statusnya (*selesai*, *langkah berikutnya*, *belum*) dan tautan ke bagiannya: **Kurikulum lengkap**, **Kalender semester terbit**, **Pengajar tiap kelas** (mis. *2 dari 8 kelas belum punya pengajar*), dan **Peserta tiap kelas**.
 
-**Menunjuk pengajar dan mengatur peserta** — tiap baris kelas:
+### 2. Kalender semester
+
+Tabel semua kalender prodi: **Angkatan**, **Semester**, **Mulai**, **Minggu**, dan **Status** (*draft* atau *terbit*; kalender terbit menyebut jumlah kelasnya).
+
+* **Buat draft kalender** membuka halaman [Kalender](#kalender-akademik) untuk membuat draf dari ritme mingguan.
+* Pada draf: **Periksa sesi** membuka halaman Kalender untuk menyunting sesinya; **Terbitkan** menerbitkannya setelah Anda mengonfirmasi. Tampil *Kalender terbit. N kelas dibuka otomatis — tunjuk pengajarnya di langkah 3.*
+
+**Setelah terbit, sesi tidak bisa disunting lagi**, jadwal terlihat mahasiswa dan dosen, dan kelas semester itu dibuka otomatis.
+
+### 3. Kelas dan pengajar
+
+Satu kelas untuk satu **rumpun** yang punya proyek pengikat, atau satu **mata kuliah** untuk rumpun tanpa proyek pengikat (wadah mata kuliah lepas, mis. Jalur Kontinu), pada satu kalender semester. Tidak ada kelas paralel. Kelas dikelompokkan per kalender terbit (angkatan · semester · periode); kelas tanpa pengajar bertanda **belum ada pengajar**.
+
+Tiap baris kelas:
 
 1. **Nama** kelas boleh diganti (bawaannya kode + nama rumpun, atau nama mata kuliah).
 2. Centang **pengajar** dari daftar semua dosen aktif yang sudah mengisi email kampus. Dosen yang sudah tercatat di prodi Anda ada di atas; ketik di **Cari nama atau email dosen…** untuk menyaring daftar yang panjang. Satu kelas boleh punya lebih dari satu pengajar. Dosen yang Anda tunjuk otomatis tercatat di prodi Anda (tampil di tab Dosen halaman **Pengguna**).
@@ -110,9 +122,13 @@ Tombol lain:
 * **Tambah Kelas** — pilih **Kalender**, **Rumpun**, **Mata kuliah** (hanya untuk rumpun mata kuliah lepas; rumpun berproyek biarkan *(seluruh rumpun)*), dan **Nama (opsional)**, lalu tekan **Tambah Kelas**.
 * **Hapus** — kelas yang sudah punya tugas atau nilai meminta konfirmasi kedua; tugas, kiriman, dan nilainya tetap tersimpan. Kelas yang dihapus tidak muncul lagi dengan sendirinya.
 
+### 4. Cek peserta
+
+Peserta kelas otomatis mahasiswa roster berstatus aktif dengan prodi, angkatan, dan semester kalender kelas itu. Kelas tanpa peserta didaftar di sini (dengan angkatan dan semesternya) — biasanya roster angkatan itu belum diisi, atau semester mahasiswanya belum dinaikkan. **Periksa roster mahasiswa** membuka tab Mahasiswa halaman [Pengguna](#pengguna-prodi).
+
 Mahasiswa yang naik semester, cuti, atau lulus tetap tercatat di kelas yang pernah ia ikuti (sumber *tambahan* di tab **Anggota**) supaya nilainya tidak hilang dari rapor.
 
-Membuka kelas dari daftar menampilkan tab yang sama dengan pengajar ([Panduan Dosen › Kelas yang Anda ajar](../dosen/#kelas-yang-anda-ajar)); Anda bisa membuat tugas, menulis pengumuman, membuat grup WhatsApp kelas ([caranya](../dosen/#grup-whatsapp-kelas)), mengatur bobot, dan mengisi nilai di kelas prodi Anda.
+Membuka kelas (**Buka kelas**, atau lewat menu **Kelas**) menampilkan tab yang sama dengan pengajar ([Panduan Dosen › Kelas yang Anda ajar](../dosen/#kelas-yang-anda-ajar)); Anda bisa membuat tugas, materi, dan kuis, menulis pengumuman, membuat grup WhatsApp kelas ([caranya](../dosen/#grup-whatsapp-kelas)), mengatur bobot, dan mengisi nilai di kelas prodi Anda. Di tab **Anggota**, **Tunjuk pengajar & atur peserta** kembali ke halaman ini.
 
 ## Mendaftarkan Nomor Dosen lewat WhatsApp
 
@@ -124,7 +140,7 @@ daftarkan dosen | nomor WhatsApp | nama lengkap
 
 Contoh: `daftarkan dosen | 081234567890 | Budi Santoso, M.Kom.` Nomor boleh ditulis `08…`, `62…`, atau `+62…`. Tautan siap-pakai: **[Daftarkan dosen lewat WhatsApp](https://wa.me/6282258512828?text=daftarkan%20dosen%20%7C%20%28ganti%20dengan%20nomor%20WhatsApp%20dosen%29%20%7C%20%28ganti%20dengan%20nama%20lengkapnya%29)** — ganti kedua isian dalam kurung, lalu tekan Kirim.
 
-Setelah tersimpan, bot mengirim langkah berikutnya ke nomor dosen itu: masuk di aplikasi, isi email kampus, lalu minta ditunjuk sebagai pengajar kelas. Setelah emailnya terisi, tunjuk ia di [Kelola kelas](#kelola-kelas). Email tidak diisi di sini — dosen yang bersangkutan mengisinya sendiri.
+Setelah tersimpan, bot mengirim langkah berikutnya ke nomor dosen itu: masuk di aplikasi, isi email kampus, lalu minta ditunjuk sebagai pengajar kelas. Setelah emailnya terisi, tunjuk ia di [Siapkan semester](#siapkan-semester). Email tidak diisi di sini — dosen yang bersangkutan mengisinya sendiri.
 
 Yang ditolak bot: nomor yang sudah terdaftar sebagai dosen aktif, nomor yang ada di roster mahasiswa, dan **nomor yang pernah dinonaktifkan** (hanya admin yang dapat mengaktifkannya kembali).
 
@@ -132,7 +148,7 @@ Calon dosen juga bisa meminta sendiri: bila ia mengirim `daftar dosen | email` p
 
 ## Kalender Akademik
 
-Menu **Prodi → Kalender &lt;KODE&gt;** (atau **Jadwal**). Menyusun, menerbitkan, dan menghapus kalender hanya untuk prodi yang Anda pimpin. Kalender prodi lain hanya bisa dibaca.
+Menu **Jadwal**, atau **Buat draft kalender**/**Periksa sesi** di [Siapkan semester](#siapkan-semester). Menyusun, menerbitkan, dan menghapus kalender hanya untuk prodi yang Anda pimpin. Kalender prodi lain hanya bisa dibaca.
 
 ### Membuat draf
 
@@ -146,7 +162,7 @@ Satu prodi, angkatan, dan semester hanya boleh punya satu kalender. Draf hanya t
 Pada kartu kalender berstatus **draft**:
 
 * **Sunting Sesi** — ubah **Tanggal** (hari ikut berubah), **Moda**, **Mulai**, **Selesai**, dan **Keterangan** per minggu (mis. hari libur), lalu **Simpan Sesi**. Jam mulai dan selesai diisi berpasangan.
-* **Terbitkan Kalender Ini** — langsung terbit, **tanpa dialog konfirmasi**. Periksa sesinya dulu.
+* **Terbitkan Kalender Ini** — langsung terbit, **tanpa dialog konfirmasi**. Periksa sesinya dulu. (Tombol **Terbitkan** di Siapkan Semester meminta konfirmasi dulu.)
 * **Hapus Draft**.
 
 **Setelah terbit, sesi tidak bisa disunting lagi.** Kalender terbit hanya bisa dihapus (**Hapus Kalender Terbit**) — umumkan pembatalannya ke mahasiswa dan dosen sesudahnya.
@@ -197,7 +213,9 @@ Kartu **Rekap Keterlambatan Rekaman** menampilkan per kalender: jatuh tempo, tep
 | Rumpun ditolak karena SKS | Samakan SKS rumpun dengan jumlah SKS mata kuliahnya. |
 | Ritme tidak bisa disimpan | Ritme dipakai kalender prodi lain — simpan dengan nama ritme baru. |
 | Dosen tidak muncul di pilihan pengajar kelas | Dosen belum mengisi email kampus, atau belum terdaftar sebagai dosen aktif (tambahkan lewat **Pengguna → Tambah Dosen**). |
-| Dosen ditolak saat menyusun materi, kuis, atau tugas | Hak itu ikut kelas. Tunjuk dosennya sebagai pengajar di [Kelola kelas](#kelola-kelas). |
-| Kelas semester ini belum ada | Kalender semester itu belum terbit, atau kelasnya dihapus — terbitkan kalender, atau tekan **Buat kelas yang belum ada** di Kelola Kelas. |
+| Dosen ditolak saat menyusun materi, kuis, atau tugas | Hak itu ikut kelas. Tunjuk dosennya sebagai pengajar di [Siapkan semester](#siapkan-semester). |
+| Kelas semester ini belum ada | Kalender semester itu belum terbit, atau kelasnya dihapus — terbitkan kalender, atau tekan **Buat kelas yang belum ada** di Siapkan Semester. |
+| Kelas tidak punya peserta | Roster angkatan dan semester itu belum diisi, atau semester mahasiswanya belum dinaikkan — lihat **4. Cek peserta** di [Siapkan semester](#siapkan-semester). |
+| Menu **Kelola kelas** atau **Kalender prodi** tidak ada | Sejak 26 September 2026 keduanya digabung ke **Prodi → Siapkan semester**; kalender tetap terbuka lewat **Jadwal**. |
 | Menu materi/kuis/tugas tidak ada | Sejak 26 September 2026 semuanya dibuka dari dalam kelas (**Kelas** → pilih kelas → **Tugas Kelas**). |
 | Mahasiswa atau dosen lupa kata sandi | **Pengguna** → cari orangnya → **Reset kata sandi**. Kata sandi admin dan kaprodi hanya bisa direset admin. |
