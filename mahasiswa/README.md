@@ -220,5 +220,7 @@ Beberapa layanan bisa dipakai dengan mengirim pesan ke bot dari nomor yang terda
 | *Kuis ini belum punya soal* / *Belum ada kuis rumpun … minggu …* | Dosen pengampu belum menyusunnya. Kerjakan setelah tersedia; tanyakan di grup WhatsApp mata kuliah bila perlu. |
 | *Belum ada materi* untuk minggu ini | Dosen pengampu belum mengisi katalog. Tanyakan di grup WhatsApp mata kuliah. |
 | *Sesi berakhir* | Tekan **Masuk lagi** di pojok kanan atas. |
+| *NIM/email atau kata sandi salah* | Kata sandi awal: bagian email Anda sebelum @ ditambah `ADB` (tanpa email di roster: NIM ditambah `ADB`). Sudah pernah diganti dan lupa? Minta kaprodi atau admin mereset, atau masuk lewat tab **WhatsApp**. |
+| *Terlalu banyak percobaan masuk yang gagal* | Tunggu 15 menit, atau masuk lewat tab **WhatsApp**. |
 | *peran belum pasti* / *Server belum terjangkau* | Muat ulang halaman beberapa saat lagi. |
 | Halaman masih tampil lama setelah ada pembaruan | Muat ulang paksa (Ctrl+Shift+R). |

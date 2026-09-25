@@ -6,7 +6,7 @@ Panduan ini untuk dosen yang memimpin satu program studi. **Kaprodi menjalankan 
 
 Kaprodi ditetapkan admin. Syaratnya: terdaftar sebagai dosen aktif dan sudah mengisi email kampus.
 
-**Daftar isi:** [Pindah peran](#pindah-peran) · [Menu](#menu) · [Urutan kerja](#urutan-kerja-awal-semester) · [Beranda](#beranda) · [Kurikulum](#kurikulum-program-studi) · [Dosen pengampu](#dosen-pengampu-prodi) · [Daftarkan dosen](#mendaftarkan-nomor-dosen-lewat-whatsapp) · [Kalender](#kalender-akademik) · [Laporan prodi](#laporan-prodi) · [Kendala](#kendala-umum)
+**Daftar isi:** [Pindah peran](#pindah-peran) · [Menu](#menu) · [Urutan kerja](#urutan-kerja-awal-semester) · [Beranda](#beranda) · [Kurikulum](#kurikulum-program-studi) · [Dosen pengampu](#dosen-pengampu-prodi) · [Daftarkan dosen](#mendaftarkan-nomor-dosen-lewat-whatsapp) · [Kalender](#kalender-akademik) · [Pengguna prodi](#pengguna-prodi) · [Laporan prodi](#laporan-prodi) · [Kendala](#kendala-umum)
 
 ## Pindah peran
 
@@ -17,7 +17,7 @@ Dosen yang memegang jabatan melihat **pemilih peran** berisi peran yang benar-be
 
 Pilihan langsung berlaku tanpa keluar-masuk dan disimpan di peramban itu saja. Pemilih peran **hanya mengubah menu yang tampil** — hak akses tetap mengikuti jabatan yang tercatat di sistem.
 
-Membuka halaman milik peran lain menampilkan kartu dengan tombol **Pakai peran …**. Di grup **Laporan** juga ada tombol **Pakai peran dosen** untuk pindah ke menu mengajar.
+Membuka halaman milik peran lain menampilkan kartu dengan tombol **Pakai peran …**. Di grup **Lainnya** juga ada tombol **Pakai peran dosen** untuk pindah ke menu mengajar.
 
 **Baru ditetapkan atau diganti sebagai kaprodi?** Akses laporan berubah seketika, tetapi label peran dan isi pemilih peran baru berubah setelah Anda **keluar lalu masuk lagi**.
 
@@ -25,8 +25,9 @@ Membuka halaman milik peran lain menampilkan kartu dengan tombol **Pakai peran �
 
 | Tempat | Isi |
 |---|---|
-| Bilah atas / bilah bawah HP | Beranda · Kurikulum · Pengampu · Kalender · **Laporan** |
-| **Laporan** | Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, Rekap rekaman |
+| Bilah atas (layar lebar) | Beranda · Kurikulum · Pengampu · Kalender · Pengguna · **Lainnya** |
+| Bilah bawah HP | Beranda · Kurikulum · Pengampu · Kalender · **Lainnya** |
+| **Lainnya** | Pengguna prodi (di HP), Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, Rekap rekaman |
 
 ## Urutan kerja awal semester
 
@@ -146,6 +147,15 @@ Pada kartu kalender berstatus **draft**:
 
 **Setelah terbit, sesi tidak bisa disunting lagi.** Kalender terbit hanya bisa dihapus (**Hapus Kalender Terbit**) — umumkan pembatalannya ke mahasiswa dan dosen sesudahnya.
 
+## Pengguna Prodi
+
+Menu **Pengguna** (di HP: **Lainnya → Pengguna prodi**). Hanya untuk prodi yang Anda pimpin.
+
+* **Tab Mahasiswa** — daftar mahasiswa prodi Anda tampil otomatis beserta status **Kata sandi** (*kata sandi awal* atau *sudah diganti*). **Ubah** memperbarui data mahasiswa; **Reset kata sandi** mengembalikannya ke kata sandi awal (bagian email sebelum @ + `ADB`, atau NIM + `ADB` bila emailnya kosong). **Tambah Mahasiswa** dan **Impor dari Excel** bekerja seperti di [Panduan Admin › Kelola Pengguna](../admin/#kelola-pengguna); program studinya hanya prodi Anda, dan baris impor untuk prodi lain ditandai sebelum disimpan.
+* **Tab Dosen** — dosen yang mengajar di prodi Anda (sudah dicentang di **Pengampu**). **Tambah Dosen** mendaftarkan nomor WhatsApp baru sebagai dosen; ia baru tampil di daftar ini setelah Anda mencentangnya di **Pengampu**. **Reset kata sandi** tersedia untuk dosen pengampu biasa — kata sandi admin dan kaprodi hanya bisa direset admin. Mengubah nomor, menonaktifkan, dan jabatan admin dikerjakan admin.
+
+Kata sandi Anda sendiri diganti lewat **Kata sandi** di pojok kanan atas.
+
 ## Laporan Prodi
 
 Menu **Laporan**. Semua laporan otomatis dibatasi ke prodi yang Anda pimpin.
@@ -184,3 +194,4 @@ Kartu **Rekap Keterlambatan Rekaman** menampilkan per kalender: jatuh tempo, tep
 | Ritme tidak bisa disimpan | Ritme dipakai kalender prodi lain — simpan dengan nama ritme baru. |
 | Dosen tidak muncul untuk dicentang | Dosen belum mengisi email kampus, atau belum terdaftar sebagai dosen aktif (hubungi pengelola). |
 | Menu materi/kuis/tugas tidak ada | Menu mengajar ada di peran **dosen** — pindah peran. |
+| Mahasiswa atau dosen pengampu lupa kata sandi | **Pengguna** → cari orangnya → **Reset kata sandi**. Kata sandi admin dan kaprodi hanya bisa direset admin. |

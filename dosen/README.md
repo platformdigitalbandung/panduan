@@ -75,7 +75,7 @@ Menu **Lainnya → Roster dan email dosen**.
 1. Di kartu **Email Kampus Anda**, isi **Email kampus** — boleh email institusi asal (mis. `@staisabilusalam.ac.id`) atau email pribadi yang aktif; tidak harus `@digitalbdg.ac.id`.
 2. Tekan **Simpan Email** (atau **Perbarui Email**).
 
-Anda hanya bisa mengisi email untuk nomor Anda sendiri, dan satu email hanya untuk satu dosen. Email kampus menentukan proyek yang boleh Anda nilai, pengajuan yang boleh Anda putuskan, dan sesi ujian yang Anda awasi.
+Anda hanya bisa mengisi email untuk nomor Anda sendiri, dan satu email hanya untuk satu dosen. Email ini juga dipakai untuk **masuk dengan kata sandi** (kata sandi awal: bagian email sebelum @ ditambah `ADB`); mengganti email ikut mengganti kata sandi awal Anda selama belum Anda ganti sendiri. Email kampus menentukan proyek yang boleh Anda nilai, pengajuan yang boleh Anda putuskan, dan sesi ujian yang Anda awasi.
 
 ### Roster mahasiswa
 
@@ -269,3 +269,5 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 | *Email … tidak sah* | Periksa penulisannya (ada `@` dan domain). Domain apa pun diterima. |
 | *Email kampus Anda belum diisi* saat menerbitkan rekaman atau membuat grup mata kuliah | Isi email kampus dulu di Roster Mahasiswa & Email Dosen. |
 | *Sesi berakhir* | Tekan **Masuk lagi**. |
+| *NIM/email atau kata sandi salah* | Masuk dengan email kampus; kata sandi awal bagian email sebelum @ ditambah `ADB`. Lupa kata sandi yang sudah diganti? Minta kaprodi atau admin mereset, atau masuk lewat tab **WhatsApp**. |
+| Belum bisa masuk dengan kata sandi | Email kampus belum diisi. Masuk lewat tab **WhatsApp**, lalu isi email kampus di Roster dan email dosen. |
