@@ -4,7 +4,7 @@
 
 Panduan ini untuk dosen aktif. Cara masuk ada di [halaman utama panduan](../#masuk-ke-aplikasi). Kalau Anda juga menjabat kaprodi, baca juga [Panduan Kaprodi](../kaprodi/).
 
-**Daftar isi:** [Langkah pertama](#langkah-pertama) · [Menu](#menu) · [Beranda](#beranda) · [Email kampus & roster](#roster-mahasiswa--email-dosen) · [Kelas yang Anda ajar](#kelas-yang-anda-ajar) · [Menilai tugas](#menilai-tugas) · [Kelola materi](#kelola-materi) · [Kuis gerbang](#kuis-gerbang) · [Tugas prodi & kemiripan](#tugas-prodi--laporan-kemiripan) · [Grup mata kuliah](#grup-whatsapp-mata-kuliah) · [Rekaman](#rekaman-sesi-sinkron) · [Proyek blok](#kelola-proyek-blok) · [Pengawas ujian](#pengawas-ujian) · [Autograder](#hasil-autograder) · [Rapor](#rapor-mahasiswa) · [RPL](#tinjau-rpl) · [Proyek kerja](#proyek-kerja--magang-bimbingan) · [Kalender & kurikulum](#kalender-dan-kurikulum) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
+**Daftar isi:** [Langkah pertama](#langkah-pertama) · [Menu](#menu) · [Beranda](#beranda) · [Email kampus & roster](#roster-mahasiswa--email-dosen) · [Kelas yang Anda ajar](#kelas-yang-anda-ajar) · [Menilai tugas](#menilai-tugas) · [Kelola materi](#kelola-materi) · [Kuis gerbang](#kuis-gerbang) · [Tugas prodi & kemiripan](#tugas-prodi--laporan-kemiripan) · [Grup kelas](#grup-whatsapp-kelas) · [Rekaman](#rekaman-sesi-sinkron) · [Proyek blok](#kelola-proyek-blok) · [Pengawas ujian](#pengawas-ujian) · [Autograder](#hasil-autograder) · [Rapor](#rapor-mahasiswa) · [RPL](#tinjau-rpl) · [Proyek kerja](#proyek-kerja--magang-bimbingan) · [Kalender & kurikulum](#kalender-dan-kurikulum) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
 
 ## Langkah pertama
 
@@ -39,7 +39,7 @@ Sejak 25 September 2026 hak menyusun materi, kuis, tugas, nilai, dan rekaman **m
 | Membuat dan menilai proyek blok | ya | — |
 | Menjadi pengawas ujian | ya | — |
 | Memutus dan meninjau proyek kerja | ya | — |
-| Membuat grup WhatsApp mata kuliah | ya | dicentang pengampu atau mengajar kelas di prodi itu |
+| Membuat grup WhatsApp kelas, menulis pengumuman kelas | ya | ya, kelas itu |
 | Tinjau RPL, rapor per NIM, autograder | — | — |
 
 Kaprodi punya semua hak pengajar di kelas prodinya.
@@ -98,7 +98,7 @@ Menu **Kelas** menampilkan kelas yang Anda ajar, per periode. Satu kelas untuk s
 
 Buka kartu kelas. Bagian atas menyebut prodi, periode, peran Anda (*pengajar*), minggu berjalan, dan jumlah peserta. Ada empat tab:
 
-* **Beranda** — **Minggu N** yang sedang berjalan, **Perlu dinilai** (tugas yang punya kiriman belum dikembalikan), dan **Tentang kelas**.
+* **Beranda** — **Pengumuman** (tulis di **Pengumuman baru**, centang **Kirim juga ke grup WhatsApp kelas** bila perlu, lalu **Umumkan**; **Hapus** tidak menarik pesan yang sudah terkirim ke grup), **Minggu N** yang sedang berjalan, **Perlu dinilai** (tugas yang punya kiriman belum dikembalikan), **Grup WhatsApp kelas** ([cara membuatnya](#grup-whatsapp-kelas)), dan **Tentang kelas**.
 * **Tugas Kelas** — isi kelas per minggu. Bilah **+ Buat** berisi **Tugas** (formulir di bawah), **Materi** (membuka Kelola Materi dengan rumpun dan minggu sudah terisi), dan **Kuis** (membuka penyusun kuis). Tiap tugas menunjukkan *n diserahkan · n dinilai* dan tombol **Nilai**; tiap kuis *n sudah mengerjakan* dan **Susun**; tiap materi **Kelola**.
 * **Anggota** — pengajar dan peserta (NIM, nama, status, sumber *roster* atau *tambahan*).
 * **Nilai** — bobot dan buku nilai (di bawah).
@@ -196,17 +196,17 @@ Tugas prodi tampil dan bisa dikumpulkan semua mahasiswa prodi yang dipilih. Maha
 
 Band (tingkat kemiripan): **tinggi** ≥ 0,85 · **sedang** ≥ 0,60 · **rendah** < 0,60 (ambang awal, belum dikalibrasi). Skor kemiripan adalah **alat bantu prioritas pemeriksaan, bukan vonis plagiat** — periksa kirimannya sebelum memutuskan.
 
-## Grup WhatsApp Mata Kuliah
+## Grup WhatsApp Kelas
 
-Diskusi mata kuliah dengan mahasiswa berlangsung di **grup WhatsApp per mata kuliah**, dibuat bot atas permintaan Anda. Grup ini juga menjadi jalur pendaftaran mahasiswa: hanya anggota grup mata kuliah yang bisa mendaftarkan nomornya sendiri. Syaratnya: email kampus terisi dan Anda dicentang pengampu, mengajar kelas, atau memimpin prodi itu.
+Diskusi dengan mahasiswa berlangsung di **grup WhatsApp kelas** — satu grup untuk satu kelas (satu rumpun, atau satu mata kuliah lepas), dibuat bot atas permintaan Anda. Bot juga mengirim **pengumuman kelas** (bila dipilih) dan **pengingat tenggat tugas** ke grup ini, 24 jam sebelum tenggat, satu pesan per kelas. Grup ini sekaligus jalur pendaftaran mahasiswa: hanya anggota grup kelas yang bisa mendaftarkan nomornya sendiri. Syaratnya: email kampus terisi dan Anda pengajar kelas itu (atau kaprodinya).
 
-1. Buka **[Daftar mata kuliah saya](https://wa.me/6282258512828?text=mk%20diampu)** (atau kirim `mk diampu` ke bot lewat chat pribadi). Bot membalas semua mata kuliah di prodi yang Anda ampu, per semester.
-2. Pada mata kuliah yang belum punya grup, ketuk tautan **Buat grup**. WhatsApp terbuka ke bot dengan pesan `daftar grup | prodi | KODE` yang sudah terisi — tekan **Kirim**.
-3. Bot membuat grup bernama sesuai nama mata kuliah, memasukkan Anda sebagai **admin**, lalu membalas **tautan undangan grup** dan **tautan pendaftaran mahasiswa**. Teruskan keduanya ke mahasiswa.
+1. Buka kelas di menu **Kelas**. Di tab **Beranda**, kartu **Grup WhatsApp kelas** berisi tombol **Buat grup WhatsApp kelas** selama grupnya belum ada. (Bisa juga lewat bot: buka **[Daftar kelas saya](https://wa.me/6282258512828?text=mk%20diampu)** atau kirim `mk diampu` lewat chat pribadi — bot membalas kelas yang Anda ajar beserta tautan **Buat grup**.)
+2. WhatsApp terbuka ke bot dengan pesan `daftar grup | <kode kelas> | <nama kelas>` yang sudah terisi — tekan **Kirim**.
+3. Bot membuat grup bernama sesuai nama kelas, memasukkan Anda sebagai **admin**, lalu membalas **tautan undangan grup** dan **tautan pendaftaran mahasiswa**. Tautan undangan juga tampil untuk mahasiswa di halaman kelas (**Gabung grup WhatsApp kelas**).
 
-Mata kuliah yang sudah punya grup ditampilkan beserta tautan undangannya dan tidak dibuatkan grup baru. Kalau WhatsApp Anda tidak mengizinkan dimasukkan ke grup, bergabunglah lewat tautan undangan lalu kirim ulang pesan yang sama — bot menjadikan Anda admin. Cara yang sama berlaku bagi dosen pengampu lain di prodi itu.
+Kelas yang sudah punya grup ditampilkan beserta tautan undangannya dan tidak dibuatkan grup baru. Kalau WhatsApp Anda tidak mengizinkan dimasukkan ke grup, bergabunglah lewat tautan undangan lalu kirim ulang pesan yang sama — bot menjadikan Anda admin. Cara yang sama berlaku bagi pengajar lain kelas itu.
 
-Mahasiswa yang nomornya belum terdaftar mendaftar sendiri setelah bergabung ke grup, dengan pesan `daftar mahasiswa | NIM | tahun angkatan` (lihat [Panduan Mahasiswa](../mahasiswa/#grup-whatsapp-mata-kuliah)). Nama diambil dari profil WhatsApp mereka dan prodi dari mata kuliah grupnya; perbaiki data yang keliru di [Roster](#roster-mahasiswa).
+Mahasiswa yang nomornya belum terdaftar mendaftar sendiri setelah bergabung ke grup, dengan pesan `daftar mahasiswa | NIM | tahun angkatan` (lihat [Panduan Mahasiswa](../mahasiswa/#grup-whatsapp-kelas)). Nama diambil dari profil WhatsApp mereka, prodi dan semester dari kelas grupnya, dan mereka langsung menjadi peserta kelas itu; perbaiki data yang keliru di [Roster](#roster-mahasiswa).
 
 ## Rekaman Sesi Sinkron
 
@@ -300,9 +300,9 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 ## Lewat WhatsApp
 
 * `daftar dosen | <email kampus>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftar%20dosen%20%7C%20%28ganti%20dengan%20email%20Anda%29)) — Mendaftarkan nomor Anda sebagai dosen (hanya anggota grup WhatsApp dosen, lewat chat pribadi ke bot); kalau sudah terdaftar, memperbarui email kampus
-* `mk diampu` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=mk%20diampu)) — Mata kuliah di prodi yang Anda ampu, beserta tautan grup WhatsApp atau tautan untuk membuatnya
-* `daftar grup | <kode prodi> | <kode mata kuliah>` — Meminta bot membuat grup WhatsApp mata kuliah itu (tautan siap-kirimnya ada di balasan `mk diampu`)
-* `buat tugas | <judul> | <deskripsi> | <kode prodi>` — Membuat tugas; kode prodi (mis. `pai`) boleh dikosongkan kalau Anda mengajar tepat satu prodi
+* `mk diampu` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=mk%20diampu)) — Kelas yang Anda ajar (dan kelas prodi yang Anda pimpin), beserta tautan grup WhatsApp kelas atau tautan untuk membuatnya
+* `daftar grup | <kode kelas> | <nama kelas>` — Meminta bot membuat grup WhatsApp kelas itu (tautan siap-kirimnya ada di balasan `mk diampu` dan di halaman kelas)
+* `buat tugas | <judul> | <deskripsi> | <kode prodi>` — Membuat tugas prodi (tanpa kelas dan tenggat); kode prodi (mis. `pai`) boleh dikosongkan kalau Anda mengajar kelas di tepat satu prodi
 * `daftar tugas` — Daftar tugas beserta id-nya, berlabel prodi
 * `laporan tugas <id tugas>` — Laporan kemiripan satu tugas (balasan bot berisi tautan yang langsung membuka laporannya di web)
 * `buat proyek blok | rumpun | prodi | angkatan | judul` — Membuat proyek blok
@@ -320,7 +320,7 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 | Muncul kartu *untuk dosen atau kaprodi* | Anda memakai peran admin. Tekan **Pakai peran dosen**. |
 | *Kalender semester PRODI belum diterbitkan* | Jadwal, agenda, dan rekaman belum bisa tampil. Hubungi kaprodi. Materi dan kuis minggu 1 sudah bisa disiapkan. |
 | *Email … tidak sah* | Periksa penulisannya (ada `@` dan domain). Domain apa pun diterima. |
-| *Email kampus Anda belum diisi* saat menerbitkan rekaman atau membuat grup mata kuliah | Isi email kampus dulu di Roster Mahasiswa & Email Dosen. |
+| *Email kampus Anda belum diisi* saat menerbitkan rekaman atau membuat grup kelas | Isi email kampus dulu di Roster Mahasiswa & Email Dosen. |
 | *Sesi berakhir* | Tekan **Masuk lagi**. |
 | *NIM/email atau kata sandi salah* | Masuk dengan email kampus; kata sandi awal bagian email sebelum @ ditambah `ADB`. Lupa kata sandi yang sudah diganti? Minta kaprodi atau admin mereset, atau masuk lewat tab **WhatsApp**. |
 | Belum bisa masuk dengan kata sandi | Email kampus belum diisi. Masuk lewat tab **WhatsApp**, lalu isi email kampus di Roster dan email dosen. |

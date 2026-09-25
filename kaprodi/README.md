@@ -132,7 +132,7 @@ Tombol lain:
 
 Mahasiswa yang naik semester, cuti, atau lulus tetap tercatat di kelas yang pernah ia ikuti (sumber *tambahan* di tab **Anggota**) supaya nilainya tidak hilang dari rapor.
 
-Membuka kelas dari daftar menampilkan tab yang sama dengan pengajar ([Panduan Dosen › Kelas yang Anda ajar](../dosen/#kelas-yang-anda-ajar)); Anda bisa membuat tugas, mengatur bobot, dan mengisi nilai di kelas prodi Anda.
+Membuka kelas dari daftar menampilkan tab yang sama dengan pengajar ([Panduan Dosen › Kelas yang Anda ajar](../dosen/#kelas-yang-anda-ajar)); Anda bisa membuat tugas, menulis pengumuman, membuat grup WhatsApp kelas ([caranya](../dosen/#grup-whatsapp-kelas)), mengatur bobot, dan mengisi nilai di kelas prodi Anda.
 
 ## Mendaftarkan Nomor Dosen lewat WhatsApp
 
