@@ -4,17 +4,19 @@
 
 Panduan ini untuk mahasiswa yang nomor WhatsApp-nya terdaftar di roster program studi. Cara masuk ada di [halaman utama panduan](../#masuk-ke-aplikasi).
 
-**Daftar isi:** [Menu](#menu) · [Beranda](#beranda) · [Kelas](#kelas) · [Kalender](#kalender-akademik) · [Materi](#materi-pekan-ini) · [Kuis gerbang](#kuis-gerbang) · [Grup kelas](#grup-whatsapp-kelas) · [Rekaman](#rekaman-sesi) · [Tugas](#tugas) · [Dasbor](#dasbor-belajar) · [Nilai proyek](#nilai-proyek) · [Rapor](#rapor) · [Autograder](#hasil-autograder) · [Proyek kerja](#proyek-kerjamagang) · [RPL](#rekognisi-pembelajaran-lampau-rpl) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
+**Daftar isi:** [Menu](#menu) · [Beranda](#beranda) · [Kelas](#kelas) · [Kalender](#kalender-akademik) · [Materi](#materi-pekan-ini) · [Kuis gerbang](#kuis-gerbang) · [Grup kelas](#grup-whatsapp-kelas) · [Rekaman](#rekaman-sesi) · [Tugas](#tugas) · [Dasbor](#dasbor-belajar) · [Rapor](#rapor) · [Autograder](#hasil-autograder) · [Proyek kerja](#proyek-kerjamagang) · [RPL](#rekognisi-pembelajaran-lampau-rpl) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
 
 ## Menu
 
 | Tempat | Isi |
 |---|---|
-| Bilah atas (layar lebar) | Beranda · Kelas · Kalender · Materi · Kuis · Tugas · **Lainnya** |
-| Bilah bawah (HP) | Beranda · Kelas · Materi · Tugas · **Lainnya** |
-| **Lainnya** (halaman yang sudah ada di bilah tidak diulang) | Kalender akademik dan Kuis gerbang (di HP), Rekaman sesi, Nilai proyek, Rapor, Dasbor belajar, Proyek kerja / magang, Rekognisi pembelajaran lampau, Hasil autograder |
+| Bilah atas (layar lebar) | Beranda · Kelas · Jadwal · Nilai · **Lainnya** |
+| Bilah bawah (HP) | Beranda · Kelas · Jadwal · Nilai · **Menu** |
+| **Lainnya** (di HP: lembar **Menu**) | Semua tugas, Dasbor belajar, Rekaman sesi, Proyek kerja / magang, Rekognisi pembelajaran lampau, Hasil autograder |
 
-Istilah bertanda **?** (rumpun, CPL, SKS, RPL, dan lain-lain) bisa diketuk untuk melihat artinya. Di HP, nama, NIM, **Beranda Saya**, dan **Keluar** ada di lembar **Akun** (tombol bulat berisi inisial nama).
+**Materi, kuis, dan tugas tidak punya menu sendiri** (sejak 26 September 2026): semuanya dibuka dari **Kelas** (tab **Beranda** dan **Tugas Kelas** tiap kelas), dan yang harus dikerjakan juga terdaftar di **Beranda**. **Jadwal** membuka kalender semester; **Nilai** membuka rapor.
+
+Istilah bertanda **?** (rumpun, CPL, SKS, RPL, dan lain-lain) bisa diketuk untuk melihat artinya. Di HP, nama, NIM, **Kata sandi**, dan **Keluar** ada di lembar **Akun** (tombol bulat berisi inisial nama).
 
 ## Ritme mingguan
 
@@ -29,15 +31,13 @@ Jadwal pasti tiap minggu mengikuti kalender yang diterbitkan kaprodi prodi Anda.
 
 ## Beranda
 
-Judulnya **Beranda mahasiswa &lt;PRODI&gt;**. Isinya:
+Judulnya **Hari ini**. Isinya:
 
-* **Mulai di sini** — empat langkah mingguan dengan hitungan *x dari y selesai*: **Lihat kalender** → **Buka materi** → **Kerjakan kuis** → **Buka daftar tugas**. Panel ini hilang kalau semua langkah selesai.
-* **Perlu dikerjakan** — agenda yang harus dibereskan, dengan tanda **Mendesak** dan tenggat (WIB).
-* **Akan datang** dan **Jadwal minggu N** — tabel hari, tanggal, kegiatan, dan waktu; hari ini ditandai.
-* **Layanan** — semua halaman, dikelompokkan Pembelajaran, Nilai dan kemajuan, Administrasi.
-* Kolom samping: data program studi dan perintah WhatsApp.
-
-**Beranda Saya** (klik nama Anda di bilah atas, atau tombolnya di lembar Akun) merangkum langkah belajar dan tombol ke layanan lain.
+* **Perlu dikerjakan** — tugas kelas yang belum Anda serahkan (tenggat terdekat di atas; **Mendesak** kalau tenggatnya tinggal kurang dari sehari atau sudah lewat), materi minggu ini yang belum selesai, kuis gerbang yang belum lulus, serta proyek kerja atau RPL yang menunggu. Ketuk butirnya untuk langsung mengerjakan.
+* **Kelas saya** — kartu kelas Anda; kartu menyebut berapa hal yang menunggu di kelas itu.
+* **Jadwal minggu N** — tabel hari, tanggal, kegiatan, dan waktu; hari ini ditandai.
+* **Akan datang** — mis. kalender semester yang belum terbit.
+* Kolom samping: perintah WhatsApp.
 
 ## Kelas
 
@@ -89,8 +89,8 @@ Dari halaman **Kelas**, tombol **Buka** pada materi langsung membuka rumpun (ata
 
 Kuis materi pekan ini, dianjurkan lulus sebelum sesi Jumat.
 
-1. Buka **Kuis**. Kalau minggu ini hanya ada satu rumpun, kuisnya langsung tampil.
-2. Kalau belum, pilih **Rumpun**, isi **Minggu**, lalu tekan **Muat Kuis**.
+1. Buka kelas di menu **Kelas**, lalu tekan **Kerjakan** pada kuis minggu itu (tab **Beranda** atau **Tugas Kelas**) — atau ketuk butir kuis di **Perlu dikerjakan** di Beranda. Kuisnya langsung tampil.
+2. Untuk kuis lain, pilih **Rumpun**, isi **Minggu**, lalu tekan **Muat Kuis**.
 3. Perhatikan *n soal · ambang lulus x%*. Jawab **semua** soal (satu pilihan per soal).
 4. Tekan **Kirim Jawaban**. Hasilnya langsung tampil: *Skor x% — lulus* atau *belum lulus*.
 
@@ -130,7 +130,7 @@ Status: *terbit tepat waktu*, *terbit terlambat*, *belum ada (lewat tenggat)*, *
 
 ## Tugas
 
-Tugas datang dari **kelas** Anda (dibuat pengajar kelas, biasanya bertenggat) dan dari **prodi** (tugas tanpa kelas). Menu **Tugas** mengumpulkan semuanya dalam dua kelompok: **Perlu dikerjakan** (tenggat terdekat di atas; bertanda *Belum diserahkan* atau *Lewat tenggat*) dan **Sudah diserahkan**. Tiap kartu menyebut asalnya (*Kelas …* atau *Tugas prodi …*) dan tenggatnya. Tugas satu kelas juga ada di tab **Tugas Kelas** halaman kelasnya.
+Setiap tugas milik sebuah **kelas** (dibuat pengajar kelas, biasanya bertenggat). Tugas yang belum Anda serahkan muncul di **Perlu dikerjakan** di Beranda dan di tab **Tugas Kelas** halaman kelasnya. **Lainnya → Semua tugas** mengumpulkan tugas dari semua kelas dalam dua kelompok: **Perlu dikerjakan** (tenggat terdekat di atas; bertanda *Belum diserahkan* atau *Lewat tenggat*) dan **Sudah diserahkan**.
 
 **Mengumpulkan:**
 
@@ -148,31 +148,18 @@ Aturan:
 * **Nilai dan komentar pengajar** tampil di kartu **Jawaban Anda** setelah pengajar mengembalikannya. Sebelum itu tertulis *Menunggu dinilai*.
 * Dosen melihat laporan kemiripan antar kiriman. Skor kemiripan hanya alat bantu, bukan vonis plagiat — keputusannya ada pada dosen.
 
-Pesan gagal yang umum: *Format .xxx tidak didukung*, *Berkas melebihi 5 MB*, *Teks terlalu pendek atau tidak terbaca*, *Tugas ini bukan untuk Anda* (tugas prodi lain atau kelas yang tidak Anda ikuti).
+Pesan gagal yang umum: *Format .xxx tidak didukung*, *Berkas melebihi 5 MB*, *Teks terlalu pendek atau tidak terbaca*, *Tugas ini bukan untuk Anda* (tugas kelas yang tidak Anda ikuti).
 
 ## Dasbor Belajar
 
 Hanya dibaca, selalu data Anda sendiri.
 
 * **Beban Belajar Minggu ke-N** — menit terjadwal dan setara SKS (1 SKS = 85 menit terjadwal per minggu; jeda ibadah dan makan tidak dihitung).
-* **Capaian Pembelajaran Lulusan (CPL)** — CPL yang sudah tercapai dan buktinya. CPL tercapai dari nilai proyek blok yang lulus atau RPL yang disetujui.
-
-## Nilai Proyek
-
-Rekap nilai proyek blok per mata kuliah.
-
-| Komponen | Bobot |
-|---|---|
-| Hasil proyek | 40% |
-| Ujian | 30% |
-| Kuis | 15% |
-| Presentasi | 15% |
-
-Nilai akhir **≥ 60** lulus. Kalau muncul *Anda belum tercatat di proyek blok mana pun*, hubungi dosen pembimbing proyek blok.
+* **Capaian Pembelajaran Lulusan (CPL)** — CPL yang sudah tercapai dan buktinya. CPL tercapai dari nilai akhir kelas rumpun yang lulus atau RPL yang disetujui.
 
 ## Rapor
 
-IPK, IP per semester, dan nilai huruf per mata kuliah. Tekan **Cetak / Simpan PDF** untuk mencetak atau menyimpan.
+Menu **Nilai**. IPK, IP per semester, dan nilai huruf per mata kuliah. Nilai tiap mata kuliah berasal dari **nilai akhir kelasnya** — muncul setelah semua komponen di buku nilai kelas terisi (rinciannya di tab **Nilai** tiap kelas). Tekan **Cetak / Simpan PDF** untuk mencetak atau menyimpan.
 
 | Nilai | Huruf | Bobot |
 |---|---|---|
@@ -220,10 +207,10 @@ Beberapa layanan bisa dipakai dengan mengirim pesan ke bot dari nomor yang terda
 
 * `jadwal saya` — Jadwal Anda menurut kalender terbit
 * `kalender minggu ini` — Jadwal minggu berjalan
-* `daftar tugas` — Daftar tugas prodi dan tugas kelas Anda beserta id-nya
+* `daftar tugas` — Daftar tugas kelas Anda beserta id-nya
 * `kumpul tugas <id tugas>` — Kirim berkas jawaban sebagai **dokumen** dengan caption ini; id-nya dari `daftar tugas`
 * `kerjakan kuis | <kode rumpun> | <minggu>` — Bot mengirim soal beserta id kuis; lalu jawab dengan `kerjakan kuis | <id kuis> | 2,1,3` (nomor pilihan mulai 1, dipisah koma)
-* `nilai saya` — Rekap nilai proyek
+* `nilai saya` — Nilai tiap kelas (nilai akhir, atau nilai sementara bila belum semua komponen terisi)
 * `beban belajar saya` — Beban belajar minggu ini
 * `daftar mahasiswa | <NIM> | <tahun angkatan>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftar%20mahasiswa%20%7C%20%28ganti%20dengan%20NIM%29%20%7C%20%28ganti%20dengan%20tahun%20angkatan%29)) — Mendaftarkan nomor Anda (hanya anggota grup WhatsApp kelas)
 * `ajukan proyek kerja | <rumpun> | <perusahaan> | <judul> | <nama atasan> | <email atasan>` — Mengajukan proyek kerja

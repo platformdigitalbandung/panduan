@@ -2,9 +2,9 @@
 
 [← Semua panduan](../)
 
-Panduan ini untuk super admin platform. **Admin hanya menyiapkan**: membuat program studi baru, menetapkan kaprodinya, dan mengelola pengguna, lalu boleh membuka laporan semua prodi. Kurikulum, dosen pengampu, kalender, kelas (termasuk menunjuk pengajarnya), kuis, dan materi prodi dijalankan kaprodi masing-masing ([Panduan Kaprodi](../kaprodi/)).
+Panduan ini untuk super admin platform. **Admin hanya menyiapkan**: membuat program studi baru, menetapkan kaprodinya, dan mengelola pengguna, lalu boleh membuka laporan semua prodi. Kurikulum, kalender, kelas (termasuk menunjuk pengajarnya), kuis, dan materi prodi dijalankan kaprodi masing-masing ([Panduan Kaprodi](../kaprodi/)).
 
-Admin juga harus terdaftar sebagai dosen aktif. Pemilih peran dan cara pindah peran dijelaskan di [Panduan Kaprodi › Pindah peran](../kaprodi/#pindah-peran); menu mengajar ada di peran **dosen**.
+Admin juga harus terdaftar sebagai dosen aktif. **Tidak ada pemilih peran** (sejak 26 September 2026): menu admin tampil sebagai bagian **Admin** di samping menu dosen (dan bagian **Prodi** bila Anda juga kaprodi).
 
 **Daftar isi:** [Menu](#menu) · [Beranda](#beranda) · [Kelola pengguna](#kelola-pengguna) · [Menyiapkan prodi baru](#menyiapkan-prodi-baru) · [Kelola kaprodi](#kelola-kaprodi) · [Laporan semua prodi](#laporan-semua-prodi) · [Daftarkan dosen](#mendaftarkan-nomor-dosen-lewat-whatsapp) · [Di luar aplikasi](#yang-dikerjakan-di-luar-aplikasi) · [Kendala](#kendala-umum)
 
@@ -12,14 +12,15 @@ Admin juga harus terdaftar sebagai dosen aktif. Pemilih peran dan cara pindah pe
 
 | Tempat | Isi |
 |---|---|
-| Bilah atas / bilah bawah HP | Beranda · Pengguna · Kaprodi · Prodi baru · **Laporan** |
-| **Laporan** | Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, Rekap rekaman |
+| Bilah atas (layar lebar) | Beranda · Kelas · Jadwal · **Admin** · **Lainnya** |
+| Bilah bawah (HP) | Beranda · Kelas · Jadwal · **Menu** (lembar berisi bagian Admin dan Lainnya) |
+| **Admin** | Pengguna, Kelola kaprodi, Program studi baru, Pantau proyek kerja, Laporan kepatuhan, Rekap rapor angkatan, Rekap rekaman |
 
 ## Beranda
 
-Judulnya **Beranda admin**.
+Judulnya **Hari ini**.
 
-* **Mulai di sini**
+* **Langkah yang belum selesai → Penyiapan platform**
   1. **Tetapkan kaprodi tiap prodi** → *Kelola kaprodi*
   2. **Pastikan dosen mengisi email kampus** → *Lihat daftar dosen*
 * **Perlu dikerjakan** — prodi yang belum punya kaprodi (**Mendesak**), prodi yang masih memakai data kaprodi lama, dan jumlah dosen aktif yang belum mengisi email kampus.
@@ -51,7 +52,7 @@ Menu **Pengguna**. Dua tab: **Mahasiswa** dan **Dosen**. Admin mengelola semua p
 
 ### 1. Buat program studi
 
-Menu **Prodi baru** (halaman Kurikulum Program Studi). Admin hanya melihat kartu **Program Studi**.
+Menu **Admin → Program studi baru** (halaman Kurikulum Program Studi). Di halaman itu admin hanya melihat kartu **Program Studi**.
 
 1. Periksa tabel prodi yang sudah ada supaya kodenya tidak kembar.
 2. Di **Tambah program studi baru**, isi:
@@ -63,11 +64,11 @@ Admin tidak bisa mengubah prodi yang sudah ada (kecuali ia sendiri kaprodi prodi
 
 ### 2. Tetapkan kaprodinya
 
-Lanjutkan ke [Kelola Kaprodi](#kelola-kaprodi). Setelah itu rumpun, CPL, ritme, dosen pengampu, dan kalender diisi kaprodi tersebut.
+Lanjutkan ke [Kelola Kaprodi](#kelola-kaprodi). Setelah itu rumpun, CPL, ritme, kalender, dan pengajar kelas diisi kaprodi tersebut.
 
 ## Kelola Kaprodi
 
-Menu **Kaprodi**. Hanya tampil selagi peran aktif **admin**.
+Menu **Admin → Kelola kaprodi**.
 
 ### Menetapkan atau mengganti
 
@@ -85,7 +86,7 @@ Tekan **Kosongkan** pada baris prodi, lalu konfirmasi. Kaprodi itu kembali menja
 * **Dosen yang belum mengisi email kampus tidak bisa dipilih.** Mereka dirangkum di lipatan *N dosen aktif belum mengisi email kampus*. Minta mereka mengisinya di halaman **Roster & Email Dosen**.
 * Satu prodi hanya punya satu kaprodi. Menetapkan kaprodi baru otomatis mengembalikan kaprodi lama menjadi dosen biasa untuk prodi itu.
 * Satu dosen boleh sekaligus kaprodi dan admin.
-* **Kapan berlaku:** akses laporan prodi berubah **seketika**. Label peran dan pemilih peran orang itu baru berubah setelah ia **keluar lalu masuk lagi** — sampaikan hal ini kepadanya.
+* **Kapan berlaku:** akses laporan prodi berubah **seketika**. Bagian **Prodi** di menunya muncul saat halaman dimuat ulang; label perannya baru berubah setelah ia **keluar lalu masuk lagi** — sampaikan hal ini kepadanya.
 
 ## Laporan Semua Prodi
 
@@ -110,7 +111,7 @@ daftarkan dosen | nomor WhatsApp | nama lengkap
 
 Contoh: `daftarkan dosen | 081234567890 | Budi Santoso, M.Kom.` Nomor boleh ditulis `08…`, `62…`, atau `+62…`. Tautan siap-pakai: **[Daftarkan dosen lewat WhatsApp](https://wa.me/6282258512828?text=daftarkan%20dosen%20%7C%20%28ganti%20dengan%20nomor%20WhatsApp%20dosen%29%20%7C%20%28ganti%20dengan%20nama%20lengkapnya%29)** — ganti kedua isian dalam kurung, lalu tekan Kirim.
 
-Setelah tersimpan, bot mengirim langkah berikutnya ke nomor dosen itu: masuk di aplikasi, isi email kampus, lalu minta dicentang di **Pengampu**. Email tidak diisi di sini — dosen yang bersangkutan mengisinya sendiri.
+Setelah tersimpan, bot mengirim langkah berikutnya ke nomor dosen itu: masuk di aplikasi, isi email kampus, lalu minta kaprodi menunjuknya sebagai pengajar kelas. Email tidak diisi di sini — dosen yang bersangkutan mengisinya sendiri.
 
 Yang ditolak bot: nomor yang sudah terdaftar sebagai dosen aktif, nomor yang ada di roster mahasiswa, dan **nomor yang pernah dinonaktifkan** (hanya admin yang dapat mengaktifkannya kembali).
 
@@ -133,6 +134,6 @@ Hubungi pengelola platform untuk keperluan ini.
 | Pengguna lupa kata sandi | **Pengguna** → cari orangnya → **Reset kata sandi**. Kata sandinya kembali ke kata sandi awal. |
 | *ini admin aktif terakhir* | Tetapkan admin lain dulu, baru cabut atau nonaktifkan admin itu. |
 | Kaprodi baru belum melihat menu kaprodi | Minta ia keluar lalu masuk lagi. |
-| *Buat program studinya dulu di halaman Kurikulum* | Belum ada prodi; buat lewat menu **Prodi baru**. |
+| *Buat program studinya dulu di halaman Kurikulum* | Belum ada prodi; buat lewat menu **Admin → Program studi baru**. |
 | Prodi yang ada tidak bisa diubah | Perubahan data prodi dilakukan kaprodinya. |
-| Muncul kartu *untuk dosen atau kaprodi* | Halaman itu bukan untuk peran admin. Tekan **Pakai peran …** bila Anda juga dosen. |
+| Muncul kartu *untuk kaprodi* | Halaman itu untuk kaprodi prodinya; admin hanya membaca. |

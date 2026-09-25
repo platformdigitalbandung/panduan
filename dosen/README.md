@@ -4,7 +4,7 @@
 
 Panduan ini untuk dosen aktif. Cara masuk ada di [halaman utama panduan](../#masuk-ke-aplikasi). Kalau Anda juga menjabat kaprodi, baca juga [Panduan Kaprodi](../kaprodi/).
 
-**Daftar isi:** [Langkah pertama](#langkah-pertama) · [Menu](#menu) · [Beranda](#beranda) · [Email kampus & roster](#roster-mahasiswa--email-dosen) · [Kelas yang Anda ajar](#kelas-yang-anda-ajar) · [Menilai tugas](#menilai-tugas) · [Kelola materi](#kelola-materi) · [Kuis gerbang](#kuis-gerbang) · [Tugas prodi & kemiripan](#tugas-prodi--laporan-kemiripan) · [Grup kelas](#grup-whatsapp-kelas) · [Rekaman](#rekaman-sesi-sinkron) · [Proyek blok](#kelola-proyek-blok) · [Pengawas ujian](#pengawas-ujian) · [Autograder](#hasil-autograder) · [Rapor](#rapor-mahasiswa) · [RPL](#tinjau-rpl) · [Proyek kerja](#proyek-kerja--magang-bimbingan) · [Kalender & kurikulum](#kalender-dan-kurikulum) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
+**Daftar isi:** [Langkah pertama](#langkah-pertama) · [Menu](#menu) · [Beranda](#beranda) · [Email kampus & roster](#roster-mahasiswa--email-dosen) · [Kelas yang Anda ajar](#kelas-yang-anda-ajar) · [Menilai tugas](#menilai-tugas) · [Kelola materi](#kelola-materi) · [Kuis gerbang](#kuis-gerbang) · [Grup kelas](#grup-whatsapp-kelas) · [Rekaman](#rekaman-sesi-sinkron) · [Pengawas ujian](#pengawas-ujian) · [Autograder](#hasil-autograder) · [Rapor](#rapor-mahasiswa) · [RPL](#tinjau-rpl) · [Proyek kerja](#proyek-kerja--magang-bimbingan) · [Kalender & kurikulum](#kalender-dan-kurikulum) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
 
 ## Langkah pertama
 
@@ -25,18 +25,16 @@ Contoh: `daftar dosen | budi.santoso@digitalbdg.ac.id`. Nama diambil dari nama p
 Sebagian besar pekerjaan mengajar butuh dua syarat. Selesaikan berurutan:
 
 1. **Isi email kampus Anda** di halaman **Roster Mahasiswa & Email Dosen** (menu **Lainnya → Roster dan email dosen**) — lihat [caranya](#email-kampus-anda). Email kampus adalah identitas dosen di platform (menggantikan NIP).
-2. **Minta kaprodi menunjuk Anda sebagai pengajar kelas.** Kaprodi lebih dulu mencentang Anda sebagai **dosen pengampu** prodi tempat Anda mengajar — centang ini menjadi daftar pilihan pengajar — lalu menunjuk Anda di kelas yang Anda ajar. Keduanya baru bisa setelah email kampus terisi.
+2. **Minta kaprodi menunjuk Anda sebagai pengajar kelas** di halaman Kelola Kelas. Kaprodi memilih dari semua dosen aktif, tetapi nama Anda baru bisa dipilih setelah email kampus terisi.
 
-Sejak 25 September 2026 hak menyusun materi, kuis, tugas, nilai, dan rekaman **mengikuti kelas yang Anda ajar**; dicentang pengampu saja belum cukup.
+Hak menyusun materi, kuis, tugas, nilai, dan rekaman **mengikuti kelas yang Anda ajar**.
 
 | Pekerjaan | Butuh email kampus | Butuh menjadi pengajar kelas |
 |---|---|---|
 | Kelola materi | ya | ya, rumpun atau mata kuliah kelas itu (katalog tetap bisa dilihat) |
 | Menyusun kuis gerbang | ya | ya, rumpun atau mata kuliah kelas itu |
 | Membuat dan menilai tugas kelas, bobot dan buku nilai | ya | ya, kelas itu |
-| Tugas prodi (tanpa kelas) | ya | ya, kelas mana pun di prodi itu |
 | Menerbitkan/menghapus rekaman sesi | ya | ya, kelas pada kalender itu |
-| Membuat dan menilai proyek blok | ya | — |
 | Menjadi pengawas ujian | ya | — |
 | Memutus dan meninjau proyek kerja | ya | — |
 | Membuat grup WhatsApp kelas, menulis pengumuman kelas | ya | ya, kelas itu |
@@ -50,28 +48,25 @@ Kalau syarat belum terpenuhi, halaman menampilkan kartu **langkah yang belum sel
 
 | Tempat | Isi |
 |---|---|
-| Bilah atas (layar lebar) | Beranda · Kelas · Materi · Tugas · Kuis · Kalender · **Lainnya** |
-| Bilah bawah (HP) | Beranda · Kelas · Materi · Tugas · **Lainnya** |
-| **Lainnya** (halaman yang sudah ada di bilah tidak diulang) | Kuis gerbang dan Kalender akademik (hanya di HP), Tugas prodi & kemiripan, Proyek blok, Rekaman sesi, Pengawas ujian, Roster dan email dosen, Rapor mahasiswa, Tinjau RPL, Proyek kerja bimbingan, Autograder, Kurikulum |
+| Bilah atas (layar lebar) | Beranda · Kelas · Jadwal · **Lainnya** (ditambah **Prodi** atau **Admin** bila Anda kaprodi atau admin) |
+| Bilah bawah (HP) | Beranda · Kelas · Jadwal · **Menu** |
+| **Lainnya** (di HP: lembar **Menu**) | Semua tugas, Rekaman sesi, Pengawas ujian, Proyek kerja bimbingan, Tinjau RPL, Roster dan email dosen, Rapor mahasiswa, Autograder, Kurikulum |
 
-Menu **Materi** membuka Kelola Materi, dan menu **Tugas** membuka daftar tugas dengan kartu **Perlu dinilai** di atasnya.
+**Materi, kuis, dan tugas tidak punya menu sendiri.** Semuanya dibuka dari dalam kelas: tab **Tugas Kelas** → **+ Buat** (Tugas, Materi, Kuis), tombol **Kelola**/**Susun**/**Nilai** di tiap minggu, atau butir *Perlu dikerjakan* di Beranda.
 
-Bilah atas menampilkan nama, peran, dan email kampus Anda. Di HP, semuanya ada di lembar **Akun** (tombol bulat berisi inisial nama). Istilah bertanda **?** di halaman (rumpun, CPL, pengampu, dan lain-lain) bisa diketuk untuk melihat artinya.
+Bilah atas menampilkan nama, peran, dan email kampus Anda. Di HP, semuanya ada di lembar **Akun** (tombol bulat berisi inisial nama). Istilah bertanda **?** di halaman (rumpun, CPL, dan lain-lain) bisa diketuk untuk melihat artinya.
 
-Dosen yang juga kaprodi atau admin melihat **pemilih peran** — menu mengajar hanya tampil selagi peran aktifnya **dosen** (halaman mengajar juga menerima peran kaprodi). Lihat [Pindah peran](../kaprodi/#pindah-peran).
+**Tidak ada pemilih peran.** Dosen yang juga kaprodi atau admin melihat semuanya sekaligus: menu mengajar, ditambah bagian **Prodi** (kaprodi) atau **Admin** (admin) di bilah atas. Label peran menyebut semua peran Anda, mis. *kaprodi TRPL · dosen*.
 
 ## Beranda
 
-Judulnya **Beranda dosen**. Isinya:
+Judulnya **Hari ini**. Isinya:
 
-* **Mulai di sini** — tiga langkah dengan hitungan *x dari 3 selesai*:
-  1. **Isi email kampus** → *Isi email kampus*
-  2. **Ditunjuk sebagai pengajar kelas** → *Lihat kelas*
-  3. **Siapkan materi dan kuis minggu ini** → *Kelola materi*, *Susun kuis*
-* **Perlu dikerjakan** — antara lain pengajuan proyek kerja yang menunggu putusan, tinjauan tengah semester, rekaman yang belum terbit, materi atau kuis minggu ini/depan yang belum ada, dan pengajuan RPL. Butir bertanda **Mendesak** didahulukan.
+* **Langkah yang belum selesai** — hanya tampil kalau ada yang belum beres, mis. **Syarat mengajar**: isi email kampus, lalu ditunjuk sebagai pengajar kelas.
+* **Perlu dikerjakan** — kiriman tugas yang perlu dinilai di kelas Anda (**n kiriman belum dinilai**), lalu agenda lain: rekaman yang belum terbit, materi atau kuis minggu ini/depan yang belum ada, pengajuan proyek kerja yang menunggu putusan, tinjauan tengah semester, dan pengajuan RPL. Butir bertanda **Mendesak** didahulukan.
+* **Kelas saya** — kartu kelas yang Anda ajar; kartu menyebut berapa hal yang menunggu di kelas itu.
+* **Jadwal minggu N** — kalender prodi tempat Anda mengajar atau yang Anda pimpin.
 * **Akan datang** — mis. sesi ujian yang Anda awasi.
-* **Jadwal minggu N** — hanya kalender prodi tempat Anda dicentang pengampu atau mengajar kelas.
-* **Layanan** — dikelompokkan Pengajaran, Penilaian, Akademik.
 
 ## Roster Mahasiswa & Email Dosen
 
@@ -124,7 +119,7 @@ Aturan hitung: tugas masuk setelah kirimannya **dikembalikan**; peserta yang tid
 
 ## Menilai Tugas
 
-Buka lewat **Nilai** di tab **Tugas Kelas**, atau menu **Tugas** → kartu **Perlu dinilai** → **Nilai**. Halaman tugas berisi:
+Buka lewat **Nilai** di tab **Tugas Kelas**, atau dari **Perlu dikerjakan** di Beranda. Halaman tugas berisi:
 
 * Info tugas: kelas, minggu, nilai maksimal, tenggat, petunjuk, dan **Unduh lampiran soal** bila ada.
 * **Ubah tugas** (lipatan) — ubah judul, petunjuk, minggu, tenggat, dan nilai maksimal, lalu **Simpan Perubahan**; **Unggah Lampiran** menambah atau mengganti lampiran soal; **Hapus tugas** (tugas yang sudah punya kiriman meminta konfirmasi; kiriman mahasiswa tetap tersimpan).
@@ -136,7 +131,16 @@ Menilai satu kiriman:
 2. Isi **Nilai** (0 sampai nilai maksimal) dan **Komentar**.
 3. Tekan **Simpan draf** (belum terlihat mahasiswa, berlabel *draf*) atau **Kembalikan** (nilai dan komentar terlihat mahasiswa dan masuk buku nilai, berlabel *dikembalikan*).
 
-Yang dinilai selalu **kiriman terakhir** peserta. Di bawah tabel ada **Laporan Kemiripan** dan **Buku nilai kelas**.
+Yang dinilai selalu **kiriman terakhir** peserta. Di bawah tabel ada **Buku nilai kelas**.
+
+### Laporan kemiripan
+
+Kartu **Laporan Kemiripan** di halaman tugas yang sama → tekan **Tampilkan Laporan**.
+
+* **Per kiriman** — skor kemiripan tertinggi tiap kiriman dan kiriman yang paling mirip dengannya.
+* **Pasangan paling mirip (top 20)**.
+
+Band (tingkat kemiripan): **tinggi** ≥ 0,85 · **sedang** ≥ 0,60 · **rendah** < 0,60 (ambang awal, belum dikalibrasi). Skor kemiripan adalah **alat bantu prioritas pemeriksaan, bukan vonis plagiat** — periksa kirimannya sebelum memutuskan. Balasan bot untuk `laporan tugas <kode>` menautkan langsung ke kartu ini.
 
 ## Kelola Materi
 
@@ -174,28 +178,6 @@ Kartu **Kelola Kuis Gerbang** menampilkan kuis yang ada, jumlah soal, ambang, da
 
 Di kartu **Status Kuis Mahasiswa**, ketik NIM atau nama (ada saran dari roster), lalu **Tampilkan**. Tabel menampilkan skor dan status lulus per kuis — hanya percobaan terakhir, karena mengerjakan ulang menimpa hasil sebelumnya.
 
-## Tugas Prodi & Laporan Kemiripan
-
-Menu **Lainnya → Tugas prodi & kemiripan**. Tugas bertenggat untuk satu kelas dibuat di [halaman kelas](#membuat-tugas-kelas); halaman ini untuk **tugas prodi** (tanpa kelas dan tanpa tenggat) dan laporan kemiripan.
-
-### Membuat tugas prodi
-
-1. Di kartu **Buat Tugas Prodi**, pilih **Prodi** — hanya prodi tempat Anda mengajar kelas (atau yang Anda pimpin).
-2. Isi **Judul** (maks. 200 karakter) dan **Deskripsi**.
-3. Tekan **Simpan Tugas**. Tampil tautan tugas — bagikan ke mahasiswa prodi itu.
-
-Tugas prodi tampil dan bisa dikumpulkan semua mahasiswa prodi yang dipilih. Mahasiswa mengunggah .txt/.docx/.pdf maksimal 5 MB dan boleh mengirim ulang. Menilainya sama seperti tugas kelas ([Menilai tugas](#menilai-tugas)), tetapi nilainya tidak masuk buku nilai kelas mana pun.
-
-### Laporan kemiripan
-
-1. Di kartu **Laporan Kemiripan**, pilih tugas di **Pilih tugas**.
-2. Tekan **Tampilkan Laporan**.
-
-* **Per kiriman** — skor kemiripan tertinggi tiap kiriman dan kiriman yang paling mirip dengannya.
-* **Pasangan paling mirip (top 20)**.
-
-Band (tingkat kemiripan): **tinggi** ≥ 0,85 · **sedang** ≥ 0,60 · **rendah** < 0,60 (ambang awal, belum dikalibrasi). Skor kemiripan adalah **alat bantu prioritas pemeriksaan, bukan vonis plagiat** — periksa kirimannya sebelum memutuskan.
-
 ## Grup WhatsApp Kelas
 
 Diskusi dengan mahasiswa berlangsung di **grup WhatsApp kelas** — satu grup untuk satu kelas (satu rumpun, atau satu mata kuliah lepas), dibuat bot atas permintaan Anda. Bot juga mengirim **pengumuman kelas** (bila dipilih) dan **pengingat tenggat tugas** ke grup ini, 24 jam sebelum tenggat, satu pesan per kelas. Grup ini sekaligus jalur pendaftaran mahasiswa: hanya anggota grup kelas yang bisa mendaftarkan nomornya sendiri. Syaratnya: email kampus terisi dan Anda pengajar kelas itu (atau kaprodinya).
@@ -220,33 +202,9 @@ Rekaman kelas daring Kamis untuk mahasiswa yang berhalangan. Hanya pengajar kela
 
 Rekaman bisa dihapus dengan **Hapus**; menerbitkan ulang mencatat waktu terbit baru (bisa jadi terlambat).
 
-## Kelola Proyek Blok
-
-Satu proyek blok per rumpun per angkatan. Anda tercatat sebagai pembimbing lewat email kampus, dan hanya pembimbing yang bisa menilai.
-
-### Membuat proyek
-
-1. Di kartu **Buat Proyek Blok**, pilih **Program studi** dan **Rumpun**, isi **Angkatan**, **Judul proyek**, dan **Deskripsi**.
-2. Di **Anggota dari roster**, centang mahasiswa. **Daftar anggota belum bisa diubah setelah proyek dibuat** — periksa sebelum menyimpan.
-3. Pilih **Status** (Draf / Berjalan / Selesai), lalu **Simpan Proyek**.
-
-### Input nilai
-
-1. Di **Proyek yang Anda Bimbing**, tekan **Buka**.
-2. Di **Input Nilai**, pilih **Mahasiswa** dan **Mata kuliah**, isi nilai 0–100:
-
-| Komponen | Bobot |
-|---|---|
-| Hasil proyek | 40% |
-| Ujian | 30% |
-| Kuis | 15% |
-| Presentasi | 15% |
-
-3. Isi **Catatan** bila perlu, lalu **Simpan Nilai**. Nilai akhir langsung dihitung; ambang lulus 60.
-
 ## Pengawas Ujian
 
-Jadwal ujian berpengawas dan pencatatan kehadiran (bukan *proctoring* — pengawasan otomatis lewat kamera; yang dicatat hanya jadwal dan kehadiran. Skor ujian diinput lewat proyek blok).
+Jadwal ujian berpengawas dan pencatatan kehadiran (bukan *proctoring* — pengawasan otomatis lewat kamera; yang dicatat hanya jadwal dan kehadiran. Skor ujian diisi di buku nilai kelas, komponen **Ujian**).
 
 **Menjadwalkan:** di kartu **Jadwalkan Sesi Ujian**, pilih **Program studi**, **Rumpun**, **Jenis** (tengah/akhir blok), isi **Tanggal & jam (WIB)**, **Lokasi**, dan **Email kampus pengawas** (kosongkan untuk menjadikan Anda sendiri pengawasnya), lalu **Jadwalkan**.
 
@@ -302,12 +260,8 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 * `daftar dosen | <email kampus>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftar%20dosen%20%7C%20%28ganti%20dengan%20email%20Anda%29)) — Mendaftarkan nomor Anda sebagai dosen (hanya anggota grup WhatsApp dosen, lewat chat pribadi ke bot); kalau sudah terdaftar, memperbarui email kampus
 * `mk diampu` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=mk%20diampu)) — Kelas yang Anda ajar (dan kelas prodi yang Anda pimpin), beserta tautan grup WhatsApp kelas atau tautan untuk membuatnya
 * `daftar grup | <kode kelas> | <nama kelas>` — Meminta bot membuat grup WhatsApp kelas itu (tautan siap-kirimnya ada di balasan `mk diampu` dan di halaman kelas)
-* `buat tugas | <judul> | <deskripsi> | <kode prodi>` — Membuat tugas prodi (tanpa kelas dan tenggat); kode prodi (mis. `pai`) boleh dikosongkan kalau Anda mengajar kelas di tepat satu prodi
 * `daftar tugas` — Daftar tugas beserta id-nya, berlabel prodi
 * `laporan tugas <id tugas>` — Laporan kemiripan satu tugas (balasan bot berisi tautan yang langsung membuka laporannya di web)
-* `buat proyek blok | rumpun | prodi | angkatan | judul` — Membuat proyek blok
-* `daftar proyek saya` — Proyek yang Anda bimbing
-* `input nilai | id | nim | mata kuliah | 4 nilai` — Input nilai proyek
 * `status proyek kerja` — Proyek kerja bimbingan
 * `putusan proyek kerja | <id> | setuju/tolak | <catatan>` — Memutus pengajuan proyek kerja (butuh email kampus)
 
@@ -315,9 +269,9 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 
 | Keadaan | Yang dilakukan |
 |---|---|
-| Kartu *langkah yang belum selesai* muncul | Selesaikan langkahnya berurutan: email kampus dulu, lalu minta kaprodi mencentang Anda. |
-| Sudah dicentang tetapi halaman masih meminta dicentang | Centang berlaku seketika — muat ulang halaman, dan pastikan kaprodi mencentang Anda di prodi yang benar. |
-| Muncul kartu *untuk dosen atau kaprodi* | Anda memakai peran admin. Tekan **Pakai peran dosen**. |
+| Kartu *langkah yang belum selesai* muncul | Selesaikan langkahnya berurutan: email kampus dulu, lalu minta kaprodi menunjuk Anda sebagai pengajar kelas. |
+| Sudah ditunjuk tetapi halaman masih menolak | Penunjukan berlaku seketika — muat ulang halaman, dan pastikan kaprodi menunjuk Anda di kelas yang benar. |
+| Menu **Materi**, **Kuis**, atau **Tugas** tidak ada | Sejak 26 September 2026 semuanya dibuka dari dalam kelas (**Kelas** → pilih kelas → **Tugas Kelas**). |
 | *Kalender semester PRODI belum diterbitkan* | Jadwal, agenda, dan rekaman belum bisa tampil. Hubungi kaprodi. Materi dan kuis minggu 1 sudah bisa disiapkan. |
 | *Email … tidak sah* | Periksa penulisannya (ada `@` dan domain). Domain apa pun diterima. |
 | *Email kampus Anda belum diisi* saat menerbitkan rekaman atau membuat grup kelas | Isi email kampus dulu di Roster Mahasiswa & Email Dosen. |
