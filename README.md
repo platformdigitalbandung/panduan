@@ -5,7 +5,7 @@ Panduan pemakaian aplikasi **[platform.digitalbdg.ac.id](https://platform.digita
 | Peran | Untuk siapa | Panduan |
 |---|---|---|
 | Mahasiswa | Mahasiswa yang nomor WhatsApp-nya terdaftar di roster prodi | [Panduan Mahasiswa](mahasiswa/) |
-| Dosen | Dosen aktif, termasuk dosen pengampu prodi | [Panduan Dosen](dosen/) |
+| Dosen | Dosen aktif dan pengajar kelas | [Panduan Dosen](dosen/) |
 | Kaprodi | Dosen yang memimpin satu program studi | [Panduan Kaprodi](kaprodi/) |
 | Admin | Pengelola platform yang menyiapkan prodi dan kaprodinya | [Panduan Admin](admin/) |
 

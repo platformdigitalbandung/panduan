@@ -2,7 +2,7 @@
 
 [← Semua panduan](../)
 
-Panduan ini untuk super admin platform. **Admin hanya menyiapkan**: membuat program studi baru, menetapkan kaprodinya, dan mengelola pengguna, lalu boleh membuka laporan semua prodi. Kurikulum, dosen pengampu, kalender, kuis, dan materi prodi dijalankan kaprodi masing-masing ([Panduan Kaprodi](../kaprodi/)).
+Panduan ini untuk super admin platform. **Admin hanya menyiapkan**: membuat program studi baru, menetapkan kaprodinya, dan mengelola pengguna, lalu boleh membuka laporan semua prodi. Kurikulum, dosen pengampu, kalender, kelas (termasuk menunjuk pengajarnya), kuis, dan materi prodi dijalankan kaprodi masing-masing ([Panduan Kaprodi](../kaprodi/)).
 
 Admin juga harus terdaftar sebagai dosen aktif. Pemilih peran dan cara pindah peran dijelaskan di [Panduan Kaprodi › Pindah peran](../kaprodi/#pindah-peran); menu mengajar ada di peran **dosen**.
 
