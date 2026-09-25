@@ -52,7 +52,7 @@ Kalau syarat belum terpenuhi, halaman menampilkan kartu **langkah yang belum sel
 | Bilah bawah (HP) | Beranda · Kelas · Jadwal · **Menu** |
 | **Lainnya** (di HP: lembar **Menu**) | Semua tugas, Rekaman sesi, Pengawas ujian, Proyek kerja bimbingan, Tinjau RPL, Roster dan email dosen, Rapor mahasiswa, Autograder, Kurikulum |
 
-**Materi, kuis, dan tugas tidak punya menu sendiri.** Semuanya dibuka dari dalam kelas: tab **Tugas Kelas** → **+ Buat** (Tugas, Materi, Kuis), tombol **Kelola**/**Susun**/**Nilai** di tiap minggu, atau butir *Perlu dikerjakan* di Beranda.
+**Materi, kuis, dan tugas tidak punya menu sendiri.** Semuanya dibuat dan diubah dari dalam kelas, tanpa pindah halaman: tab **Tugas Kelas** → **+ Buat** (Tugas, Materi, Kuis), tombol **+ Materi**/**+ Kuis** dan **Kelola**/**Susun**/**Nilai** di tiap minggu, atau butir *Perlu dikerjakan* di Beranda.
 
 Bilah atas menampilkan nama, peran, dan email kampus Anda. Di HP, semuanya ada di lembar **Akun** (tombol bulat berisi inisial nama). Istilah bertanda **?** di halaman (rumpun, CPL, dan lain-lain) bisa diketuk untuk melihat artinya.
 
@@ -63,7 +63,7 @@ Bilah atas menampilkan nama, peran, dan email kampus Anda. Di HP, semuanya ada d
 Judulnya **Hari ini**. Isinya:
 
 * **Langkah yang belum selesai** — hanya tampil kalau ada yang belum beres, mis. **Syarat mengajar**: isi email kampus, lalu ditunjuk sebagai pengajar kelas.
-* **Perlu dikerjakan** — kiriman tugas yang perlu dinilai di kelas Anda (**n kiriman belum dinilai**), lalu agenda lain: rekaman yang belum terbit, materi atau kuis minggu ini/depan yang belum ada, pengajuan proyek kerja yang menunggu putusan, tinjauan tengah semester, dan pengajuan RPL. Butir bertanda **Mendesak** didahulukan.
+* **Perlu dikerjakan** — kiriman tugas yang perlu dinilai di kelas Anda (**n kiriman belum dinilai**), lalu agenda lain: rekaman yang belum terbit, materi atau kuis minggu ini/depan yang belum ada (membuka **Kelas**; isi dari tab **Tugas Kelas** kelasnya), pengajuan proyek kerja yang menunggu putusan, tinjauan tengah semester, dan pengajuan RPL. Butir bertanda **Mendesak** didahulukan.
 * **Kelas saya** — kartu kelas yang Anda ajar; kartu menyebut berapa hal yang menunggu di kelas itu.
 * **Jadwal minggu N** — kalender prodi tempat Anda mengajar atau yang Anda pimpin.
 * **Akan datang** — mis. sesi ujian yang Anda awasi.
@@ -94,7 +94,7 @@ Menu **Kelas** menampilkan kelas yang Anda ajar, per periode. Satu kelas untuk s
 Buka kartu kelas. Bagian atas menyebut prodi, periode, peran Anda (*pengajar*), minggu berjalan, dan jumlah peserta. Ada empat tab:
 
 * **Beranda** — **Pengumuman** (tulis di **Pengumuman baru**, centang **Kirim juga ke grup WhatsApp kelas** bila perlu, lalu **Umumkan**; **Hapus** tidak menarik pesan yang sudah terkirim ke grup), **Minggu N** yang sedang berjalan, **Perlu dinilai** (tugas yang punya kiriman belum dikembalikan), **Grup WhatsApp kelas** ([cara membuatnya](#grup-whatsapp-kelas)), dan **Tentang kelas**.
-* **Tugas Kelas** — isi kelas per minggu. Bilah **+ Buat** berisi **Tugas** (formulir di bawah), **Materi** (membuka Kelola Materi dengan rumpun dan minggu sudah terisi), dan **Kuis** (membuka penyusun kuis). Tiap tugas menunjukkan *n diserahkan · n dinilai* dan tombol **Nilai**; tiap kuis *n sudah mengerjakan* dan **Susun**; tiap materi **Kelola**.
+* **Tugas Kelas** — isi kelas per minggu. Bilah **+ Buat** berisi **Tugas**, **Materi**, dan **Kuis**; masing-masing membuka formulirnya di halaman itu juga (bawaannya minggu berjalan). Di dalam tiap minggu ada **+ Materi** dan **+ Kuis** (yang ini hilang setelah minggu itu punya kuis) untuk langsung mengisi minggu tersebut. Tiap tugas menunjukkan *n diserahkan · n dinilai* dan tombol **Nilai**; tiap kuis *n sudah mengerjakan* dan **Susun** (atau **Lihat** bila sudah dikerjakan mahasiswa); tiap materi **Kelola**. Di bagian bawah ada tautan **Katalog materi** dan **Kuis gerbang & status kuis per mahasiswa** untuk melihat seluruh katalog prodi.
 * **Anggota** — pengajar dan peserta (NIM, nama, status, sumber *roster* atau *tambahan*).
 * **Nilai** — bobot dan buku nilai (di bawah).
 
@@ -144,39 +144,40 @@ Band (tingkat kemiripan): **tinggi** ≥ 0,85 · **sedang** ≥ 0,60 · **rendah
 
 ## Kelola Materi
 
-Katalog video, bacaan, dan PDF asinkron per prodi, rumpun (blok 2–3 mata kuliah yang diikat satu proyek), dan minggu. Hanya untuk rumpun (atau mata kuliah) kelas yang Anda ajar. Dari tab **Tugas Kelas**, **+ Buat → Materi** membuka halaman ini dengan prodi, rumpun, dan minggu sudah terisi.
+Katalog video, bacaan, dan PDF asinkron per minggu. Materi dibuat dari dalam kelas yang Anda ajar; prodi, rumpun (blok 2–3 mata kuliah yang diikat satu proyek), dan mata kuliah (untuk kelas mata kuliah lepas) otomatis mengikuti kelasnya.
 
-1. Di kartu **Tambah Materi**, pilih **Program studi**, **Rumpun**, isi **Minggu** (1–52) dan **Urutan dalam minggu**. Untuk kelas mata kuliah lepas, pilih juga **Mata kuliah**; untuk kelas rumpun biarkan *(seluruh rumpun)*.
-2. Isi **Judul**, pilih **Jenis**, isi **Deskripsi singkat**:
+1. Buka kelas → tab **Tugas Kelas** → **+ Buat → Materi**, atau **+ Materi** di dalam minggu yang dituju. Panel **Materi Baru** terbuka di bawah bilah **+ Buat**, menyebut kelas, rumpun, dan mata kuliahnya.
+2. Isi **Minggu** (1–52) dan **Urutan dalam minggu**, **Judul**, pilih **Jenis**, isi **Deskripsi singkat**:
    * **video** — tempel tautan atau ID YouTube (video *unlisted* — tidak publik, hanya bisa dibuka lewat tautan — juga bisa).
    * **bacaan** — tempel teks lengkap; pisahkan paragraf dengan baris kosong.
    * **berkas (PDF)** — PDF saja, **maksimal 20 MiB**. PPT/Word diekspor ke PDF dulu. Jumlah halaman dihitung otomatis.
-3. Tekan **Tambah Materi**.
+3. Tekan **Tambah Materi**. Minggu materinya terbuka dengan pesan *Materi … tersimpan di minggu N*.
 
-Di kartu **Katalog**, saring prodi/rumpun/minggu lalu **Tampilkan**. Tekan **Ubah** untuk menyunting (lalu **Simpan Perubahan**) atau **Hapus**. Materi rumpun yang tidak Anda ajar hanya bisa dilihat.
+Mengubah atau menghapus: tekan **Kelola** pada materi itu (di tab **Tugas Kelas**, atau di kartu minggu berjalan tab **Beranda**) → panel **Ubah Materi** → **Simpan Perubahan** atau **Hapus Materi**. **Batal** menutup panel tanpa menyimpan.
 
 Catatan:
 
-* Kalau muncul *tersimpan, tetapi berkasnya belum terunggah* (jaringan lambat), tekan **Ubah** pada materi itu dan pilih berkasnya lagi. Materi berlabel *berkas belum diunggah* belum bisa dibaca mahasiswa.
-* Menghapus materi yang sudah punya progres mahasiswa meminta konfirmasi **Tetap hapus**; progresnya tetap ada tetapi kehilangan judul materi.
-* Materi harus sesuai minggu dan rumpun di kalender prodi — progres mahasiswa hanya tercatat untuk materi minggu yang sedang mereka ikuti.
+* Kalau muncul *tersimpan, tetapi berkasnya belum terunggah* (jaringan lambat), tekan **Kelola** pada materi itu dan pilih berkasnya lagi.
+* Menghapus materi yang sudah punya progres mahasiswa meminta konfirmasi kedua; progresnya tetap ada tetapi kehilangan judul materi.
+* Materi harus sesuai minggu di kalender kelas — progres mahasiswa hanya tercatat untuk materi minggu yang sedang mereka ikuti.
+* Seluruh katalog prodi (semua rumpun dan minggu) tetap bisa dilihat lewat tautan **Katalog materi** di bawah tab **Tugas Kelas**; materi rumpun yang tidak Anda ajar hanya bisa dilihat.
 
 ## Kuis Gerbang
 
-Kuis materi asinkron yang dikerjakan mahasiswa sebelum sesi Jumat. **Satu kuis untuk satu prodi, rumpun, dan minggu** — atau per mata kuliah untuk kelas mata kuliah lepas. Hanya pengajar kelas rumpun (atau mata kuliah) itu dan kaprodinya yang bisa menyusun. Skor kuis ikut dihitung di nilai kelas.
+Kuis materi asinkron yang dikerjakan mahasiswa sebelum sesi Jumat. **Satu kuis untuk satu kelas dan minggu** (per prodi, rumpun, dan minggu — atau per mata kuliah untuk kelas mata kuliah lepas). Hanya pengajar kelas itu dan kaprodinya yang bisa menyusun. Skor kuis ikut dihitung di nilai kelas.
 
 ### Menyusun kuis
 
-1. Di kartu **Susun Kuis**, pilih **Program studi** dan **Rumpun**, isi **Minggu** dan **Ambang lulus (%)** (isi 0 untuk bawaan 60%). Untuk kelas mata kuliah lepas, pilih juga **Mata kuliah**; untuk kelas rumpun biarkan *(seluruh rumpun)*. Dari halaman kelas (**Susun** atau **+ Buat → Kuis**) isian ini sudah terisi.
-2. Untuk tiap soal: tulis **Pertanyaan** dan pilihan jawaban, lalu **tandai bulatan di depan jawaban yang benar**. Tiap soal punya 2–6 pilihan (**+ Pilihan**, **×** untuk menghapus).
-3. **+ Tambah Soal** untuk soal berikutnya, **Hapus Soal** untuk membuang.
-4. Tekan **Simpan Kuis**. Menyimpan kombinasi prodi+rumpun(+mata kuliah)+minggu yang sama memperbarui kuis itu.
+1. Buka kelas → tab **Tugas Kelas** → **+ Buat → Kuis**, atau **+ Kuis** di dalam minggu yang dituju. Panel **Kuis Baru** terbuka; prodi, rumpun, dan mata kuliah mengikuti kelasnya.
+2. Isi **Minggu** dan **Ambang lulus (%)** (isi 0 untuk bawaan 60%).
+3. Untuk tiap soal: tulis **Pertanyaan** dan pilihan jawaban, lalu **tandai bulatan di depan jawaban yang benar**. Tiap soal punya 2–6 pilihan (**+ Pilihan**, **×** untuk menghapus). **+ Tambah Soal** untuk soal berikutnya, **Hapus Soal** untuk membuang.
+4. Tekan **Simpan Kuis**. Tampil *Kuis minggu N tersimpan (n soal)*.
 
-Kartu **Kelola Kuis Gerbang** menampilkan kuis yang ada, jumlah soal, ambang, dan berapa mahasiswa sudah mengerjakan. **Kuis yang sudah dikerjakan mahasiswa tidak bisa disunting** (tombol **Sunting** hilang), karena skor mereka dihitung dari soal itu. Menghapusnya meminta konfirmasi **Tetap hapus**.
+Mengubah: tekan **Susun** pada kuis itu → panel **Kuis Minggu N** → ubah soal → **Simpan Kuis**. **Kuis yang sudah dikerjakan mahasiswa tidak bisa disunting** — tombolnya menjadi **Lihat**, dan panel menjelaskan bahwa skor mereka dihitung dari soal itu. Kuis seperti itu hanya bisa dihapus (**Hapus Kuis**, dengan konfirmasi kedua; jawaban mahasiswa tetap tersimpan).
 
 ### Cek kelulusan mahasiswa
 
-Di kartu **Status Kuis Mahasiswa**, ketik NIM atau nama (ada saran dari roster), lalu **Tampilkan**. Tabel menampilkan skor dan status lulus per kuis — hanya percobaan terakhir, karena mengerjakan ulang menimpa hasil sebelumnya.
+Buka tautan **Kuis gerbang & status kuis per mahasiswa** di bawah tab **Tugas Kelas**. Di kartu **Status Kuis Mahasiswa**, ketik NIM atau nama (ada saran dari roster), lalu **Tampilkan**. Tabel menampilkan skor dan status lulus per kuis — hanya percobaan terakhir, karena mengerjakan ulang menimpa hasil sebelumnya.
 
 ## Grup WhatsApp Kelas
 
