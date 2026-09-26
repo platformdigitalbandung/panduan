@@ -4,7 +4,7 @@ Panduan pemakaian aplikasi **[platform.digitalbdg.ac.id](https://platform.digita
 
 | Peran | Untuk siapa | Panduan |
 |---|---|---|
-| Mahasiswa | Mahasiswa yang nomor WhatsApp-nya terdaftar di roster prodi | [Panduan Mahasiswa](mahasiswa/) |
+| Mahasiswa | Mahasiswa yang terdaftar di roster prodi | [Panduan Mahasiswa](mahasiswa/) |
 | Dosen | Dosen aktif dan pengajar kelas | [Panduan Dosen](dosen/) |
 | Kaprodi | Dosen yang memimpin satu program studi | [Panduan Kaprodi](kaprodi/) |
 | Admin | Pengelola platform yang menyiapkan prodi dan kaprodinya | [Panduan Admin](admin/) |
@@ -30,7 +30,7 @@ Mahasiswa yang emailnya belum tercatat di roster memakai **NIM ditambah `ADB`** 
 * **Mengganti kata sandi:** setelah masuk, tekan **Kata sandi** di pojok kanan atas (di HP: tombol akun → **Kata sandi**). Isi **Kata sandi lama**, **Kata sandi baru** (minimal 8 karakter), dan **Ulangi kata sandi baru**, lalu tekan **Simpan Kata Sandi Baru**. Sesudah diganti, kata sandi awal tidak berlaku lagi.
 * **Lupa kata sandi:** minta kaprodi prodi Anda atau admin mereset — kata sandi kembali ke kata sandi awal. Anda juga tetap bisa masuk lewat WhatsApp.
 * **Salah 10 kali** dalam 15 menit membuat akun itu ditahan 15 menit; tunggu, atau masuk lewat WhatsApp.
-* Nomor WhatsApp Anda tetap harus tercatat di data platform; tanpa nomor, masuk dengan kata sandi ditolak.
+* **Mahasiswa yang nomor WhatsApp-nya belum tercatat tetap bisa masuk** dengan NIM (atau email) dan kata sandi. Layanan lewat WhatsApp (perintah bot, grup kelas lewat bot) baru bisa dipakai setelah kaprodi atau admin mengisi nomornya. Dosen tetap harus punya nomor WhatsApp di data platform.
 
 ### Dengan WhatsApp (tab **WhatsApp**)
 

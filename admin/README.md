@@ -35,7 +35,7 @@ Menu **Pengguna**. Dua tab: **Mahasiswa** dan **Dosen**. Admin mengelola semua p
 * **Cari Mahasiswa** — pilih **Program studi** (atau *(semua)*), isi **Angkatan** dan/atau **NIM atau nama**, lalu **Tampilkan**. Kolom **Kata sandi** menunjukkan *kata sandi awal* (belum pernah diganti) atau *sudah diganti*.
 * **Ubah** pada baris membuka formulir **Ubah Mahasiswa**; **Simpan Perubahan** memperbarui data (NIM tidak bisa diubah).
 * **Reset kata sandi** mengembalikan kata sandi mahasiswa itu ke kata sandi awal (bagian email sebelum @ + `ADB`, atau NIM + `ADB` bila emailnya kosong).
-* **Tambah Mahasiswa** — isi NIM, Nama, Nomor WhatsApp, Email, Program studi, Angkatan, Semester, Status, lalu **Tambah Mahasiswa**. Nomor boleh ditulis `08…`, `8…`, atau `62…`; tersimpan sebagai `62…`. Email menentukan kata sandi awal.
+* **Tambah Mahasiswa** — isi NIM, Nama, Nomor WhatsApp, Email, Program studi, Angkatan, Semester, Status, lalu **Tambah Mahasiswa**. Nomor boleh ditulis `08…`, `8…`, atau `62…`; tersimpan sebagai `62…`. Nomor boleh dikosongkan: mahasiswa tanpa nomor tetap bisa masuk dengan NIM/email dan kata sandi, hanya layanan lewat WhatsApp yang belum bisa dipakai. Email menentukan kata sandi awal.
 * **Impor dari Excel** — salin baris dari Excel/Google Sheets (kolom berurutan: NIM, Nama, Nomor WhatsApp, Email, Prodi, Angkatan, Semester), tempel di **Baris**, isi bawaan prodi/angkatan/semester, lalu tekan **Periksa**. Tabel pratinjau menampilkan nomor yang sudah dibakukan dan menandai baris bermasalah (mis. nomor tampil sebagai `6.28E+12` — format kolom nomor di Excel sebagai **teks** lalu salin ulang). Tekan **Simpan N Mahasiswa** untuk menyimpan baris yang siap.
 
 ### Tab Dosen

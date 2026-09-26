@@ -2,7 +2,7 @@
 
 [← Semua panduan](../)
 
-Panduan ini untuk mahasiswa yang nomor WhatsApp-nya terdaftar di roster program studi. Cara masuk ada di [halaman utama panduan](../#masuk-ke-aplikasi).
+Panduan ini untuk mahasiswa yang terdaftar di roster program studi — dengan atau tanpa nomor WhatsApp (tanpa nomor, masuk dengan NIM dan kata sandi). Cara masuk ada di [halaman utama panduan](../#masuk-ke-aplikasi).
 
 **Daftar isi:** [Menu](#menu) · [Beranda](#beranda) · [Kelas](#kelas) · [Kalender](#kalender-akademik) · [Materi](#materi-pekan-ini) · [Kuis gerbang](#kuis-gerbang) · [Grup kelas](#grup-whatsapp-kelas) · [Rekaman](#rekaman-sesi) · [Tugas](#tugas) · [Dasbor](#dasbor-belajar) · [Rapor](#rapor) · [Autograder](#hasil-autograder) · [Proyek kerja](#proyek-kerjamagang) · [RPL](#rekognisi-pembelajaran-lampau-rpl) · [WhatsApp](#lewat-whatsapp) · [Kendala](#kendala-umum)
 
