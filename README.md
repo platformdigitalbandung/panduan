@@ -66,6 +66,6 @@ Menu utama: **Beranda · Kelas · Jadwal** (mahasiswa ditambah **Nilai**). Mater
 * **Layar lebar:** menu ada di bilah atas. Halaman yang lebih jarang dibuka dikumpulkan di tombol **Lainnya**. Kaprodi juga mendapat tombol **Prodi**, admin tombol **Admin**.
 * **HP:** menu utama ada di bilah navigasi bawah; tombol **Menu** di paling kanan membuka lembar berisi bagian **Prodi**, **Admin**, dan **Lainnya** (sesuai peran Anda). Nama, peran, **Kata sandi**, dan tombol **Keluar** ada di lembar **Akun** yang dibuka tombol akun di bilah atas.
 
-Tidak ada pemilih peran: dosen yang juga kaprodi atau admin melihat semua menunya sekaligus.
+Dosen yang juga kaprodi atau admin memilih peran aktif di pemilih peran (pojok kanan bilah atas; di HP lembar **Akun**). Peran aktif menentukan menu dan isi Beranda, bukan hak akses.
 
 Panduan ini bisa dibuka dari aplikasi lewat tautan **Panduan** di bagian bawah setiap halaman.

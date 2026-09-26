@@ -56,7 +56,7 @@ Kalau syarat belum terpenuhi, halaman menampilkan kartu **langkah yang belum sel
 
 Bilah atas menampilkan nama, peran, dan email kampus Anda. Di HP, semuanya ada di lembar **Akun** (tombol bulat berisi inisial nama). Istilah bertanda **?** di halaman (rumpun, CPL, dan lain-lain) bisa diketuk untuk melihat artinya.
 
-**Tidak ada pemilih peran.** Dosen yang juga kaprodi atau admin melihat semuanya sekaligus: menu mengajar, ditambah bagian **Prodi** (kaprodi) atau **Admin** (admin) di bilah atas. Label peran menyebut semua peran Anda, mis. *kaprodi TRPL · dosen*.
+**Pemilih peran** (hanya untuk dosen yang juga kaprodi atau admin). Di pojok kanan bilah atas (di HP: lembar **Akun**) Anda memilih peran aktif — **admin**, **kaprodi &lt;KODE&gt;**, atau **dosen**, hanya yang Anda pegang; bawaannya yang tertinggi. Peran kaprodi menambah bagian **Prodi** di menu, peran admin bagian **Admin**; peran dosen hanya menu mengajar. Beranda mengikuti peran aktif. Pilihan ini hanya mengubah menu dan Beranda, bukan hak akses. Dosen biasa tidak melihat pemilih, hanya label *dosen*.
 
 ## Beranda
 

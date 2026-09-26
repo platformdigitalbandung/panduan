@@ -10,7 +10,7 @@ Kaprodi ditetapkan admin. Syaratnya: terdaftar sebagai dosen aktif dan sudah men
 
 ## Menu
 
-**Tidak ada pemilih peran** (sejak 26 September 2026). Kaprodi juga dosen, jadi Anda melihat semuanya sekaligus: menu mengajar dosen ditambah bagian **Prodi &lt;KODE&gt;**. Label peran di bilah atas menyebut semua peran Anda, mis. *kaprodi TRPL · dosen*.
+**Pemilih peran.** Kaprodi juga dosen, jadi di pojok kanan bilah atas (di HP: lembar **Akun**, tombol bulat berisi inisial) ada pemilih **kaprodi &lt;KODE&gt;** / **dosen** — bawaannya kaprodi. Peran **kaprodi** menampilkan bagian **Prodi &lt;KODE&gt;** di menu dan langkah *Semester prodi Anda* di Beranda; peran **dosen** menyembunyikannya dan menampilkan pekerjaan mengajar Anda. Pilihan tersimpan di peramban itu dan berlaku tanpa keluar-masuk. Pemilih ini **hanya mengubah menu dan Beranda**: hak Anda tetap sama, dan di halaman kelas prodi Anda tetap punya hak pengajar di peran mana pun.
 
 | Tempat | Isi |
 |---|---|
@@ -31,7 +31,7 @@ Materi, kuis, dan tugas dibuka dari dalam kelas (lihat [Panduan Dosen › Menu](
 
 ## Beranda
 
-Judulnya **Hari ini**, untuk semua peran Anda sekaligus:
+Judulnya **Hari ini**, mengikuti peran aktif di pemilih peran. Dengan peran **kaprodi**:
 
 * **Langkah yang belum selesai → Semester prodi Anda** — langkah di atas dengan status dari data prodi Anda, mis. *belum ada CPL*, *SKS rumpun 30 dari 144*, *2 rumpun masih draf*, *N draf kalender menunggu diterbitkan*, *N kelas PRODI belum punya pengajar*. Hilang sendiri begitu semuanya beres.
 * **Perlu dikerjakan** — mis. proyek kerja yang telat tinjauan tengah (**Mendesak**), kiriman tugas yang perlu dinilai di kelas prodi Anda, dan agenda mengajar Anda sendiri.
