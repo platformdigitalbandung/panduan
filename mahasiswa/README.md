@@ -46,7 +46,7 @@ Menu **Kelas** menampilkan kelas Anda, dikelompokkan per periode (mis. *Ganjil 2
 Buka kartu kelas untuk melihat empat tab:
 
 * **Beranda** — **Pengumuman** dari pengajar, isi **Minggu N** yang sedang berjalan (materi, kuis, tugas), **Perlu dikerjakan** (tugas kelas yang belum Anda serahkan, tenggat terdekat di atas), **Grup WhatsApp kelas** (tombol **Gabung grup WhatsApp kelas**), dan **Tentang kelas** (mata kuliah dan pengajarnya).
-* **Tugas Kelas** — semua materi, kuis, dan tugas kelas per minggu. Minggu berjalan terbuka otomatis dan bertanda *minggu ini*. **Buka** membuka materi, **Kerjakan** atau **Ulangi** membuka kuis, **Kerjakan** atau **Lihat** membuka tugas.
+* **Tugas Kelas** — semua materi, kuis, dan tugas kelas per minggu. Minggu berjalan terbuka otomatis dan bertanda *minggu ini*. Kelas **sistem blok** (mis. *blok minggu 9–16* di bagian atas kelas) hanya berjalan pada minggu itu; sebelum bloknya mulai, tab **Beranda** kelas menyebut kapan kelas itu dimulai. **Buka** membuka materi, **Kerjakan** atau **Ulangi** membuka kuis, **Kerjakan** atau **Lihat** membuka tugas.
 * **Anggota** — pengajar dan peserta kelas.
 * **Nilai** — kartu **Nilai Saya**: nilai tiap komponen beserta bobotnya dan nilai per tugas. **Nilai akhir** (dengan huruf) tampil setelah semua komponen terisi; sebelum itu tampil **Nilai sementara**. Buka **Bagaimana nilai dihitung?** untuk aturannya.
 

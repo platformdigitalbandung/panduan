@@ -111,7 +111,7 @@ Satu kelas untuk satu **rumpun** yang punya proyek pengikat, atau satu **mata ku
 
 Tiap baris kelas:
 
-1. **Nama** kelas boleh diganti (bawaannya kode + nama rumpun, atau nama mata kuliah).
+1. **Nama** kelas boleh diganti (bawaannya kode + nama rumpun, atau nama mata kuliah). Di bawahnya, **Minggu … sampai …** untuk **sistem blok**: bila rumpun berjalan berurutan (mis. rumpun pertama minggu 1–8, kedua minggu 9–16), isi rentang minggu kalender kelas itu. Kosongkan keduanya untuk kelas yang berjalan sepanjang semester (mis. jalur kontinu). Rentang tidak boleh melewati jumlah minggu kalender.
 2. Centang **pengajar** dari daftar semua dosen aktif yang sudah mengisi email kampus. Dosen yang sudah tercatat di prodi Anda ada di atas; ketik di **Cari nama atau email dosen…** untuk menyaring daftar yang panjang. Satu kelas boleh punya lebih dari satu pengajar. Dosen yang Anda tunjuk otomatis tercatat di prodi Anda (tampil di tab Dosen halaman **Pengguna**).
 3. **Peserta tambahan (NIM, pisahkan koma)** — mis. mahasiswa mengulang dari angkatan lain. **Dikeluarkan dari kelas (NIM)** — peserta otomatis yang tidak ikut kelas ini.
 4. Tekan **Simpan**. Pengajar langsung bisa menyusun isi kelas itu.
