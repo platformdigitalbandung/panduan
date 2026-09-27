@@ -171,7 +171,7 @@ Pada kartu kalender berstatus **draft**:
 
 Menu **Pengguna** (di HP: **Lainnya → Pengguna prodi**). Hanya untuk prodi yang Anda pimpin.
 
-* **Tab Mahasiswa** — daftar mahasiswa prodi Anda tampil otomatis beserta status **Kata sandi** (*kata sandi awal* atau *sudah diganti*). **Ubah** memperbarui data mahasiswa; **Reset kata sandi** mengembalikannya ke kata sandi awal (bagian email sebelum @ + `ADB`, atau NIM + `ADB` bila emailnya kosong). **Tambah Mahasiswa** dan **Impor dari Excel** bekerja seperti di [Panduan Admin › Kelola Pengguna](../admin/#kelola-pengguna); program studinya hanya prodi Anda, dan baris impor untuk prodi lain ditandai sebelum disimpan.
+* **Tab Mahasiswa** — daftar mahasiswa prodi Anda tampil otomatis beserta status **Kata sandi** (*kata sandi awal* atau *sudah diganti*). **Ubah** memperbarui data mahasiswa; **Reset kata sandi** mengembalikannya ke kata sandi awal (bagian email sebelum @ + `ADB`, atau NIM + `ADB` bila emailnya kosong). **Tambah Mahasiswa** dan **Impor dari Excel** bekerja seperti di [Panduan Admin › Kelola Pengguna](../admin/#kelola-pengguna); program studinya hanya prodi Anda, dan baris impor untuk prodi lain ditandai sebelum disimpan. Yang dimasukkan hanya mahasiswa **kelas Flipped**; mahasiswa kelas Eksekutif dan Reguler tidak memakai platform ini.
 * **Tab Dosen** — dosen yang tercatat di prodi Anda: yang Anda tambahkan lewat **Tambah Dosen** (langsung tercatat) dan yang pernah Anda tunjuk sebagai pengajar kelas. **Reset kata sandi** tersedia untuk dosen biasa — kata sandi admin dan kaprodi hanya bisa direset admin. Mengubah nomor, menonaktifkan, dan jabatan admin dikerjakan admin.
 
 Kata sandi Anda sendiri diganti lewat **Kata sandi** di pojok kanan atas.

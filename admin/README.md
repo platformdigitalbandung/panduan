@@ -32,6 +32,8 @@ Menu **Pengguna**. Dua tab: **Mahasiswa** dan **Dosen**. Admin mengelola semua p
 
 ### Tab Mahasiswa
 
+Roster platform hanya memuat mahasiswa **kelas Flipped**. Mahasiswa kelas Eksekutif dan Reguler di daftar akun email kampus tidak dimasukkan, karena tidak memakai platform ini.
+
 * **Cari Mahasiswa** — pilih **Program studi** (atau *(semua)*), isi **Angkatan** dan/atau **NIM atau nama**, lalu **Tampilkan**. Kolom **Kata sandi** menunjukkan *kata sandi awal* (belum pernah diganti) atau *sudah diganti*.
 * **Ubah** pada baris membuka formulir **Ubah Mahasiswa**; **Simpan Perubahan** memperbarui data (NIM tidak bisa diubah).
 * **Reset kata sandi** mengembalikan kata sandi mahasiswa itu ke kata sandi awal (bagian email sebelum @ + `ADB`, atau NIM + `ADB` bila emailnya kosong).
