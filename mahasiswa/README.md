@@ -33,7 +33,7 @@ Jadwal pasti tiap minggu mengikuti kalender yang diterbitkan kaprodi prodi Anda.
 
 Judulnya **Hari ini**. Isinya:
 
-* **Perlu dikerjakan** — tugas kelas yang belum Anda serahkan (tenggat terdekat di atas; **Mendesak** kalau tenggatnya tinggal kurang dari sehari atau sudah lewat), materi minggu ini yang belum selesai, kuis gerbang yang belum lulus, serta proyek kerja atau RPL yang menunggu. Ketuk butirnya untuk langsung mengerjakan.
+* **Perlu dikerjakan** — dikelompokkan **per kelas** (nama kelas di atas tiap kelompok): tugas kelas yang belum Anda serahkan (tenggat terdekat di atas; **Mendesak** kalau tenggatnya tinggal kurang dari sehari atau sudah lewat), materi minggu ini yang belum selesai, dan kuis gerbang yang belum lulus. Proyek kerja atau RPL yang menunggu ada di kelompok **Lainnya**. Ketuk butirnya untuk langsung mengerjakan. Kartu kelas di **Kelas saya** menyebut berapa hal yang menunggu di kelas itu.
 * **Kelas saya** — kartu kelas Anda; kartu menyebut berapa hal yang menunggu di kelas itu.
 * **Jadwal minggu N** — tabel hari, tanggal, kegiatan, dan waktu; hari ini ditandai.
 * **Akan datang** — mis. kalender semester yang belum terbit.
@@ -83,14 +83,14 @@ Video, bacaan, dan berkas PDF untuk dipelajari Senin–Rabu, sebelum sesi Jumat.
 
 Yang disimpan selalu titik terjauh, jadi progres tidak pernah turun. Kalau materi belum ada, tanyakan di grup WhatsApp kelas.
 
-Dari halaman **Kelas**, tombol **Buka** pada materi langsung membuka rumpun (atau mata kuliah) dan minggunya.
+**Dibuka dari halaman Kelas** (tombol **Buka** pada materi): halaman berjudul **Materi minggu N** dengan nama kelasnya, hanya berisi materi kelas itu minggu itu, dan tombol **← Kembali ke kelas** membawa Anda kembali ke tab **Tugas Kelas**. Pilihan rumpun dan minggu tidak ditampilkan.
 
 ## Kuis Gerbang
 
 Kuis materi pekan ini, dianjurkan lulus sebelum sesi Jumat.
 
 1. Buka kelas di menu **Kelas**, lalu tekan **Kerjakan** pada kuis minggu itu (tab **Beranda** atau **Tugas Kelas**) — atau ketuk butir kuis di **Perlu dikerjakan** di Beranda. Kuisnya langsung tampil.
-2. Untuk kuis lain, pilih **Rumpun**, isi **Minggu**, lalu tekan **Muat Kuis**.
+2. Dari kelas (atau dari **Perlu dikerjakan**), halaman berjudul **Kuis minggu N** dengan nama kelasnya dan tombol **← Kembali ke kelas**. Kalau membuka halaman Kuis Gerbang langsung, pilih **Rumpun**, isi **Minggu**, lalu tekan **Muat Kuis**.
 3. Perhatikan *n soal · ambang lulus x%*. Jawab **semua** soal (satu pilihan per soal).
 4. Tekan **Kirim Jawaban**. Hasilnya langsung tampil: *Skor x% — lulus* atau *belum lulus*.
 

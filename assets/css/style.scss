@@ -21,3 +21,5 @@ body { background: #f6f8fa; color: #1f2328; }
   .pdb-isi { padding: 16px !important; margin-top: 16px !important; }
   .pdb-nav { font-size: 13px; }
 }
+/* Tautan di dalam teks bergaris bawah: tidak hanya dibedakan warna (WCAG 1.4.1). */
+.markdown-body p a, .markdown-body li a, .markdown-body td a { text-decoration: underline; text-underline-offset: .15em; }
