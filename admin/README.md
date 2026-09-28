@@ -119,6 +119,13 @@ Yang ditolak bot: nomor yang sudah terdaftar sebagai dosen aktif, nomor yang ada
 
 Calon dosen juga bisa meminta sendiri: bila ia mengirim `daftar dosen | email` padahal belum anggota grup dosen, bot membalasnya dengan teks siap-teruskan berisi tautan pendaftaran untuk Anda — Anda cukup mengetuk tautannya lalu menekan Kirim.
 
+## Reset Kata Sandi dan Nomor Mahasiswa lewat WhatsApp
+
+Dua pekerjaan halaman **Pengguna** juga bisa dilakukan lewat chat pribadi ke nomor bot, dengan aturan yang sama:
+
+* **Reset kata sandi** — `reset sandi | NIM mahasiswa atau email dosen` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=reset%20sandi%20%7C%20%28ganti%20dengan%20NIM%20atau%20email%29)). Admin bisa mereset siapa pun. Bot membalas nama dan identitas masuknya beserta aturan kata sandi awal, untuk Anda sampaikan kepadanya.
+* **Mendaftarkan nomor mahasiswa** — `daftarkan mahasiswa | NIM | nomor WhatsApp` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftarkan%20mahasiswa%20%7C%20%28ganti%20dengan%20NIM%29%20%7C%20%28ganti%20dengan%20nomor%20WhatsApp%29)). Untuk NIM yang sudah ada di roster, hanya nomornya yang dihubungkan; data lain tidak berubah. NIM yang belum ada ditambahkan bila isiannya lengkap: `daftarkan mahasiswa | NIM | nomor WhatsApp | nama lengkap | kode prodi | angkatan | semester` (mis. `daftarkan mahasiswa | 261020099 | 081234567891 | Siti Aminah | bisdig | 2026 | 1`). Nomor boleh ditulis `08…`, `8…`, atau `62…`; balasan bot menampilkan nomor yang tersimpan (`62…`). Nomor dosen dan nomor yang sudah terhubung dengan NIM lain ditolak. Roster hanya untuk mahasiswa kelas Flipped.
+
 ## Yang dikerjakan di luar aplikasi
 
 Hal berikut sengaja tidak punya tombol di aplikasi dan dikerjakan pengelola platform di sistem, bukan lewat aplikasi:
@@ -133,7 +140,7 @@ Hubungi pengelola platform untuk keperluan ini.
 | Keadaan | Yang dilakukan |
 |---|---|
 | Dosen tidak muncul di pilihan kaprodi | Dosen belum mengisi email kampus, atau belum terdaftar sebagai dosen aktif. |
-| Pengguna lupa kata sandi | **Pengguna** → cari orangnya → **Reset kata sandi**. Kata sandinya kembali ke kata sandi awal. |
+| Pengguna lupa kata sandi | **Pengguna** → cari orangnya → **Reset kata sandi**, atau kirim `reset sandi \| NIM/email` ke bot lewat chat pribadi. Kata sandinya kembali ke kata sandi awal. |
 | *ini admin aktif terakhir* | Tetapkan admin lain dulu, baru cabut atau nonaktifkan admin itu. |
 | Kaprodi baru belum melihat menu kaprodi | Minta ia keluar lalu masuk lagi. |
 | *Buat program studinya dulu di halaman Kurikulum* | Belum ada prodi; buat lewat menu **Admin → Program studi baru**. |

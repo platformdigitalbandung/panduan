@@ -176,6 +176,13 @@ Menu **Pengguna** (di HP: **Lainnya → Pengguna prodi**). Hanya untuk prodi yan
 
 Kata sandi Anda sendiri diganti lewat **Kata sandi** di pojok kanan atas.
 
+### Lewat WhatsApp
+
+Dua pekerjaan di halaman ini juga bisa dilakukan lewat chat pribadi ke nomor bot, dengan aturan yang sama:
+
+* **Reset kata sandi** — `reset sandi | NIM mahasiswa atau email dosen` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=reset%20sandi%20%7C%20%28ganti%20dengan%20NIM%20atau%20email%29)). Hanya mahasiswa prodi Anda dan dosen biasa yang tercatat di prodi Anda. Bot membalas nama dan identitas masuknya beserta aturan kata sandi awal, untuk Anda sampaikan kepadanya.
+* **Mendaftarkan nomor mahasiswa** — `daftarkan mahasiswa | NIM | nomor WhatsApp` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftarkan%20mahasiswa%20%7C%20%28ganti%20dengan%20NIM%29%20%7C%20%28ganti%20dengan%20nomor%20WhatsApp%29)). Untuk NIM yang sudah ada di roster, hanya nomornya yang dihubungkan; data lain tidak berubah. NIM yang belum ada ditambahkan bila isiannya lengkap: `daftarkan mahasiswa | NIM | nomor WhatsApp | nama lengkap | kode prodi | angkatan | semester` (mis. `daftarkan mahasiswa | 261020099 | 081234567891 | Siti Aminah | bisdig | 2026 | 1`). Nomor boleh ditulis `08…`, `8…`, atau `62…`; balasan bot menampilkan nomor yang tersimpan (`62…`). Nomor dosen dan nomor yang sudah terhubung dengan NIM lain ditolak. Roster hanya untuk mahasiswa kelas Flipped.
+
 ## Laporan Prodi
 
 Menu **Laporan**. Semua laporan otomatis dibatasi ke prodi yang Anda pimpin.
@@ -218,4 +225,4 @@ Kartu **Rekap Keterlambatan Rekaman** menampilkan per kalender: jatuh tempo, tep
 | Kelas tidak punya peserta | Roster angkatan dan semester itu belum diisi, atau semester mahasiswanya belum dinaikkan — lihat **4. Cek peserta** di [Siapkan semester](#siapkan-semester). |
 | Menu **Kelola kelas** atau **Kalender prodi** tidak ada | Sejak 26 September 2026 keduanya digabung ke **Prodi → Siapkan semester**; kalender tetap terbuka lewat **Jadwal**. |
 | Menu materi/kuis/tugas tidak ada | Sejak 26 September 2026 semuanya dibuka dari dalam kelas (**Kelas** → pilih kelas → **Tugas Kelas**). |
-| Mahasiswa atau dosen lupa kata sandi | **Pengguna** → cari orangnya → **Reset kata sandi**. Kata sandi admin dan kaprodi hanya bisa direset admin. |
+| Mahasiswa atau dosen lupa kata sandi | **Pengguna** → cari orangnya → **Reset kata sandi**, atau kirim `reset sandi \| NIM/email` ke bot lewat chat pribadi. Kata sandi admin dan kaprodi hanya bisa direset admin. |

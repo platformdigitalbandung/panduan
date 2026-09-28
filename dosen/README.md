@@ -85,6 +85,7 @@ Nomor WhatsApp di roster yang menghubungkan login mahasiswa ke NIM-nya. Roster b
 
 * **Tambah Satu Mahasiswa** — isi NIM, Nama, Nomor WhatsApp, Surel, Program studi, Angkatan, Semester, Status (aktif/cuti/lulus/keluar), dan **Username GitHub** (untuk autograder), lalu **Simpan Mahasiswa**. NIM yang sudah ada diperbarui, bukan digandakan.
 * **Tempel Banyak Mahasiswa** — satu baris per mahasiswa dengan format `nim | nama | nomor WhatsApp | prodi | angkatan | semester`. Isi nilai bawaan prodi/angkatan/semester bila perlu, lalu **Proses Semua Baris**. Baris yang gagal ditandai; perbaiki dan tempel ulang baris itu saja.
+* **Lewat WhatsApp** — nomor mahasiswa juga bisa didaftarkan dengan `daftarkan mahasiswa | NIM | nomor WhatsApp` ke bot, lihat [Lewat WhatsApp](#lewat-whatsapp).
 * **Daftar Roster** — saring prodi dan angkatan, lalu **Tampilkan**. Tiap baris punya tombol **Dasbor**, **Ubah**, **Hapus**. Untuk mahasiswa yang lulus atau berhenti, ubah statusnya — jangan dihapus.
 
 ## Kelas yang Anda Ajar
@@ -262,6 +263,7 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 * `daftar dosen | <email kampus>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftar%20dosen%20%7C%20%28ganti%20dengan%20email%20Anda%29)) — Mendaftarkan nomor Anda sebagai dosen (hanya anggota grup WhatsApp dosen, lewat chat pribadi ke bot); kalau sudah terdaftar, memperbarui email kampus
 * `mk diampu` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=mk%20diampu)) — Kelas yang Anda ajar (dan kelas prodi yang Anda pimpin), beserta tautan grup WhatsApp kelas atau tautan untuk membuatnya
 * `daftar grup | <kode kelas> | <nama kelas>` — Meminta bot membuat grup WhatsApp kelas itu (tautan siap-kirimnya ada di balasan `mk diampu` dan di halaman kelas)
+* `daftarkan mahasiswa | <NIM> | <nomor WhatsApp>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftarkan%20mahasiswa%20%7C%20%28ganti%20dengan%20NIM%29%20%7C%20%28ganti%20dengan%20nomor%20WhatsApp%29)) — Menghubungkan nomor WhatsApp mahasiswa ke NIM-nya di roster (sama dengan **Ubah** di Daftar Roster). NIM yang belum ada ditambahkan bila isiannya lengkap: `daftarkan mahasiswa | NIM | nomor WhatsApp | nama lengkap | kode prodi | angkatan | semester`. Nomor dosen dan nomor yang sudah terhubung dengan NIM lain ditolak
 * `daftar tugas` — Daftar tugas beserta id-nya, berlabel prodi
 * `laporan tugas <id tugas>` — Laporan kemiripan satu tugas (balasan bot berisi tautan yang langsung membuka laporannya di web)
 * `status proyek kerja` — Proyek kerja bimbingan
