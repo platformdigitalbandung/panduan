@@ -18,19 +18,15 @@ Semua peran masuk lewat satu halaman login: **[platform.digitalbdg.ac.id/login/]
 1. Di **NIM atau email kampus**, isi **NIM** Anda (mahasiswa) atau **email kampus** Anda (dosen, kaprodi, admin).
 2. Isi **Kata sandi**, lalu tekan **Masuk**.
 
-**Kata sandi awal** — selama belum Anda ganti — adalah **bagian email Anda sebelum tanda @, ditambah `ADB`** (huruf besar):
+**Kata sandi wajib kuat**: minimal 12 karakter, memuat huruf kecil, huruf besar, angka, dan simbol (mis. `-`, `!`, `?`), tidak memuat NIM, email, atau nama Anda, dan tanpa karakter yang sama 4 kali berturut-turut. Kata sandi berpola seperti NIM atau email ditambah `ADB` tidak lagi diizinkan (sejak 28 September 2026).
 
-| Email | Kata sandi awal |
-|---|---|
-| `1234@digitalbdg.ac.id` | `1234ADB` |
-| `budi.santoso@kampus.ac.id` | `budi.santosoADB` |
-
-Mahasiswa yang emailnya belum tercatat di roster memakai **NIM ditambah `ADB`** (mis. `2026TRPL001ADB`). Dosen yang belum mengisi email kampus belum bisa masuk dengan kata sandi — masuk lewat WhatsApp dulu, lalu isi email kampus (lihat [Panduan Dosen](dosen/#langkah-pertama)).
-
-* **Mengganti kata sandi:** setelah masuk, tekan **Kata sandi** di pojok kanan atas (di HP: tombol akun → **Kata sandi**). Isi **Kata sandi lama**, **Kata sandi baru** (minimal 8 karakter), dan **Ulangi kata sandi baru**, lalu tekan **Simpan Kata Sandi Baru**. Sesudah diganti, kata sandi awal tidak berlaku lagi.
-* **Lupa kata sandi:** minta kaprodi prodi Anda atau admin mereset — kata sandi kembali ke kata sandi awal. Anda juga tetap bisa masuk lewat WhatsApp.
+* **Belum punya kata sandi?** Masuk lewat tab **WhatsApp**, lalu tekan **Kata sandi** di pojok kanan atas (di HP: tombol akun → **Kata sandi**) dan buat kata sandi di kartu **Buat Kata Sandi**.
+* **Mahasiswa yang masih memakai kata sandi awal dari kampus** bisa memakainya untuk masuk **sampai Senin 12 Oktober 2026**, lalu langsung diarahkan ke **Ganti Kata Sandi** dan wajib membuat kata sandi baru sebelum membuka halaman lain. Sesudah tanggal itu kata sandi awal tidak berlaku — masuk lewat WhatsApp atau minta kaprodi mereset. Dosen tidak bisa lagi memakai kata sandi awal; masuk lewat WhatsApp lalu buat kata sandi.
+* **Mengganti kata sandi:** tekan **Kata sandi** di pojok kanan atas. Isi **Kata sandi lama**, **Kata sandi baru**, dan **Ulangi kata sandi baru**, lalu tekan **Simpan Kata Sandi Baru**. Syarat yang sudah terpenuhi dicentang saat Anda mengetik. Tombol **Buatkan kata sandi kuat** mengisi kata sandi acak yang kuat — catat atau simpan di pengelola kata sandi sebelum menyimpan.
+* **Wajib ganti:** setelah masuk dengan kata sandi awal, kata sandi sementara hasil reset, atau kata sandi lama yang belum kuat, Anda diarahkan ke **Ganti Kata Sandi**; halaman lain terbuka lagi setelah kata sandi baru tersimpan.
+* **Lupa kata sandi:** masuk lewat tab **WhatsApp**, atau minta kaprodi prodi Anda atau admin mereset. Reset menghasilkan **kata sandi sementara** acak — dikirim bot ke WhatsApp Anda bila nomor Anda tercatat, atau disampaikan kaprodi/admin — yang wajib Anda ganti setelah masuk.
 * **Salah 10 kali** dalam 15 menit membuat akun itu ditahan 15 menit; tunggu, atau masuk lewat WhatsApp.
-* **Mahasiswa yang nomor WhatsApp-nya belum tercatat tetap bisa masuk** dengan NIM (atau email) dan kata sandi. Layanan lewat WhatsApp (perintah bot, grup kelas lewat bot) baru bisa dipakai setelah kaprodi atau admin mengisi nomornya. Dosen tetap harus punya nomor WhatsApp di data platform.
+* **Mahasiswa yang nomor WhatsApp-nya belum tercatat** tetap bisa masuk dengan NIM (atau email) dan kata sandi. Di **Beranda** muncul kartu **Hubungkan WhatsApp**: tekan **Hubungkan WhatsApp**, lalu **Buka WhatsApp** dari HP yang memakai nomor Anda dan tekan **Kirim**. Setelah bot membalas bahwa nomor terhubung, keluar lalu masuk lagi. Sejak itu Anda bisa masuk lewat WhatsApp — termasuk bila lupa kata sandi — dan memakai layanan bot. Dosen tetap harus punya nomor WhatsApp di data platform.
 
 ### Dengan WhatsApp (tab **WhatsApp**)
 

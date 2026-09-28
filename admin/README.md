@@ -34,17 +34,17 @@ Menu **Pengguna**. Dua tab: **Mahasiswa** dan **Dosen**. Admin mengelola semua p
 
 Roster platform hanya memuat mahasiswa **kelas Flipped**. Mahasiswa kelas Eksekutif dan Reguler di daftar akun email kampus tidak dimasukkan, karena tidak memakai platform ini.
 
-* **Cari Mahasiswa** — pilih **Program studi** (atau *(semua)*), isi **Angkatan** dan/atau **NIM atau nama**, lalu **Tampilkan**. Kolom **Kata sandi** menunjukkan *kata sandi awal* (belum pernah diganti) atau *sudah diganti*.
+* **Cari Mahasiswa** — pilih **Program studi** (atau *(semua)*), isi **Angkatan** dan/atau **NIM atau nama**, lalu **Tampilkan**. Kolom **Kata sandi** menunjukkan *dibuat sendiri* atau *belum dibuat* (masih kata sandi awal, kata sandi sementara, atau belum ada).
 * **Ubah** pada baris membuka formulir **Ubah Mahasiswa**; **Simpan Perubahan** memperbarui data (NIM tidak bisa diubah).
-* **Reset kata sandi** mengembalikan kata sandi mahasiswa itu ke kata sandi awal (bagian email sebelum @ + `ADB`, atau NIM + `ADB` bila emailnya kosong).
-* **Tambah Mahasiswa** — isi NIM, Nama, Nomor WhatsApp, Email, Program studi, Angkatan, Semester, Status, lalu **Tambah Mahasiswa**. Nomor boleh ditulis `08…`, `8…`, atau `62…`; tersimpan sebagai `62…`. Nomor boleh dikosongkan: mahasiswa tanpa nomor tetap bisa masuk dengan NIM/email dan kata sandi, hanya layanan lewat WhatsApp yang belum bisa dipakai. Email menentukan kata sandi awal.
+* **Reset kata sandi** membuat **kata sandi sementara** acak untuk mahasiswa itu, ditampilkan sekali untuk Anda sampaikan; bila ia punya nomor WhatsApp, bot juga mengirimkannya kepadanya. Ia wajib menggantinya setelah masuk.
+* **Tambah Mahasiswa** — isi NIM, Nama, Nomor WhatsApp, Email, Program studi, Angkatan, Semester, Status, lalu **Tambah Mahasiswa**. Nomor boleh ditulis `08…`, `8…`, atau `62…`; tersimpan sebagai `62…`. Nomor boleh dikosongkan: mahasiswa tanpa nomor tetap bisa masuk dengan NIM/email dan kata sandi, hanya layanan lewat WhatsApp yang belum bisa dipakai.
 * **Impor dari Excel** — salin baris dari Excel/Google Sheets (kolom berurutan: NIM, Nama, Nomor WhatsApp, Email, Prodi, Angkatan, Semester), tempel di **Baris**, isi bawaan prodi/angkatan/semester, lalu tekan **Periksa**. Tabel pratinjau menampilkan nomor yang sudah dibakukan dan menandai baris bermasalah (mis. nomor tampil sebagai `6.28E+12` — format kolom nomor di Excel sebagai **teks** lalu salin ulang). Tekan **Simpan N Mahasiswa** untuk menyimpan baris yang siap.
 
 ### Tab Dosen
 
 * **Tambah Dosen** — isi **Nomor WhatsApp** dan **Nama lengkap**, lalu **Tambah Dosen**. Dosen baru langsung aktif; email kampusnya diisi dosen sendiri. Nomor yang pernah dinonaktifkan diaktifkan kembali lewat formulir ini.
 * **Semua Dosen** — cari dengan nama, email, atau nomor. Aksi per baris:
-  * **Reset kata sandi** — kembali ke kata sandi awal (bagian email kampus sebelum @ + `ADB`). Tidak tampil untuk dosen yang belum mengisi email kampus.
+  * **Reset kata sandi** — membuat kata sandi sementara acak (ditampilkan sekali, dan dikirim bot ke WhatsApp dosen itu). Tidak tampil untuk dosen yang belum mengisi email kampus.
   * **Ubah** — nama dan nomor WhatsApp (email tidak bisa diubah di sini; dosennya sendiri yang mengisi).
   * **Jadikan admin** / **Cabut admin** — hanya untuk dosen aktif. Admin aktif terakhir tidak bisa dicabut. Label perannya berubah setelah ia keluar lalu masuk lagi.
   * **Nonaktifkan** / **Aktifkan** — dosen nonaktif kehilangan semua perannya (dosen, kaprodi, admin) dan tidak bisa masuk dengan cara apa pun. Anda tidak bisa menonaktifkan diri sendiri, dan admin aktif terakhir tidak bisa dinonaktifkan.
@@ -123,7 +123,7 @@ Calon dosen juga bisa meminta sendiri: bila ia mengirim `daftar dosen | email` p
 
 Dua pekerjaan halaman **Pengguna** juga bisa dilakukan lewat chat pribadi ke nomor bot, dengan aturan yang sama:
 
-* **Reset kata sandi** — `reset sandi | NIM mahasiswa atau email dosen` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=reset%20sandi%20%7C%20%28ganti%20dengan%20NIM%20atau%20email%29)). Admin bisa mereset siapa pun. Bot membalas nama dan identitas masuknya beserta aturan kata sandi awal, untuk Anda sampaikan kepadanya.
+* **Reset kata sandi** — `reset sandi | NIM mahasiswa atau email dosen` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=reset%20sandi%20%7C%20%28ganti%20dengan%20NIM%20atau%20email%29)). Admin bisa mereset siapa pun. Bot membalas kata sandi sementara acak untuk Anda sampaikan kepadanya, dan mengirimkannya juga ke WhatsApp pemiliknya bila nomornya tercatat. Ia wajib menggantinya setelah masuk.
 * **Mendaftarkan nomor mahasiswa** — `daftarkan mahasiswa | NIM | nomor WhatsApp` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftarkan%20mahasiswa%20%7C%20%28ganti%20dengan%20NIM%29%20%7C%20%28ganti%20dengan%20nomor%20WhatsApp%29)). Untuk NIM yang sudah ada di roster, hanya nomornya yang dihubungkan; data lain tidak berubah. NIM yang belum ada ditambahkan bila isiannya lengkap: `daftarkan mahasiswa | NIM | nomor WhatsApp | nama lengkap | kode prodi | angkatan | semester` (mis. `daftarkan mahasiswa | 261020099 | 081234567891 | Siti Aminah | bisdig | 2026 | 1`). Nomor boleh ditulis `08…`, `8…`, atau `62…`; balasan bot menampilkan nomor yang tersimpan (`62…`). Nomor dosen dan nomor yang sudah terhubung dengan NIM lain ditolak. Roster hanya untuk mahasiswa kelas Flipped.
 
 ## Yang dikerjakan di luar aplikasi
@@ -140,7 +140,7 @@ Hubungi pengelola platform untuk keperluan ini.
 | Keadaan | Yang dilakukan |
 |---|---|
 | Dosen tidak muncul di pilihan kaprodi | Dosen belum mengisi email kampus, atau belum terdaftar sebagai dosen aktif. |
-| Pengguna lupa kata sandi | **Pengguna** → cari orangnya → **Reset kata sandi**, atau kirim `reset sandi \| NIM/email` ke bot lewat chat pribadi. Kata sandinya kembali ke kata sandi awal. |
+| Pengguna lupa kata sandi | **Pengguna** → cari orangnya → **Reset kata sandi**, atau kirim `reset sandi \| NIM/email` ke bot lewat chat pribadi. Pemiliknya mendapat kata sandi sementara yang wajib diganti. |
 | *ini admin aktif terakhir* | Tetapkan admin lain dulu, baru cabut atau nonaktifkan admin itu. |
 | Kaprodi baru belum melihat menu kaprodi | Minta ia keluar lalu masuk lagi. |
 | *Buat program studinya dulu di halaman Kurikulum* | Belum ada prodi; buat lewat menu **Admin → Program studi baru**. |

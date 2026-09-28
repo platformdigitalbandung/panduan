@@ -38,6 +38,7 @@ Judulnya **Hari ini**. Isinya:
 * **Jadwal minggu N** — tabel hari, tanggal, kegiatan, dan waktu; hari ini ditandai.
 * **Akan datang** — mis. kalender semester yang belum terbit.
 * Kolom samping: perintah WhatsApp.
+* **Hubungkan WhatsApp** — muncul bila nomor WhatsApp Anda belum tercatat (Anda masuk dengan NIM dan kata sandi). Tekan **Hubungkan WhatsApp**, lalu **Buka WhatsApp** dari HP yang memakai nomor Anda dan tekan **Kirim**; kode di pesannya berlaku 15 menit. Setelah bot membalas, keluar lalu masuk lagi. Sejak itu Anda bisa masuk lewat WhatsApp bila lupa kata sandi.
 
 ## Kelas
 
@@ -229,7 +230,7 @@ Beberapa layanan bisa dipakai dengan mengirim pesan ke bot dari nomor yang terda
 | *Belum ada materi* untuk minggu ini | Pengajar kelas belum mengisi katalog. Tanyakan di grup WhatsApp kelas. |
 | Menu **Kelas** kosong | Kelas dibuka setelah kaprodi menerbitkan kalender semester prodi, angkatan, dan semester Anda. Kalau kalender sudah terbit tetapi kelas tetap kosong, data roster Anda (angkatan, semester, status) mungkin keliru — hubungi kaprodi. |
 | *Sesi berakhir* | Tekan **Masuk lagi** di pojok kanan atas. |
-| *NIM/email atau kata sandi salah* | Kata sandi awal: bagian email Anda sebelum @ ditambah `ADB` (tanpa email di roster: NIM ditambah `ADB`). Sudah pernah diganti dan lupa? Minta kaprodi atau admin mereset, atau masuk lewat tab **WhatsApp**. |
+| *NIM/email atau kata sandi salah* | Masuk dengan NIM dan kata sandi Anda. Kata sandi awal dari kampus hanya berlaku sampai 12 Oktober 2026. Lupa? Masuk lewat tab **WhatsApp** (bila nomor Anda sudah terhubung), atau minta kaprodi atau admin mereset — Anda mendapat kata sandi sementara yang wajib diganti. |
 | *Terlalu banyak percobaan masuk yang gagal* | Tunggu 15 menit, atau masuk lewat tab **WhatsApp**. |
 | *peran belum pasti* / *Server belum terjangkau* | Muat ulang halaman beberapa saat lagi. |
 | Halaman masih tampil lama setelah ada pembaruan | Muat ulang paksa (Ctrl+Shift+R). |
