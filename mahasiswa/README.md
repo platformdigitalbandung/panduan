@@ -22,20 +22,30 @@ Istilah bertanda **?** (rumpun, CPL, SKS, RPL, dan lain-lain) bisa diketuk untuk
 
 | Hari | Kegiatan |
 |---|---|
-| Senin–Rabu | Belajar mandiri (asinkron), kapan saja pukul 00.00–23.59: materi, kuis gerbang, bertanya di grup WhatsApp kelas |
+| Senin–Rabu | Belajar mandiri (asinkron): **tiap kelas punya harinya** — Senin dan Selasa untuk kelas mata kuliah lepas, Rabu untuk kelas rumpun. Materi dan kuis kelas terbuka pukul 00.00 pada harinya; selesaikan sampai 23.59 hari itu |
 | Kamis | Kelas daring bersama dosen (sinkron) — rekamannya terbit untuk yang berhalangan |
 | Jumat | Sesi panjang: praktikum dan kerja proyek |
 | Sabtu–Minggu | Tanpa agenda akademik |
 
 Jadwal pasti tiap minggu mengikuti kalender yang diterbitkan kaprodi prodi Anda.
 
+### Hari asinkron dan ketepatan belajar
+
+Sejak 29 September 2026, tiap kelas punya **hari asinkron** — hari kelas itu dipelajari, ditetapkan kaprodi. Hari kelas Anda tampil di bagian atas halaman kelas (mis. *asinkron Rabu*), di **Jadwal minggu N** Beranda, dan di halaman **Jadwal**.
+
+* **Materi dan kuis satu minggu baru terbuka pukul 00.00 WIB pada hari asinkron kelasnya**, lalu tetap terbuka sesudahnya. Sebelum itu materi dan kuis tampil dengan tanda *terbuka Rabu, 30 Sep* (misalnya) dan belum bisa dibuka.
+* **Selesaikan materinya pada hari itu juga**: video ditonton sampai habis, bacaan digulir sampai akhir, dan PDF dibaca semua halamannya (progres 100%) paling lambat pukul 23.59 WIB.
+* Materi yang Anda selesaikan **sesudah** harinya, atau belum selesai padahal harinya sudah lewat, menjadi **catatan**. Catatan tampil di tab **Nilai** kelas (kartu **Ketepatan belajar**), di **Perlu dikerjakan** Beranda (*N catatan: materi tidak diselesaikan pada harinya*), dan lewat WhatsApp `catatan belajar`.
+* **Bukan catatan**: materi yang baru diunggah dosen pada hari itu atau sesudahnya, dan hari jadwal sebelum Anda terdaftar di roster.
+* Penilaian dimulai **minggu 2 (Senin, 5 Oktober 2026)**; minggu 1 masa pengenalan.
+
 ## Beranda
 
 Judulnya **Hari ini**. Isinya:
 
-* **Perlu dikerjakan** — dikelompokkan **per kelas** (nama kelas di atas tiap kelompok): tugas kelas yang belum Anda serahkan (tenggat terdekat di atas; **Mendesak** kalau tenggatnya tinggal kurang dari sehari atau sudah lewat), materi minggu ini yang belum selesai, dan kuis gerbang yang belum lulus. Proyek kerja atau RPL yang menunggu ada di kelompok **Lainnya**. Ketuk butirnya untuk langsung mengerjakan. Kartu kelas di **Kelas saya** menyebut berapa hal yang menunggu di kelas itu.
+* **Perlu dikerjakan** — dikelompokkan **per kelas** (nama kelas di atas tiap kelompok): tugas kelas yang belum Anda serahkan (tenggat terdekat di atas; **Mendesak** kalau tenggatnya tinggal kurang dari sehari atau sudah lewat), materi minggu ini yang belum selesai, kuis gerbang yang belum lulus, dan catatan ketepatan belajar. Materi dan kuis sebuah kelas baru muncul di sini mulai hari asinkron kelas itu. Proyek kerja atau RPL yang menunggu ada di kelompok **Lainnya**. Ketuk butirnya untuk langsung mengerjakan. Kartu kelas di **Kelas saya** menyebut berapa hal yang menunggu di kelas itu.
 * **Kelas saya** — kartu kelas Anda; kartu menyebut berapa hal yang menunggu di kelas itu.
-* **Jadwal minggu N** — tabel hari, tanggal, kegiatan, dan waktu; hari ini ditandai.
+* **Jadwal minggu N** — tabel hari, tanggal, kegiatan, dan waktu; hari ini ditandai. Hari asinkron menyebut kelas yang dipelajari hari itu.
 * **Akan datang** — mis. kalender semester yang belum terbit.
 * Kolom samping: perintah WhatsApp.
 * **Hubungkan WhatsApp** — muncul bila nomor WhatsApp Anda belum tercatat (Anda masuk dengan NIM dan kata sandi). Tekan **Hubungkan WhatsApp**, lalu **Buka WhatsApp** dari HP yang memakai nomor Anda dan tekan **Kirim**; kode di pesannya berlaku 15 menit. Setelah bot membalas, keluar lalu masuk lagi. Sejak itu Anda bisa masuk lewat WhatsApp bila lupa kata sandi.
@@ -47,9 +57,9 @@ Menu **Kelas** menampilkan kelas Anda, dikelompokkan per periode (mis. *Ganjil 2
 Buka kartu kelas untuk melihat empat tab:
 
 * **Beranda** — **Pengumuman** dari pengajar, isi **Minggu N** yang sedang berjalan (materi, kuis, tugas), **Perlu dikerjakan** (tugas kelas yang belum Anda serahkan, tenggat terdekat di atas), **Grup WhatsApp kelas** (tombol **Gabung grup WhatsApp kelas**), dan **Tentang kelas** (mata kuliah dan pengajarnya).
-* **Tugas Kelas** — semua materi, kuis, dan tugas kelas per minggu. Minggu berjalan terbuka otomatis dan bertanda *minggu ini*. Kelas **sistem blok** (mis. *blok minggu 9–16* di bagian atas kelas) hanya berjalan pada minggu itu; sebelum bloknya mulai, tab **Beranda** kelas menyebut kapan kelas itu dimulai. **Buka** membuka materi, **Kerjakan** atau **Ulangi** membuka kuis, **Kerjakan** atau **Lihat** membuka tugas.
+* **Tugas Kelas** — semua materi, kuis, dan tugas kelas per minggu; tiap minggu menyebut hari asinkronnya (mis. *asinkron Rabu, 30 Sep*). Minggu yang harinya belum tiba bertanda *terbuka Rabu, 30 Sep* dan materi serta kuisnya belum bisa dibuka. Minggu berjalan terbuka otomatis dan bertanda *minggu ini*. Kelas **sistem blok** (mis. *blok minggu 9–16* di bagian atas kelas) hanya berjalan pada minggu itu; sebelum bloknya mulai, tab **Beranda** kelas menyebut kapan kelas itu dimulai. **Buka** membuka materi, **Kerjakan** atau **Ulangi** membuka kuis, **Kerjakan** atau **Lihat** membuka tugas.
 * **Anggota** — pengajar dan peserta kelas.
-* **Nilai** — kartu **Nilai Saya**: nilai tiap komponen beserta bobotnya dan nilai per tugas. **Nilai akhir** (dengan huruf) tampil setelah semua komponen terisi; sebelum itu tampil **Nilai sementara**. Buka **Bagaimana nilai dihitung?** untuk aturannya.
+* **Nilai** — kartu **Nilai Saya**: nilai tiap komponen beserta bobotnya dan nilai per tugas. **Nilai akhir** (dengan huruf) tampil setelah semua komponen terisi; sebelum itu tampil **Nilai sementara**. Buka **Bagaimana nilai dihitung?** untuk aturannya. Kartu **Ketepatan belajar** di bawahnya menyebut berapa materi Anda selesaikan tepat pada harinya, terlambat, dan belum selesai, beserta **Catatan**-nya (judul materi, tanggal selesai, dan jadwalnya).
 
 Status tugas di kelas: *ditugaskan*, *lewat tenggat*, *diserahkan*, *diserahkan terlambat*, dan *dinilai x/100* setelah pengajar mengembalikan nilainya. Status kuis: *belum dikerjakan*, *lulus x%*, *belum lulus x%*.
 
@@ -61,13 +71,13 @@ Hanya dibaca. Menampilkan kalender yang sudah diterbitkan kaprodi.
 
 1. Pilih kalender di **Tampilkan kalender** — bawaannya prodi Anda (bertanda *prodi Anda*). Bisa juga *Semua program studi* atau prodi lain.
 2. Sesi dikelompokkan per **Minggu N**. Minggu berjalan terbuka otomatis dengan tanda *minggu ini*; ketuk minggu lain untuk membukanya.
-3. Tiap sesi menampilkan hari, tanggal, jenis kegiatan (*Belajar mandiri (asinkron)*, *Kelas daring bersama dosen*, *Praktik & proyek (luring atau daring)*, atau *Tanpa kegiatan akademik*), jam WIB, dan keterangan.
+3. Tiap sesi menampilkan hari, tanggal, jenis kegiatan (*Belajar mandiri (asinkron)*, *Kelas daring bersama dosen*, *Praktik & proyek (luring atau daring)*, atau *Tanpa kegiatan akademik*), jam WIB, dan keterangan. Hari asinkron menyebut kelas Anda yang dipelajari hari itu.
 
 Kalau muncul *Kalender semester PRODI belum diterbitkan*, yang perlu bertindak adalah kaprodi. Materi, kuis, dan rekaman juga belum bisa tampil sampai kalender terbit.
 
 ## Materi Pekan Ini
 
-Video, bacaan, dan berkas PDF untuk dipelajari Senin–Rabu, sebelum sesi Jumat.
+Video, bacaan, dan berkas PDF untuk dipelajari pada hari asinkron kelasnya (Senin, Selasa, atau Rabu), sebelum sesi Jumat. Materi yang harinya belum tiba tampil dengan keterangan *Terbuka Rabu, 30 September pukul 00.00 WIB* (misalnya) tanpa video atau isinya; materi yang sudah terbuka menyebut *Hari asinkron: … Selesaikan paling lambat pukul 23.59 WIB hari itu*.
 
 1. Halaman langsung membuka **Minggu N** yang sedang berjalan, dikelompokkan per rumpun.
 2. Untuk minggu atau rumpun lain: buka **Lihat minggu atau rumpun lain**, pilih **Rumpun**, isi **Minggu**, lalu tekan **Tampilkan Materi**.
@@ -97,6 +107,7 @@ Kuis materi pekan ini, dianjurkan lulus sebelum sesi Jumat.
 
 Aturan:
 
+* Kuis terbuka pada **hari asinkron kelasnya**, sama dengan materinya. Sebelum itu halaman kuis menampilkan *Belum dibuka: …* beserta hari dan tanggal terbukanya.
 * Ambang lulus bawaan **60%**, kecuali kuisnya menetapkan lain.
 * Boleh dikerjakan ulang. **Hasil terbaru menimpa hasil sebelumnya** — termasuk kalau skornya lebih rendah.
 * Kartu **Riwayat Kuis Anda** menampilkan satu baris per kuis (percobaan terakhir).
@@ -206,12 +217,13 @@ Status di **Pengajuan Anda**: *diajukan*, *ditinjau*, *disetujui*, atau *ditolak
 
 Beberapa layanan bisa dipakai dengan mengirim pesan ke bot dari nomor yang terdaftar:
 
-* `jadwal saya` — Jadwal Anda menurut kalender terbit
-* `kalender minggu ini` — Jadwal minggu berjalan
+* `jadwal saya` — Jadwal Anda menurut kalender terbit; hari asinkron menyebut kelasnya
+* `kalender minggu ini` — Jadwal minggu berjalan, beserta kelas tiap hari asinkron
 * `daftar tugas` — Daftar tugas kelas Anda beserta id-nya
 * `kumpul tugas <id tugas>` — Kirim berkas jawaban sebagai **dokumen** dengan caption ini; id-nya dari `daftar tugas`
-* `kerjakan kuis | <kode rumpun> | <minggu>` — Bot mengirim soal beserta id kuis; lalu jawab dengan `kerjakan kuis | <id kuis> | 2,1,3` (nomor pilihan mulai 1, dipisah koma)
+* `kerjakan kuis | <kode rumpun> | <minggu>` — Bot mengirim soal beserta id kuis; lalu jawab dengan `kerjakan kuis | <id kuis> | 2,1,3` (nomor pilihan mulai 1, dipisah koma). Sebelum hari asinkron kelasnya bot membalas kapan kuis itu terbuka
 * `nilai saya` — Nilai tiap kelas (nilai akhir, atau nilai sementara bila belum semua komponen terisi)
+* `catatan belajar` — Catatan ketepatan belajar per kelas: materi yang diselesaikan sesudah hari asinkronnya atau belum selesai
 * `beban belajar saya` — Beban belajar minggu ini
 * `daftar mahasiswa | <NIM> | <tahun angkatan>` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftar%20mahasiswa%20%7C%20%28ganti%20dengan%20NIM%29%20%7C%20%28ganti%20dengan%20tahun%20angkatan%29)) — Mendaftarkan nomor Anda (hanya anggota grup WhatsApp kelas)
 * `ajukan proyek kerja | <rumpun> | <perusahaan> | <judul> | <nama atasan> | <email atasan>` — Mengajukan proyek kerja

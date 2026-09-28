@@ -112,6 +112,7 @@ Satu kelas untuk satu **rumpun** yang punya proyek pengikat, atau satu **mata ku
 Tiap baris kelas:
 
 1. **Nama** kelas boleh diganti (bawaannya kode + nama rumpun, atau nama mata kuliah). Di bawahnya, **Minggu … sampai …** untuk **sistem blok**: bila rumpun berjalan berurutan (mis. rumpun pertama minggu 1–8, kedua minggu 9–16), isi rentang minggu kalender kelas itu. Kosongkan keduanya untuk kelas yang berjalan sepanjang semester (mis. jalur kontinu). Rentang tidak boleh melewati jumlah minggu kalender.
+   **Hari asinkron** (Senin, Selasa, atau Rabu): hari kelas itu dipelajari mahasiswa. Aturannya **Senin dan Selasa untuk kelas mata kuliah lepas (dibagi dua), Rabu untuk kelas rumpun**; kelas baru mendapat hari bawaan sesuai aturan itu (mata kuliah lepas bergiliran Senin, Selasa menurut nama). Materi dan kuis tiap minggu baru terbuka bagi mahasiswa pukul 00.00 WIB hari itu dan tetap terbuka sesudahnya; materi yang diselesaikan sesudah hari itu, atau belum selesai, menjadi **catatan ketepatan belajar** bagi mahasiswa — kecuali materinya diunggah dosen pada hari itu atau sesudahnya. Perubahan hari berlaku langsung, termasuk untuk minggu berjalan.
 2. Centang **pengajar** dari daftar semua dosen aktif yang sudah mengisi email kampus. Dosen yang sudah tercatat di prodi Anda ada di atas; ketik di **Cari nama atau email dosen…** untuk menyaring daftar yang panjang. Satu kelas boleh punya lebih dari satu pengajar. Dosen yang Anda tunjuk otomatis tercatat di prodi Anda (tampil di tab Dosen halaman **Pengguna**).
 3. **Peserta tambahan (NIM, pisahkan koma)** — mis. mahasiswa mengulang dari angkatan lain. **Dikeluarkan dari kelas (NIM)** — peserta otomatis yang tidak ikut kelas ini.
 4. Tekan **Simpan**. Pengajar langsung bisa menyusun isi kelas itu.
@@ -178,10 +179,12 @@ Kata sandi Anda sendiri diganti lewat **Kata sandi** di pojok kanan atas.
 
 ### Lewat WhatsApp
 
-Dua pekerjaan di halaman ini juga bisa dilakukan lewat chat pribadi ke nomor bot, dengan aturan yang sama:
+Dua pekerjaan di halaman ini juga bisa dilakukan lewat chat pribadi ke nomor bot, dengan aturan yang sama (hari asinkron kelas dari halaman Siapkan Semester juga — lihat di bawah):
 
 * **Reset kata sandi** — `reset sandi | NIM mahasiswa atau email dosen` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=reset%20sandi%20%7C%20%28ganti%20dengan%20NIM%20atau%20email%29)). Hanya mahasiswa prodi Anda dan dosen biasa yang tercatat di prodi Anda. Bot membalas kata sandi sementara acak untuk Anda sampaikan kepadanya, dan mengirimkannya juga ke WhatsApp pemiliknya bila nomornya tercatat. Ia wajib menggantinya setelah masuk.
 * **Mendaftarkan nomor mahasiswa** — `daftarkan mahasiswa | NIM | nomor WhatsApp` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=daftarkan%20mahasiswa%20%7C%20%28ganti%20dengan%20NIM%29%20%7C%20%28ganti%20dengan%20nomor%20WhatsApp%29)). Untuk NIM yang sudah ada di roster, hanya nomornya yang dihubungkan; data lain tidak berubah. NIM yang belum ada ditambahkan bila isiannya lengkap: `daftarkan mahasiswa | NIM | nomor WhatsApp | nama lengkap | kode prodi | angkatan | semester` (mis. `daftarkan mahasiswa | 261020099 | 081234567891 | Siti Aminah | bisdig | 2026 | 1`). Nomor boleh ditulis `08…`, `8…`, atau `62…`; balasan bot menampilkan nomor yang tersimpan (`62…`). Nomor dosen dan nomor yang sudah terhubung dengan NIM lain ditolak. Roster hanya untuk mahasiswa kelas Flipped.
+* **Hari asinkron kelas** (padanan kolom **Hari asinkron** di Siapkan Semester) — `hari kelas` ([buka dengan pesan terisi](https://wa.me/6282258512828?text=hari%20kelas)) menampilkan kelas berjalan prodi Anda bernomor beserta harinya; `hari kelas | <nomor atau nama kelas> | <Senin/Selasa/Rabu>` menggantinya, mis. `hari kelas | 2 | Selasa`.
+* **Ketepatan belajar** — `catatan belajar` menampilkan ringkasan tiap kelas prodi Anda: jumlah materi tepat, terlambat, dan belum selesai; mahasiswa yang bercatatan; dan materi yang terbit terlambat. Rinciannya per mahasiswa di tab **Nilai** tiap kelas.
 
 ## Laporan Prodi
 
