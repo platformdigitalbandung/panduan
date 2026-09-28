@@ -22,7 +22,7 @@ Istilah bertanda **?** (rumpun, CPL, SKS, RPL, dan lain-lain) bisa diketuk untuk
 
 | Hari | Kegiatan |
 |---|---|
-| Senin–Rabu | Belajar mandiri (asinkron): materi, kuis gerbang, bertanya di grup WhatsApp kelas |
+| Senin–Rabu | Belajar mandiri (asinkron), kapan saja pukul 00.00–23.59: materi, kuis gerbang, bertanya di grup WhatsApp kelas |
 | Kamis | Kelas daring bersama dosen (sinkron) — rekamannya terbit untuk yang berhalangan |
 | Jumat | Sesi panjang: praktikum dan kerja proyek |
 | Sabtu–Minggu | Tanpa agenda akademik |

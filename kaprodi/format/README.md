@@ -68,9 +68,9 @@ Kurikulum › 4. Ritme Mingguan › **Simpan Ritme** — tujuh baris, satu per h
 
 | Hari | Moda | Jam mulai | Jam selesai | Menit | Catatan |
 |---|---|---|---|---|---|
-| Senin | Belajar mandiri (asinkron) | 17:00 | 21:00 | 210 | |
-| Selasa | Belajar mandiri (asinkron) | 17:00 | 21:00 | 210 | |
-| Rabu | Belajar mandiri (asinkron) | 17:00 | 21:00 | 210 | |
+| Senin | Belajar mandiri (asinkron) | 00:00 | 23:59 | 210 | Bisa dikerjakan kapan saja hari itu |
+| Selasa | Belajar mandiri (asinkron) | 00:00 | 23:59 | 210 | Bisa dikerjakan kapan saja hari itu |
+| Rabu | Belajar mandiri (asinkron) | 00:00 | 23:59 | 210 | Bisa dikerjakan kapan saja hari itu |
 | Kamis | Kelas daring bersama dosen | 17:00 | 22:00 | 270 | |
 | Jumat | Praktik & proyek (luring atau daring) | 08:00 | 20:00 | 540 | Jeda Jumatan & makan 11:30-13:00 tidak dihitung |
 | Sabtu | Tanpa kegiatan akademik | | | 0 | |
@@ -90,9 +90,9 @@ Hasilnya: 16 minggu × 7 hari = 112 sesi, tanggal/moda/jam dari ritme, minggu 1 
 
 | Tanggal | Hari | Moda | Jam |
 |---|---|---|---|
-| 2026-09-21 | Senin | Belajar mandiri (asinkron) | 17:00–21:00 |
-| 2026-09-22 | Selasa | Belajar mandiri (asinkron) | 17:00–21:00 |
-| 2026-09-23 | Rabu | Belajar mandiri (asinkron) | 17:00–21:00 |
+| 2026-09-21 | Senin | Belajar mandiri (asinkron) | 00:00–23:59 |
+| 2026-09-22 | Selasa | Belajar mandiri (asinkron) | 00:00–23:59 |
+| 2026-09-23 | Rabu | Belajar mandiri (asinkron) | 00:00–23:59 |
 | 2026-09-24 | Kamis | Kelas daring bersama dosen | 17:00–22:00 |
 | 2026-09-25 | Jumat | Praktik & proyek (luring atau daring) | 08:00–20:00, keterangan *Jeda Jumatan & makan 11:30-13:00 tidak dihitung* |
 | 2026-09-26 | Sabtu | Tanpa kegiatan akademik | — |
