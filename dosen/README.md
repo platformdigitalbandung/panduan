@@ -77,7 +77,7 @@ Menu **Lainnya → Roster dan email dosen**.
 1. Di kartu **Email Kampus Anda**, isi **Email kampus** — boleh email institusi asal (mis. `@staisabilusalam.ac.id`) atau email pribadi yang aktif; tidak harus `@digitalbdg.ac.id`.
 2. Tekan **Simpan Email** (atau **Perbarui Email**).
 
-Anda hanya bisa mengisi email untuk nomor Anda sendiri, dan satu email hanya untuk satu dosen. Email ini juga identitas untuk **masuk dengan kata sandi**: setelah masuk lewat WhatsApp, buat kata sandinya lewat **Kata sandi** di pojok kanan atas (kata sandi berpola seperti email + `ADB` tidak diizinkan). Email kampus menentukan proyek yang boleh Anda nilai, pengajuan yang boleh Anda putuskan, dan sesi ujian yang Anda awasi.
+Anda hanya bisa mengisi email untuk nomor Anda sendiri, dan satu email hanya untuk satu dosen. Email ini juga identitas untuk **masuk dengan kata sandi**: setelah masuk lewat WhatsApp, buat kata sandinya lewat **Kata sandi** di pojok kanan atas (kata sandi berpola seperti email + `ADB` tidak diizinkan). Sejak 2 Oktober 2026 dosen aktif yang sudah mengisi email dan belum punya kata sandi juga dikirimi **kata sandi sementara** oleh bot ke WhatsApp-nya: pakai di tab **Kata sandi** halaman masuk, lalu buat kata sandi baru (wajib). Kalau Anda tetap masuk lewat WhatsApp, pesan itu boleh diabaikan. Email kampus menentukan proyek yang boleh Anda nilai, pengajuan yang boleh Anda putuskan, dan sesi ujian yang Anda awasi.
 
 ### Roster mahasiswa
 
@@ -283,5 +283,5 @@ Status naik hanya kalau dosen **dan** atasan sudah meninjau pada titik waktu yan
 | *Email … tidak sah* | Periksa penulisannya (ada `@` dan domain). Domain apa pun diterima. |
 | *Email kampus Anda belum diisi* saat menerbitkan rekaman atau membuat grup kelas | Isi email kampus dulu di Roster Mahasiswa & Email Dosen. |
 | *Sesi berakhir* | Tekan **Masuk lagi**. |
-| *NIM/email atau kata sandi salah* | Masuk dengan email kampus dan kata sandi yang Anda buat sendiri (kata sandi awal dosen tidak berlaku sejak 28 September 2026). Belum punya atau lupa? Masuk lewat tab **WhatsApp**, lalu buat kata sandi di **Kata sandi**; atau minta kaprodi atau admin mereset untuk mendapat kata sandi sementara. |
+| *NIM/email atau kata sandi salah* | Masuk dengan email kampus dan kata sandi yang Anda buat sendiri, atau kata sandi sementara yang dikirim bot ke WhatsApp Anda (kata sandi awal dosen tidak berlaku sejak 28 September 2026). Belum punya atau lupa? Masuk lewat tab **WhatsApp**, lalu buat kata sandi di **Kata sandi**; atau minta kaprodi atau admin mereset untuk mendapat kata sandi sementara. |
 | Belum bisa masuk dengan kata sandi | Email kampus belum diisi. Masuk lewat tab **WhatsApp**, lalu isi email kampus di Roster dan email dosen. |
