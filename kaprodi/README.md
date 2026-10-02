@@ -35,7 +35,7 @@ Judulnya **Hari ini**, mengikuti peran aktif di pemilih peran. Dengan peran **ka
 
 * **Langkah yang belum selesai → Semester prodi Anda** — langkah di atas dengan status dari data prodi Anda, mis. *belum ada CPL*, *SKS rumpun 30 dari 144*, *2 rumpun masih draf*, *N draf kalender menunggu diterbitkan*, *N kelas PRODI belum punya pengajar*. Hilang sendiri begitu semuanya beres.
 * **Perlu dikerjakan** — mis. proyek kerja yang telat tinjauan tengah (**Mendesak**), kiriman tugas yang perlu dinilai di kelas prodi Anda, dan agenda mengajar Anda sendiri.
-* **Kelas saya** — kelas yang Anda ajar, lalu kelas prodi yang Anda pimpin.
+* **Kelas saya** — kelas yang Anda ajar, lalu kelas prodi yang Anda pimpin; kelas sistem blok menyebut rentang minggunya (mis. *minggu 10–16*).
 * **Jadwal minggu ini** — kalender terbit prodi Anda.
 
 ## Kurikulum Program Studi

@@ -64,7 +64,7 @@ Judulnya **Hari ini**. Isinya:
 
 * **Langkah yang belum selesai** — hanya tampil kalau ada yang belum beres, mis. **Syarat mengajar**: isi email kampus, lalu ditunjuk sebagai pengajar kelas.
 * **Perlu dikerjakan** — kiriman tugas yang perlu dinilai (**n kiriman belum dinilai**), dikelompokkan per kelas dengan nama kelas di atasnya; agenda lain ada di kelompok **Lainnya**: rekaman yang belum terbit, materi atau kuis minggu ini/depan yang belum ada (membuka **Kelas**; isi dari tab **Tugas Kelas** kelasnya), pengajuan proyek kerja yang menunggu putusan, tinjauan tengah semester, dan pengajuan RPL. Butir bertanda **Mendesak** didahulukan.
-* **Kelas saya** — kartu kelas yang Anda ajar; kartu menyebut berapa hal yang menunggu di kelas itu.
+* **Kelas saya** — kartu kelas yang Anda ajar; kartu menyebut berapa hal yang menunggu di kelas itu, dan rentang minggu untuk kelas sistem blok (mis. *minggu 10–16*).
 * **Jadwal minggu N** — kalender prodi tempat Anda mengajar atau yang Anda pimpin.
 * **Akan datang** — mis. sesi ujian yang Anda awasi.
 

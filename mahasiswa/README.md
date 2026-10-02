@@ -44,7 +44,7 @@ Sejak 29 September 2026, tiap kelas punya **hari asinkron** — hari kelas itu d
 Judulnya **Hari ini**. Isinya:
 
 * **Perlu dikerjakan** — dikelompokkan **per kelas** (nama kelas di atas tiap kelompok): tugas kelas yang belum Anda serahkan (tenggat terdekat di atas; **Mendesak** kalau tenggatnya tinggal kurang dari sehari atau sudah lewat), materi minggu ini yang belum selesai, kuis gerbang yang belum lulus, dan catatan ketepatan belajar. Materi dan kuis sebuah kelas baru muncul di sini mulai hari asinkron kelas itu. Proyek kerja atau RPL yang menunggu ada di kelompok **Lainnya**. Ketuk butirnya untuk langsung mengerjakan. Kartu kelas di **Kelas saya** menyebut berapa hal yang menunggu di kelas itu.
-* **Kelas saya** — kartu kelas Anda; kartu menyebut berapa hal yang menunggu di kelas itu.
+* **Kelas saya** — kartu kelas Anda; kartu menyebut berapa hal yang menunggu di kelas itu. Kelas sistem blok menyebut rentang minggunya, mis. *minggu 10–16*: kelas itu baru berjalan mulai minggu 10, jadi belum ada kuliahnya sebelum itu.
 * **Jadwal minggu N** — tabel hari, tanggal, kegiatan, dan waktu; hari ini ditandai. Hari asinkron menyebut kelas yang dipelajari hari itu.
 * **Akan datang** — mis. kalender semester yang belum terbit.
 * Kolom samping: perintah WhatsApp.
